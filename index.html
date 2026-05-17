@@ -626,13 +626,7 @@ vegaEmbed("#chart-south",   coverSpec("Southern","#2ed573"), OPT);
 vegaEmbed("#chart-scatter", {
   $schema:"https://vega.github.io/schema/vega-lite/v5.json",
   config:CFG, width:"container", height:340,
-  data:{ url:"data/coral_cover.json" },
-  transform:[
-    { lookup:"year", from:{ data:{ url:"data/sst_annual.json" },
-      key:"year", fields:["ssta_max"], as:["sst"] },
-      params:{ filter:"datum.sector === 'northern'" }
-    }
-  ],
+  data:{ url:"data/scatter_data.json" },
   layer:[
     { mark:{ type:"line", opacity:0.4, strokeWidth:1.5 },
       encoding:{

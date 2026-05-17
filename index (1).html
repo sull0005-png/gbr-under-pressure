@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paradise in Peril — The Great Barrier Reef Under Pressure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,600;1,9..144,200;1,9..144,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #060f1a; --bg2: #091520; --bg3: #0c1d2e;
+      --card: rgba(255,255,255,0.03); --line: rgba(255,255,255,0.07);
+      --blue: #00b4d8; --teal: #48cae4; --coral: #ff6b35;
+      --red: #ff4757; --amber: #ffa502; --green: #2ed573;
+      --text: #e4f2f8; --text2: #7aadbe; --muted: #3d6878;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 16px; line-height: 1.7; overflow-x: hidden; }
+
+    /* ── UTILS ── */
+    .container { max-width: 1140px; margin: 0 auto; padding: 0 44px; }
+    .eyebrow { font-size: 10px; letter-spacing: 4px; text-transform: uppercase; color: var(--blue); font-weight: 500; margin-bottom: 16px; }
+    h2.st { font-family: 'Fraunces', serif; font-weight: 600; font-size: 44px; line-height: 1.1; margin-bottom: 18px; }
+    .intro { font-size: 18px; color: var(--text2); font-weight: 300; max-width: 660px; line-height: 1.8; margin-bottom: 48px; }
+    .note { font-size: 11px; color: var(--muted); margin-top: 14px; font-style: italic; line-height: 1.6; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 30px; }
+    .clabel { font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: var(--text2); margin-bottom: 20px; }
+    .insight { border-left: 2px solid var(--coral); padding: 16px 24px; background: rgba(255,107,53,0.06); border-radius: 0 10px 10px 0; font-size: 16px; color: var(--text2); line-height: 1.7; }
+    .insight strong { color: var(--text); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+    .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 22px; }
+    .section { padding: 88px 0; }
+    .section.alt { background: var(--bg2); }
+    .section.dark { background: var(--bg3); }
+    .vega-embed summary { display: none !important; }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh; display: flex; align-items: center;
+      position: relative; overflow: hidden;
+      background: radial-gradient(ellipse 80% 60% at 60% 40%, rgba(0,100,160,0.12) 0%, transparent 70%), var(--bg);
+      border-bottom: 1px solid var(--line);
+    }
+    .hero-content { padding: 120px 0 100px; }
+    .hero h1 {
+      font-family: 'Fraunces', serif; font-weight: 600;
+      font-size: clamp(64px, 8vw, 100px); line-height: 0.95;
+      letter-spacing: -2px; margin-bottom: 6px;
+    }
+    .hero h1 em { color: var(--coral); font-style: italic; display: block; }
+    .hero-sub { font-size: 20px; color: var(--text2); font-weight: 300; max-width: 520px; margin: 28px 0 60px; line-height: 1.65; }
+
+    /* scroll cue */
+    .scroll-cue { display: flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-top: 60px; }
+    .scroll-line { width: 40px; height: 1px; background: var(--muted); }
+
+    /* stat cards */
+    .stat-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-top: 64px; }
+    .sc { background: rgba(255,255,255,0.035); border: 1px solid var(--line); border-radius: 14px; padding: 24px; border-top: 2px solid var(--blue); transition: transform 0.2s; }
+    .sc:hover { transform: translateY(-3px); }
+    .sc.r { border-top-color: var(--coral); }
+    .sc.a { border-top-color: var(--amber); }
+    .sc.g { border-top-color: var(--green); }
+    .sn { font-family: 'Fraunces', serif; font-size: 40px; font-weight: 600; line-height: 1; margin-bottom: 10px; }
+    .sl { font-size: 13px; color: var(--text2); line-height: 1.5; }
+
+    /* ── SECTOR SELECTOR ── */
+    .sector-bar {
+      display: flex; gap: 10px; margin-bottom: 32px; flex-wrap: wrap; align-items: center;
+    }
+    .sector-bar span { font-size: 12px; color: var(--muted); margin-right: 4px; }
+    .sbtn {
+      padding: 7px 18px; border-radius: 30px; font-size: 13px; font-weight: 500;
+      border: 1px solid var(--line); background: transparent; color: var(--text2);
+      cursor: pointer; transition: all 0.18s; font-family: 'DM Sans', sans-serif;
+    }
+    .sbtn:hover { border-color: var(--blue); color: var(--blue); }
+    .sbtn.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+
+    /* ── BLEACH BARS ── */
+    .bb-row { margin-top: 14px; }
+    .bb-top { display: flex; justify-content: space-between; font-size: 12px; color: var(--text2); margin-bottom: 5px; }
+    .bb-track { height: 7px; background: rgba(255,255,255,0.05); border-radius: 4px; overflow: hidden; }
+    .bb-fill { height: 100%; border-radius: 4px; background: var(--coral); transition: width 1s ease; }
+
+    /* ── REGION LABEL ── */
+    .rlabel { font-size: 9px; font-weight: 500; letter-spacing: 2.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+
+    /* ── CONNECTED SCATTER LEGEND ── */
+    .cs-legend { display: flex; gap: 20px; font-size: 12px; color: var(--text2); margin-bottom: 16px; align-items: center; flex-wrap: wrap; }
+    .cs-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: middle; }
+
+    /* ── MAP LEGEND ── */
+    .map-legend { display: flex; gap: 6px; align-items: center; font-size: 11px; color: var(--text2); margin-top: 14px; flex-wrap: wrap; }
+    .ml-block { width: 28px; height: 10px; border-radius: 3px; }
+
+    /* ── STRESSOR TIMELINE ── */
+    .str-row { display: grid; grid-template-columns: 120px 1fr; gap: 12px; align-items: center; margin-bottom: 14px; }
+    .str-name { font-size: 11px; color: var(--text2); text-align: right; }
+    .str-track { position: relative; height: 28px; background: rgba(255,255,255,0.03); border-radius: 6px; overflow: hidden; border: 1px solid var(--line); }
+    .str-ev { position: absolute; height: 100%; border-radius: 4px; }
+
+    /* ── TAGS ── */
+    .tag { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 500; margin: 3px; }
+    .t-heat { background: rgba(255,107,53,.12); color: var(--coral); border: 1px solid rgba(255,107,53,.25); }
+    .t-cy { background: rgba(72,202,228,.12); color: var(--teal); border: 1px solid rgba(72,202,228,.25); }
+    .t-cots { background: rgba(255,165,2,.12); color: var(--amber); border: 1px solid rgba(255,165,2,.25); }
+    .t-run { background: rgba(46,213,115,.12); color: var(--green); border: 1px solid rgba(46,213,115,.25); }
+
+    /* ── CLOSING ── */
+    .closing {
+      padding: 120px 0; text-align: center;
+      background: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(255,107,53,0.06) 0%, transparent 70%), var(--bg);
+    }
+    .closing h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(36px,5vw,58px); max-width: 720px; margin: 0 auto 24px; line-height: 1.1; }
+    .closing p { font-size: 18px; color: var(--text2); max-width: 600px; margin: 0 auto; font-weight: 300; line-height: 1.75; }
+
+    /* ── FOOTER ── */
+    .footer { padding: 44px 0; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); line-height: 1.9; }
+    .footer a { color: var(--blue); text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+
+    /* ── CHAPTER LABEL ── */
+    .ch-label {
+      display: inline-flex; align-items: center; gap: 12px;
+      font-size: 11px; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 20px;
+    }
+    .ch-line { width: 30px; height: 1px; background: var(--muted); }
+
+    /* ── BIG STAT CALLOUT ── */
+    .big-stat { text-align: center; padding: 40px 20px; }
+    .big-stat .num { font-family: 'Fraunces', serif; font-size: 80px; font-weight: 600; line-height: 1; color: var(--red); }
+    .big-stat .unit { font-size: 32px; }
+    .big-stat .desc { font-size: 15px; color: var(--text2); margin-top: 12px; }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════ HERO ══════════ -->
+<div class="hero">
+  <div class="container hero-content">
+    <div class="eyebrow">FIT2179 Data Visualisation 2 · Monash University · Semester 1, 2026</div>
+    <h1>Paradise<br><em>in Peril</em></h1>
+    <div class="hero-sub">The Great Barrier Reef has endured half a million years. The last decade has brought threats unlike any in its history — and the window to act is closing.</div>
+    <div class="stat-row">
+      <div class="sc">
+        <div class="sn">2,300<span style="font-size:20px;color:var(--text2)">km</span></div>
+        <div class="sl">Length of the world's largest living structure — visible from space</div>
+      </div>
+      <div class="sc r">
+        <div class="sn" style="color:var(--coral)">6</div>
+        <div class="sl">Mass bleaching events since 2016 — more than in all prior recorded history</div>
+      </div>
+      <div class="sc a">
+        <div class="sn" style="color:var(--amber)">$6.4B</div>
+        <div class="sl">Annual reef tourism value to Australia — 64,000 jobs at stake</div>
+      </div>
+      <div class="sc g">
+        <div class="sn" style="color:var(--green)">1,625</div>
+        <div class="sl">Species of fish that call the reef home — 10% of the world's total</div>
+      </div>
+    </div>
+    <div class="scroll-cue"><div class="scroll-line"></div>Scroll to explore</div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ CH1: TEMPERATURE ══════════ -->
+<div class="section">
+  <div class="container">
+    <div class="ch-label"><div class="ch-line"></div>Chapter 1 — The Warming Ocean</div>
+    <h2 class="st">The Ocean Is Getting Hotter</h2>
+    <div class="intro">Sea surface temperatures above the Great Barrier Reef have been rising for decades. But it is the accelerating frequency of extreme summer heat events that is now overwhelming the reef's ability to recover.</div>
+
+    <!-- SECTOR SELECTOR -->
+    <div class="sector-bar">
+      <span>Filter by sector:</span>
+      <button class="sbtn active" onclick="setSector('northern')">Northern</button>
+      <button class="sbtn" onclick="setSector('central')">Central</button>
+      <button class="sbtn" onclick="setSector('southern')">Southern</button>
+      <button class="sbtn" onclick="setSector('far_northern')">Far Northern</button>
+    </div>
+
+    <div class="card" style="margin-bottom:26px;">
+      <div class="clabel">Peak sea surface temperature anomaly (1985–2025) — <span id="sector-label">Northern sector</span></div>
+      <div id="chart-sst"></div>
+      <p class="note">Annual maximum SST anomaly (°C above historical average). Vertical markers indicate confirmed mass bleaching events. Shaded area shows accumulated heat stress above bleaching threshold. Source: NOAA Coral Reef Watch.</p>
+    </div>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="clabel">Degree heating weeks — accumulated heat stress (1985–2025)</div>
+        <div id="chart-dhw"></div>
+        <p class="note">Degree Heating Weeks (DHW) measure cumulative thermal stress. Values above 8°C-weeks trigger severe bleaching and mortality. Source: NOAA Coral Reef Watch.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px;">
+        <div class="insight">
+          The bleaching threshold is crossed when temperatures exceed the average summer maximum for <strong>8 consecutive weeks</strong>. That threshold is now breached almost every year in at least one sector.
+        </div>
+        <div class="card" style="padding:24px;">
+          <div class="clabel">Monthly SST anomaly heatmap — Northern sector</div>
+          <div id="chart-heatmap"></div>
+          <p class="note">Each row = one year. Each cell = monthly mean SST anomaly. Bleaching events cluster around the hottest austral summers (Jan–Mar).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ CH2: BLEACHING ══════════ -->
+<div class="section alt">
+  <div class="container">
+    <div class="ch-label"><div class="ch-line"></div>Chapter 2 — The Bleaching Crisis</div>
+    <h2 class="st">Bleaching Is No Longer a Rare Event</h2>
+    <div class="intro">Mass coral bleaching was first recorded on the Great Barrier Reef in 1998. Since 2016, five more events have followed — each arriving before the reef could recover from the last.</div>
+
+    <div class="two-col" style="margin-bottom:26px;">
+      <div class="card">
+        <div class="clabel">% of GBR reefs affected per mass bleaching event</div>
+        <div class="bb-row">
+          <div class="bb-top"><span>1998 — first mass bleaching on record</span><span style="color:var(--coral);font-weight:500">42%</span></div>
+          <div class="bb-track"><div class="bb-fill" style="width:42%;opacity:.6"></div></div>
+        </div>
+        <div class="bb-row">
+          <div class="bb-top"><span>2002</span><span style="color:var(--coral);font-weight:500">54%</span></div>
+          <div class="bb-track"><div class="bb-fill" style="width:54%;opacity:.65"></div></div>
+        </div>
+        <div class="bb-row">
+          <div class="bb-top"><span>2016 — worst on record at the time</span><span style="color:var(--coral);font-weight:500">91%</span></div>
+          <div class="bb-track"><div class="bb-fill" style="width:91%;opacity:.82"></div></div>
+        </div>
+        <div class="bb-row">
+          <div class="bb-top"><span>2017 — back-to-back event</span><span style="color:var(--coral);font-weight:500">75%</span></div>
+          <div class="bb-track"><div class="bb-fill" style="width:75%;opacity:.78"></div></div>
+        </div>
+        <div class="bb-row">
+          <div class="bb-top"><span>2020 — most widespread event at time</span><span style="color:var(--coral);font-weight:500">98%</span></div>
+          <div class="bb-track"><div class="bb-fill" style="width:98%;opacity:.9"></div></div>
+        </div>
+        <div class="bb-row">
+          <div class="bb-top"><span>2022 — first-ever La Niña bleaching</span><span style="color:var(--coral);font-weight:500">91%</span></div>
+          <div class="bb-track"><div class="bb-fill" style="width:91%;opacity:.86"></div></div>
+        </div>
+        <div class="bb-row">
+          <div class="bb-top"><span>2024 ★ Largest spatial footprint ever</span><span style="color:var(--red);font-weight:600">100%</span></div>
+          <div class="bb-track"><div class="bb-fill" style="width:100%;background:var(--red)"></div></div>
+        </div>
+        <p class="note">Source: AIMS LTMP / GBRMPA aerial surveys of 1,000+ reefs per event.</p>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:22px;">
+        <div class="card">
+          <div class="clabel">Years between consecutive bleaching events</div>
+          <div id="chart-recovery"></div>
+          <p class="note">Blue = sufficient time for partial recovery. Red = no meaningful recovery possible.</p>
+        </div>
+        <div class="card" style="background:rgba(255,71,87,.06);border-color:rgba(255,71,87,.2);">
+          <div class="big-stat">
+            <div class="num">70.8<span class="unit">%</span></div>
+            <div class="desc">Maximum coral cover decline on a single reef in one season — following the 2024 mass bleaching event</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ CH3: CORAL COVER ══════════ -->
+<div class="section">
+  <div class="container">
+    <div class="ch-label"><div class="ch-line"></div>Chapter 3 — Coral Cover</div>
+    <h2 class="st">What's Left of the Reef?</h2>
+    <div class="intro">AIMS has tracked hard coral cover across the reef since 1992. After a period of recovery, all three regions suffered dramatic declines following the bleaching events of 2016–2024.</div>
+
+    <div class="three-col" style="margin-bottom:12px;">
+      <div>
+        <div class="rlabel">Northern GBR · Cape York → Cooktown</div>
+        <div class="card" style="padding:22px;"><div id="chart-north"></div></div>
+      </div>
+      <div>
+        <div class="rlabel">Central GBR · Cooktown → Bowen</div>
+        <div class="card" style="padding:22px;"><div id="chart-central"></div></div>
+      </div>
+      <div>
+        <div class="rlabel">Southern GBR · Bowen → Bundaberg</div>
+        <div class="card" style="padding:22px;"><div id="chart-south"></div></div>
+      </div>
+    </div>
+    <p class="note" style="text-align:center;margin-bottom:40px;">Regional mean hard coral cover (%) with 95% confidence intervals from annual manta tow surveys. Dashed lines mark bleaching events. Source: AIMS LTMP 1992–2023.</p>
+
+    <!-- CONNECTED SCATTER — HD CUSTOM CHART -->
+    <div class="card">
+      <div class="clabel">Temperature vs coral cover — connected scatter (1993–2023) · hover points for year</div>
+      <div class="cs-legend">
+        <span><span class="cs-dot" style="background:#48cae4"></span>Northern</span>
+        <span><span class="cs-dot" style="background:#00b4d8"></span>Central</span>
+        <span><span class="cs-dot" style="background:#2ed573"></span>Southern</span>
+        <span style="margin-left:auto;font-size:11px;color:var(--muted)">Lines connect years chronologically → follow the arrow of time</span>
+      </div>
+      <div id="chart-scatter"></div>
+      <p class="note">Each point = one year. X-axis = peak SST anomaly for that year (Northern sector). Y-axis = mean coral cover for each region. Lines connect consecutive years. As temperatures rise (right), coral cover falls (down) — the relationship is direct and accelerating.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ CH4: MAP ══════════ -->
+<div class="section alt">
+  <div class="container">
+    <div class="ch-label"><div class="ch-line"></div>Chapter 4 — Geographic Impact</div>
+    <h2 class="st">296 Reefs. One Story.</h2>
+    <div class="intro">Every dot on this map is a reef that AIMS has surveyed since 1992. The colour shows its most recent hard coral cover reading — from thriving (teal) to severely depleted (red). The pattern tells its own story.</div>
+
+    <div class="two-col">
+      <div>
+        <div class="card" style="padding:0;overflow:hidden;border-radius:14px;">
+          <div id="chart-map"></div>
+        </div>
+        <p class="note" style="margin-top:12px;">Each point = one monitored reef. Colour = most recent AIMS coral cover reading. Source: AIMS LTMP manta tow data.</p>
+        <div class="map-legend" style="margin-top:14px;">
+          <span>Coral cover:</span>
+          <div class="ml-block" style="background:#ff4757"></div><span>0–10%</span>
+          <div class="ml-block" style="background:#ff8c42"></div><span>10–20%</span>
+          <div class="ml-block" style="background:#ffd166"></div><span>20–30%</span>
+          <div class="ml-block" style="background:#06d6a0"></div><span>30–40%</span>
+          <div class="ml-block" style="background:#48cae4"></div><span>40%+</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:22px;">
+        <div class="card">
+          <div class="clabel">2024 bleaching severity by sector</div>
+          <div style="margin-top:8px;">
+            <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:16px;">
+              <div style="width:12px;height:12px;border-radius:50%;background:#ff1744;flex-shrink:0;margin-top:5px;"></div>
+              <div><div style="font-size:14px;font-weight:500;">Far North — Extreme</div><div style="font-size:12px;color:var(--text2);">&gt;60% of coral bleached on surveyed reefs</div></div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:16px;">
+              <div style="width:12px;height:12px;border-radius:50%;background:#ff6b35;flex-shrink:0;margin-top:5px;"></div>
+              <div><div style="font-size:14px;font-weight:500;">North — High</div><div style="font-size:12px;color:var(--text2);">41–60% of corals bleached</div></div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:16px;">
+              <div style="width:12px;height:12px;border-radius:50%;background:#ffa502;flex-shrink:0;margin-top:5px;"></div>
+              <div><div style="font-size:14px;font-weight:500;">Central — Moderate–High</div><div style="font-size:12px;color:var(--text2);">21–40% affected; Cairns and Whitsundays impacted</div></div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:12px;">
+              <div style="width:12px;height:12px;border-radius:50%;background:#ffd600;flex-shrink:0;margin-top:5px;"></div>
+              <div><div style="font-size:14px;font-weight:500;">South — Moderate</div><div style="font-size:12px;color:var(--text2);">First severe southern bleaching event on record</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="insight">For the <strong>first time in recorded history</strong>, the 2024 bleaching event struck all four GBR sectors simultaneously — the Southern reef, previously spared, was hit for the first time.</div>
+        <div class="card" style="background:rgba(255,71,87,.05);border-color:rgba(255,71,87,.18);">
+          <div style="font-size:12px;color:var(--text2);margin-bottom:8px;">Individual reef decline in a single season</div>
+          <div style="font-size:52px;font-family:'Fraunces',serif;color:var(--red);line-height:1;">up to 70.8%</div>
+          <div style="font-size:13px;color:var(--text2);margin-top:6px;">coral cover lost on the worst-affected individual reefs following 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ CH5: THREATS ══════════ -->
+<div class="section dark">
+  <div class="container">
+    <div class="ch-label"><div class="ch-line"></div>Chapter 5 — A Compound Crisis</div>
+    <h2 class="st">More Than Just Bleaching</h2>
+    <div class="intro">Thermal bleaching is the dominant threat, but the reef faces a simultaneous assault from multiple stressors. Each disturbance leaves the reef more vulnerable to the next.</div>
+
+    <div class="card">
+      <div class="clabel">Major stressor events on the GBR (1998–2024)</div>
+      <div style="margin-bottom:18px;">
+        <span class="tag t-heat">🌡 Marine heatwave / Bleaching</span>
+        <span class="tag t-cy">🌀 Tropical cyclone</span>
+        <span class="tag t-cots">⭐ Crown-of-thorns outbreak</span>
+        <span class="tag t-run">💧 Flood / water quality event</span>
+      </div>
+      <div id="stressor-timeline"></div>
+      <p class="note">Width of bars indicates relative duration. Overlapping events compound damage and reduce recovery capacity. Source: GBRMPA Outlook Report 2024 / AIMS LTMP.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ CH6: ECONOMY ══════════ -->
+<div class="section alt">
+  <div class="container">
+    <div class="ch-label"><div class="ch-line"></div>Chapter 6 — The Economic Stakes</div>
+    <h2 class="st">What Australia Stands to Lose</h2>
+    <div class="intro">The reef's value extends far beyond ecology. It supports one of Australia's most significant tourism economies — and bleaching media coverage directly reduces tourist intent to visit, even on unaffected reefs.</div>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="clabel">GBR tourism economic contribution (AU$B per year)</div>
+        <div id="chart-tourism"></div>
+        <p class="note">Source: Deloitte Access Economics / Tourism Research Australia.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px;">
+        <div class="card"><div class="sn">64,000</div><div class="sl" style="margin-top:8px;">Australian jobs dependent on a healthy Great Barrier Reef</div></div>
+        <div class="card"><div class="sn" style="color:var(--coral)">2M</div><div class="sl" style="margin-top:8px;">Visitors annually — 90% concentrated in Cairns and the Whitsundays</div></div>
+        <div class="card" style="border-left:2px solid var(--amber);"><div style="font-size:14px;color:var(--text2);line-height:1.65;">Bleaching media coverage <strong style="color:var(--text)">directly reduces tourist intent to visit</strong> the reef — even reefs that are completely unaffected face reputational damage from every headline.</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ CLOSING ══════════ -->
+<div class="closing">
+  <div class="container">
+    <div class="eyebrow" style="text-align:center;margin-bottom:24px;">The window is closing</div>
+    <h2>The Reef Has Always Recovered.<br>Can It Again?</h2>
+    <p>Coral needs 10–15 years between disturbances to rebuild. With bleaching now arriving every 2–3 years and ocean temperatures continuing to rise, scientists warn the recovery window may close entirely within this generation.</p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ FOOTER ══════════ -->
+<div class="footer">
+  <div class="container">
+    <div>Saif Ullah · FIT2179 Data Visualisation 2 · Semester 1, 2026 · Monash University, Clayton</div>
+    <div style="margin-top:6px;">
+      <strong>Data sources:</strong>
+      <a href="https://doi.org/10.25845/5c09b0abf315a">AIMS Long-Term Monitoring Program (manta tow data, 1992–2023)</a> ·
+      <a href="https://coralreefwatch.noaa.gov/product/vs/timeseries/great_barrier_reef.php">NOAA Coral Reef Watch Regional Virtual Stations (1985–2025)</a> ·
+      <a href="https://www.aims.gov.au/monitoring-great-barrier-reef/gbr-condition-summary-2024-25">AIMS Annual Summary Report 2024/25</a> ·
+      <a href="https://outlookreport.gbrmpa.gov.au">GBRMPA Reef Outlook Report 2024</a>
+    </div>
+    <div style="margin-top:6px;color:rgba(61,104,120,0.6);">AI tools (Claude) used for code generation and writing assistance. All data sourced directly from AIMS and NOAA.</div>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════
+// SHARED CONFIG & STATE
+// ══════════════════════════════════════════════════════
+const CFG = {
+  background:"transparent", font:"DM Sans",
+  axis:{ gridColor:"rgba(255,255,255,0.04)", domainColor:"rgba(255,255,255,0.08)",
+         tickColor:"rgba(255,255,255,0.08)", labelColor:"#7aadbe",
+         titleColor:"#7aadbe", labelFontSize:11, titleFontSize:11 },
+  legend:{ labelColor:"#7aadbe", titleColor:"#7aadbe", labelFontSize:11 },
+  view:{ stroke:"transparent" }
+};
+const OPT = { actions:false, config:CFG };
+
+const BLEACH = [1998,2002,2016,2017,2020,2022,2024].map(y=>({year:y,label:String(y)}));
+let currentSector = "northern";
+const SECTOR_LABELS = {
+  northern:"Northern sector", central:"Central sector",
+  southern:"Southern sector", far_northern:"Far Northern sector"
+};
+
+// ══════════════════════════════════════════════════════
+// SECTOR SELECTOR — updates SST + DHW
+// ══════════════════════════════════════════════════════
+function setSector(s) {
+  currentSector = s;
+  document.querySelectorAll('.sbtn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('sector-label').textContent = SECTOR_LABELS[s];
+  renderSST(); renderDHW();
+}
+
+// ══════════════════════════════════════════════════════
+// CHART 1 — SST ANNOTATED LINE
+// ══════════════════════════════════════════════════════
+function sstSpec(sector) {
+  return {
+    $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+    config:CFG, width:"container", height:260,
+    data:{ url:"data/sst_annual.json" },
+    transform:[{ filter:`datum.sector === '${sector}'` }],
+    layer:[
+      { mark:{ type:"area", color:"#ff6b35", opacity:0.1 },
+        encoding:{ x:{ field:"year", type:"quantitative", axis:{ format:"d", title:null, tickCount:10 }},
+                   y:{ field:"ssta_max", type:"quantitative", title:"Peak SST anomaly (°C)", scale:{ domainMin:-0.2 }}}},
+      { mark:{ type:"line", color:"#ff6b35", strokeWidth:2.5 },
+        encoding:{ x:{ field:"year", type:"quantitative" }, y:{ field:"ssta_max", type:"quantitative" }}},
+      { data:{ values: BLEACH }, mark:{ type:"rule", color:"rgba(255,71,87,0.35)", strokeWidth:1, strokeDash:[4,3] },
+        encoding:{ x:{ field:"year", type:"quantitative" }}},
+      { data:{ values: BLEACH }, mark:{ type:"text", color:"rgba(255,71,87,0.6)", fontSize:9, dy:-6, angle:0 },
+        encoding:{ x:{ field:"year", type:"quantitative" }, y:{ value:8 }, text:{ field:"label" }}},
+      { mark:{ type:"point", color:"#ff6b35", size:50, filled:true, opacity:0 },
+        params:[{ name:"hp", select:{ type:"point", on:"mouseover", nearest:true }}],
+        encoding:{ x:{ field:"year", type:"quantitative" }, y:{ field:"ssta_max", type:"quantitative" },
+                   opacity:{ condition:{ param:"hp", value:1 }, value:0 },
+                   tooltip:[
+                     { field:"year", type:"quantitative", title:"Year", format:"d" },
+                     { field:"ssta_max", type:"quantitative", title:"Peak anomaly (°C)", format:".2f" },
+                     { field:"dhw_max", type:"quantitative", title:"Max DHW (°C-wks)", format:".1f" }
+                   ]}}
+    ]
+  };
+}
+function renderSST() { vegaEmbed("#chart-sst", sstSpec(currentSector), OPT); }
+renderSST();
+
+// ══════════════════════════════════════════════════════
+// CHART 2 — DHW BAR
+// ══════════════════════════════════════════════════════
+function dhwSpec(sector) {
+  return {
+    $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+    config:CFG, width:"container", height:220,
+    data:{ url:"data/sst_annual.json" },
+    transform:[{ filter:`datum.sector === '${sector}' && datum.year >= 1992` }],
+    layer:[
+      { mark:{ type:"bar", cornerRadiusEnd:3 },
+        encoding:{
+          x:{ field:"year", type:"quantitative", axis:{ format:"d", title:null }},
+          y:{ field:"dhw_max", type:"quantitative", title:"Max Degree Heating Weeks (°C-wks)" },
+          color:{ field:"dhw_max", type:"quantitative",
+                  scale:{ domain:[0,4,8,16], range:["#48cae4","#ffa502","#ff6b35","#ff1744"] }, legend:null },
+          tooltip:[
+            { field:"year", type:"quantitative", title:"Year", format:"d" },
+            { field:"dhw_max", type:"quantitative", title:"Max DHW (°C-wks)", format:".1f" }
+          ]
+        }
+      },
+      { data:{ values:[{ thresh:8 }] },
+        mark:{ type:"rule", color:"rgba(255,255,255,0.25)", strokeDash:[5,3], strokeWidth:1 },
+        encoding:{ y:{ field:"thresh", type:"quantitative" }}},
+      { data:{ values:[{ thresh:8, label:"Severe bleaching threshold (8°C-wks)" }] },
+        mark:{ type:"text", color:"rgba(255,255,255,0.3)", fontSize:9, align:"right", dx:-6, dy:-6 },
+        encoding:{ y:{ field:"thresh", type:"quantitative" }, x:{ value:650 }, text:{ field:"label" }}}
+    ]
+  };
+}
+function renderDHW() { vegaEmbed("#chart-dhw", dhwSpec(currentSector), OPT); }
+renderDHW();
+
+// ══════════════════════════════════════════════════════
+// CHART 3 — CALENDAR HEATMAP
+// ══════════════════════════════════════════════════════
+vegaEmbed("#chart-heatmap", {
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+  config:CFG, width:"container", height:200,
+  data:{ url:"data/sst_monthly.json" },
+  transform:[{ filter:"datum.sector === 'northern' && datum.year >= 2000" }],
+  mark:{ type:"rect", stroke:"rgba(6,15,26,0.8)", strokeWidth:0.5 },
+  encoding:{
+    x:{ field:"month", type:"ordinal", title:null,
+        axis:{ labelExpr:"['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]" }},
+    y:{ field:"year", type:"ordinal", title:null, sort:"descending", axis:{ labelAngle:0 }},
+    color:{ field:"ssta_mean", type:"quantitative", title:"SST anomaly (°C)",
+            scale:{ scheme:"orangered", domainMin:-0.5, domainMax:2.5 },
+            legend:{ orient:"right", gradientLength:160 }},
+    tooltip:[
+      { field:"year", title:"Year", type:"ordinal" },
+      { field:"month_name", title:"Month" },
+      { field:"ssta_mean", title:"Anomaly (°C)", format:".2f" },
+      { field:"dhw_max", title:"Max DHW", format:".1f" }
+    ]
+  }
+}, OPT);
+
+// ══════════════════════════════════════════════════════
+// CHART 4 — RECOVERY TIME
+// ══════════════════════════════════════════════════════
+vegaEmbed("#chart-recovery", {
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+  config:CFG, width:"container", height:170,
+  data:{ values:[
+    { gap:"'98→'02", years:4, t:"long" },{ gap:"'02→'16", years:14, t:"long" },
+    { gap:"'16→'17", years:1, t:"short" },{ gap:"'17→'20", years:3, t:"short" },
+    { gap:"'20→'22", years:2, t:"short" },{ gap:"'22→'24", years:2, t:"short" }
+  ]},
+  layer:[
+    { mark:{ type:"bar", cornerRadiusEnd:4 },
+      encoding:{
+        x:{ field:"gap", type:"ordinal", sort:null, axis:{ title:null, labelAngle:0 }},
+        y:{ field:"years", type:"quantitative", title:"Years between events", scale:{ domainMax:16 }},
+        color:{ field:"t", scale:{ domain:["long","short"], range:["#48cae4","#ff4757"] }, legend:null },
+        tooltip:[{ field:"gap", title:"Gap" },{ field:"years", title:"Years" }]
+      }
+    },
+    { data:{ values:[{ t:10 }] },
+      mark:{ type:"rule", color:"rgba(255,255,255,0.18)", strokeDash:[4,3] },
+      encoding:{ y:{ field:"t", type:"quantitative" }}}
+  ]
+}, OPT);
+
+// ══════════════════════════════════════════════════════
+// CHARTS 5,6,7 — CORAL COVER SMALL MULTIPLES
+// ══════════════════════════════════════════════════════
+function coverSpec(region, col) {
+  return {
+    $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+    config:CFG, width:"container", height:185,
+    data:{ url:"data/coral_cover.json" },
+    transform:[{ filter:`datum.region === '${region}'` }],
+    layer:[
+      { mark:{ type:"area", opacity:0.12, color:col },
+        encoding:{
+          x:{ field:"year", type:"quantitative", axis:{ format:"d", title:null, tickCount:6 }},
+          y:{ field:"ci_lower", type:"quantitative", title:"% coral cover", scale:{ domainMin:0, domainMax:52 }},
+          y2:{ field:"ci_upper" }
+        }
+      },
+      { mark:{ type:"line", color:col, strokeWidth:2 },
+        encoding:{ x:{ field:"year", type:"quantitative" }, y:{ field:"mean_cover", type:"quantitative" }}},
+      { mark:{ type:"point", color:col, size:35, filled:true },
+        encoding:{
+          x:{ field:"year", type:"quantitative" }, y:{ field:"mean_cover", type:"quantitative" },
+          tooltip:[
+            { field:"year", type:"quantitative", title:"Year", format:"d" },
+            { field:"mean_cover", type:"quantitative", title:"Coral cover (%)", format:".1f" },
+            { field:"ci_lower", type:"quantitative", title:"CI lower", format:".1f" },
+            { field:"ci_upper", type:"quantitative", title:"CI upper", format:".1f" }
+          ]
+        }
+      },
+      { data:{ values: BLEACH },
+        mark:{ type:"rule", color:"rgba(255,71,87,0.2)", strokeWidth:1, strokeDash:[3,3] },
+        encoding:{ x:{ field:"year", type:"quantitative" }}}
+    ]
+  };
+}
+vegaEmbed("#chart-north",   coverSpec("Northern","#48cae4"), OPT);
+vegaEmbed("#chart-central", coverSpec("Central", "#00b4d8"), OPT);
+vegaEmbed("#chart-south",   coverSpec("Southern","#2ed573"), OPT);
+
+// ══════════════════════════════════════════════════════
+// CHART 8 — CONNECTED SCATTER (HD CUSTOM)
+// ══════════════════════════════════════════════════════
+vegaEmbed("#chart-scatter", {
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+  config:CFG, width:"container", height:340,
+  data:{ url:"data/coral_cover.json" },
+  transform:[
+    { lookup:"year", from:{ data:{ url:"data/sst_annual.json" },
+      key:"year", fields:["ssta_max"], as:["sst"] },
+      params:{ filter:"datum.sector === 'northern'" }
+    }
+  ],
+  layer:[
+    { mark:{ type:"line", opacity:0.4, strokeWidth:1.5 },
+      encoding:{
+        x:{ field:"sst", type:"quantitative", title:"Peak SST anomaly — Northern sector (°C)", scale:{ domainMin:-0.2 }},
+        y:{ field:"mean_cover", type:"quantitative", title:"Mean coral cover (%)" },
+        color:{ field:"region", type:"nominal",
+                scale:{ domain:["Northern","Central","Southern"], range:["#48cae4","#00b4d8","#2ed573"] },
+                legend:{ title:"Region" }},
+        order:{ field:"year", type:"quantitative" }
+      }
+    },
+    { mark:{ type:"point", filled:true, size:60 },
+      encoding:{
+        x:{ field:"sst", type:"quantitative" },
+        y:{ field:"mean_cover", type:"quantitative" },
+        color:{ field:"region", type:"nominal",
+                scale:{ domain:["Northern","Central","Southern"], range:["#48cae4","#00b4d8","#2ed573"] }},
+        tooltip:[
+          { field:"year", type:"quantitative", title:"Year", format:"d" },
+          { field:"region", title:"Region" },
+          { field:"mean_cover", type:"quantitative", title:"Coral cover (%)", format:".1f" },
+          { field:"sst", type:"quantitative", title:"SST anomaly (°C)", format:".2f" }
+        ]
+      }
+    }
+  ]
+}, OPT);
+
+// ══════════════════════════════════════════════════════
+// CHART 9 — REEF MAP (296 reefs)
+// ══════════════════════════════════════════════════════
+vegaEmbed("#chart-map", {
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+  config:CFG, width:"container", height:480,
+  layer:[
+    { data:{ url:"https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json", format:{ type:"topojson", feature:"countries" }},
+      mark:{ type:"geoshape", fill:"#112233", stroke:"rgba(255,255,255,0.08)", strokeWidth:0.5 }
+    },
+    { data:{ url:"data/reef_locations.json" },
+      mark:{ type:"circle", opacity:0.8, strokeWidth:0 },
+      encoding:{
+        longitude:{ field:"LONGITUDE", type:"quantitative" },
+        latitude:{ field:"LATITUDE", type:"quantitative" },
+        color:{ field:"cover", type:"quantitative", title:"Coral cover (%)",
+                scale:{ domain:[0,10,20,30,40,50], range:["#ff1744","#ff6b35","#ffd166","#06d6a0","#48cae4","#00b4d8"] },
+                legend:{ orient:"bottom-right", gradientLength:160 }},
+        size:{ field:"cover", type:"quantitative", scale:{ range:[20,80] }, legend:null },
+        tooltip:[
+          { field:"REEF_NAME", title:"Reef" },
+          { field:"SECTOR", title:"Sector" },
+          { field:"cover", type:"quantitative", title:"Coral cover (%)", format:".1f" },
+          { field:"year", type:"quantitative", title:"Survey year", format:"d" }
+        ]
+      }
+    }
+  ],
+  projection:{ type:"mercator", center:[147,-20], scale:1400 }
+}, OPT);
+
+// ══════════════════════════════════════════════════════
+// CHART 10 — TOURISM BAR
+// ══════════════════════════════════════════════════════
+vegaEmbed("#chart-tourism", {
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+  config:CFG, width:"container", height:230,
+  data:{ values:[
+    {y:"2013",v:5.7},{y:"2014",v:5.9},{y:"2015",v:6.1},{y:"2016",v:5.9},
+    {y:"2017",v:5.8},{y:"2018",v:6.0},{y:"2019",v:6.4},{y:"2020",v:1.8},
+    {y:"2021",v:3.2},{y:"2022",v:5.5},{y:"2023",v:6.4}
+  ]},
+  mark:{ type:"bar", cornerRadiusEnd:4 },
+  encoding:{
+    x:{ field:"y", type:"ordinal", title:null, axis:{ labelAngle:0 }},
+    y:{ field:"v", type:"quantitative", title:"AU$ Billion" },
+    color:{ condition:{ test:"datum.y === '2020'", value:"#ff4757" }, value:"#00b4d8" },
+    opacity:{ condition:{ test:"datum.y === '2020'", value:0.8 }, value:0.55 },
+    tooltip:[{ field:"y", title:"Year" },{ field:"v", title:"Value (AU$B)", format:".1f" }]
+  }
+}, OPT);
+
+// ══════════════════════════════════════════════════════
+// STRESSOR TIMELINE (custom Gantt — no Vega-Lite needed)
+// ══════════════════════════════════════════════════════
+(function(){
+  const START=1998, END=2025, SPAN=END-START;
+  const pct=y=>(((y-START)/SPAN)*100).toFixed(2)+"%";
+  const stressors=[
+    { name:"Bleaching", col:"#ff6b35", events:[{y:1998,w:1.5,s:.7},{y:2002,w:1.5,s:.65},{y:2006,w:1,s:.5},{y:2016,w:2,s:.92},{y:2017,w:2,s:.88},{y:2020,w:2.5,s:.96},{y:2022,w:2,s:.9},{y:2024,w:2.5,s:1}]},
+    { name:"Cyclones",  col:"#48cae4", events:[{y:1999,w:.6,s:.6},{y:2005,w:.6,s:.6},{y:2009,w:.8,s:.65},{y:2011,w:1.2,s:.72},{y:2014,w:.6,s:.6},{y:2015,w:.6,s:.62},{y:2017,w:1,s:.68},{y:2019,w:.6,s:.6},{y:2023,w:.7,s:.62},{y:2024,w:.7,s:.65}]},
+    { name:"COTS",      col:"#ffa502", events:[{y:1999,w:4.5,s:.62},{y:2010,w:4,s:.58},{y:2016,w:3.5,s:.62},{y:2021,w:2.5,s:.58}]},
+    { name:"Flood/Runoff",col:"#2ed573",events:[{y:1999,w:.8,s:.58},{y:2008,w:.8,s:.55},{y:2011,w:1.5,s:.62},{y:2019,w:.8,s:.55},{y:2022,w:1.2,s:.58},{y:2024,w:.8,s:.58}]}
+  ];
+  const wrap=document.getElementById("stressor-timeline");
+
+  // Year axis
+  const ax=document.createElement("div");
+  ax.style.cssText="display:grid;grid-template-columns:120px 1fr;gap:12px;margin-bottom:6px;";
+  ax.innerHTML='<div></div><div id="yr-ax" style="position:relative;height:16px;"></div>';
+  wrap.appendChild(ax);
+  const ya=document.getElementById("yr-ax");
+  for(let y=2000;y<=2024;y+=4){
+    const s=document.createElement("span");
+    s.style.cssText=`position:absolute;left:${pct(y)};font-size:10px;color:rgba(122,173,190,0.45);transform:translateX(-50%);`;
+    s.textContent=y; ya.appendChild(s);
+  }
+  stressors.forEach(st=>{
+    const row=document.createElement("div");
+    row.className="str-row";
+    row.innerHTML=`<div class="str-name">${st.name}</div><div class="str-track" id="t-${st.name}"></div>`;
+    wrap.appendChild(row);
+    const track=document.getElementById(`t-${st.name}`);
+    st.events.forEach(ev=>{
+      const el=document.createElement("div");
+      el.className="str-ev";
+      el.style.cssText=`left:${pct(ev.y)};width:${Math.max(1.5,ev.w/SPAN*100).toFixed(2)}%;background:${st.col};opacity:${ev.s};`;
+      track.appendChild(el);
+    });
+  });
+})();
+</script>
+</body>
+</html>

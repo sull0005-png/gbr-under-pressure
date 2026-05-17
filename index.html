@@ -443,6 +443,16 @@ const CFG = {
 };
 const OPT = { actions:false, config:CFG };
 
+// Responsive width helper
+function embedChart(id, spec, opts) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  spec = JSON.parse(JSON.stringify(spec)); // deep clone
+  spec.width = el.parentElement.clientWidth - 60 || 800;
+  if (spec.layer) spec.layer.forEach(l => { if(l.mark && l.encoding) delete l.width; });
+  vegaEmbed('#' + id, spec, opts).catch(console.error);
+}
+
 const BLEACH = [1998,2002,2016,2017,2020,2022,2024].map(y=>({year:y,label:String(y)}));
 let currentSector = "northern";
 const SECTOR_LABELS = {
@@ -467,7 +477,7 @@ function setSector(s) {
 function sstSpec(sector) {
   return {
     $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-    config:CFG, width:"container", height:260,
+    config:CFG, width:null, height:260,
     data:{ url:"data/sst_annual.json" },
     transform:[{ filter:`datum.sector === '${sector}'` }],
     layer:[
@@ -492,7 +502,7 @@ function sstSpec(sector) {
     ]
   };
 }
-function renderSST() { vegaEmbed("#chart-sst", sstSpec(currentSector), OPT); }
+function renderSST() { embedChart("chart-sst", sstSpec(currentSector), OPT); }
 renderSST();
 
 // ══════════════════════════════════════════════════════
@@ -501,7 +511,7 @@ renderSST();
 function dhwSpec(sector) {
   return {
     $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-    config:CFG, width:"container", height:220,
+    config:CFG, width:null, height:220,
     data:{ url:"data/sst_annual.json" },
     transform:[{ filter:`datum.sector === '${sector}' && datum.year >= 1992` }],
     layer:[
@@ -526,15 +536,15 @@ function dhwSpec(sector) {
     ]
   };
 }
-function renderDHW() { vegaEmbed("#chart-dhw", dhwSpec(currentSector), OPT); }
+function renderDHW() { embedChart("chart-dhw", dhwSpec(currentSector), OPT); }
 renderDHW();
 
 // ══════════════════════════════════════════════════════
 // CHART 3 — CALENDAR HEATMAP
 // ══════════════════════════════════════════════════════
-vegaEmbed("#chart-heatmap", {
+embedChart("chart-heatmap", {
   $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-  config:CFG, width:"container", height:200,
+  config:CFG, width:null, height:200,
   data:{ url:"data/sst_monthly.json" },
   transform:[{ filter:"datum.sector === 'northern' && datum.year >= 2000" }],
   mark:{ type:"rect", stroke:"rgba(6,15,26,0.8)", strokeWidth:0.5 },
@@ -557,9 +567,9 @@ vegaEmbed("#chart-heatmap", {
 // ══════════════════════════════════════════════════════
 // CHART 4 — RECOVERY TIME
 // ══════════════════════════════════════════════════════
-vegaEmbed("#chart-recovery", {
+embedChart("chart-recovery", {
   $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-  config:CFG, width:"container", height:170,
+  config:CFG, width:null, height:170,
   data:{ values:[
     { gap:"'98→'02", years:4, t:"long" },{ gap:"'02→'16", years:14, t:"long" },
     { gap:"'16→'17", years:1, t:"short" },{ gap:"'17→'20", years:3, t:"short" },
@@ -586,7 +596,7 @@ vegaEmbed("#chart-recovery", {
 function coverSpec(region, col) {
   return {
     $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-    config:CFG, width:"container", height:185,
+    config:CFG, width:null, height:185,
     data:{ url:"data/coral_cover.json" },
     transform:[{ filter:`datum.region === '${region}'` }],
     layer:[
@@ -616,16 +626,16 @@ function coverSpec(region, col) {
     ]
   };
 }
-vegaEmbed("#chart-north",   coverSpec("Northern","#48cae4"), OPT);
-vegaEmbed("#chart-central", coverSpec("Central", "#00b4d8"), OPT);
-vegaEmbed("#chart-south",   coverSpec("Southern","#2ed573"), OPT);
+embedChart("chart-north", coverSpec("Northern","#48cae4"), OPT);
+embedChart("chart-central", coverSpec("Central", "#00b4d8"), OPT);
+embedChart("chart-south", coverSpec("Southern","#2ed573"), OPT);
 
 // ══════════════════════════════════════════════════════
 // CHART 8 — CONNECTED SCATTER (HD CUSTOM)
 // ══════════════════════════════════════════════════════
-vegaEmbed("#chart-scatter", {
+embedChart("chart-scatter", {
   $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-  config:CFG, width:"container", height:340,
+  config:CFG, width:null, height:340,
   data:{ url:"data/scatter_data.json" },
   layer:[
     { mark:{ type:"line", opacity:0.4, strokeWidth:1.5 },
@@ -658,9 +668,9 @@ vegaEmbed("#chart-scatter", {
 // ══════════════════════════════════════════════════════
 // CHART 9 — REEF MAP (296 reefs)
 // ══════════════════════════════════════════════════════
-vegaEmbed("#chart-map", {
+embedChart("chart-map", {
   $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-  config:CFG, width:"container", height:480,
+  config:CFG, width:null, height:480,
   layer:[
     { data:{ url:"https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json", format:{ type:"topojson", feature:"countries" }},
       mark:{ type:"geoshape", fill:"#112233", stroke:"rgba(255,255,255,0.08)", strokeWidth:0.5 }
@@ -689,9 +699,9 @@ vegaEmbed("#chart-map", {
 // ══════════════════════════════════════════════════════
 // CHART 10 — TOURISM BAR
 // ══════════════════════════════════════════════════════
-vegaEmbed("#chart-tourism", {
+embedChart("chart-tourism", {
   $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-  config:CFG, width:"container", height:230,
+  config:CFG, width:null, height:230,
   data:{ values:[
     {y:"2013",v:5.7},{y:"2014",v:5.9},{y:"2015",v:6.1},{y:"2016",v:5.9},
     {y:"2017",v:5.8},{y:"2018",v:6.0},{y:"2019",v:6.4},{y:"2020",v:1.8},

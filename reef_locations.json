@@ -1,0 +1,2666 @@
+[
+  {
+    "REEF_NAME": "(LITTLE) BROADHURST REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.966667,
+    "LONGITUDE": 147.7,
+    "cover": 4.414,
+    "year": 2004
+  },
+  {
+    "REEF_NAME": "11049S",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.358333,
+    "LONGITUDE": 143.333333,
+    "cover": 18.672,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "11162S",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.6,
+    "LONGITUDE": 143.291667,
+    "cover": 22.083,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "12071S",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.483333,
+    "LONGITUDE": 143.75,
+    "cover": 37.589,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "13040S",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.266667,
+    "LONGITUDE": 143.941667,
+    "cover": 35.25,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "13063S",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.416667,
+    "LONGITUDE": 143.816667,
+    "cover": 13.347,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "13093A",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.758333,
+    "LONGITUDE": 143.991667,
+    "cover": 7.105,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "13121S",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.783333,
+    "LONGITUDE": 144.266667,
+    "cover": 29.421,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "13124S",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.866667,
+    "LONGITUDE": 144.091667,
+    "cover": 36.028,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "14056S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.325,
+    "LONGITUDE": 144.958333,
+    "cover": 8.25,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "14075S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.283333,
+    "LONGITUDE": 145.175,
+    "cover": 32.802,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "14133S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.916667,
+    "LONGITUDE": 145.516667,
+    "cover": 27.134,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "15022S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.1,
+    "LONGITUDE": 145.625,
+    "cover": 24.18,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "15023S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.1,
+    "LONGITUDE": 145.666667,
+    "cover": 10.956,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "15034S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.316667,
+    "LONGITUDE": 145.766667,
+    "cover": 35.121,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "15037S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.333333,
+    "LONGITUDE": 145.75,
+    "cover": 26.0,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "15047S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.466667,
+    "LONGITUDE": 145.683333,
+    "cover": 20.104,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "15077S",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.558333,
+    "LONGITUDE": 145.65,
+    "cover": 25.905,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "16013A",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.013333,
+    "LONGITUDE": 145.791667,
+    "cover": 24.375,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "16013B",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.013333,
+    "LONGITUDE": 145.8,
+    "cover": 64.531,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "16013C",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.03,
+    "LONGITUDE": 145.803333,
+    "cover": 22.5,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "16017S",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.083333,
+    "LONGITUDE": 145.725,
+    "cover": 13.833,
+    "year": 2019
+  },
+  {
+    "REEF_NAME": "18023S",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.141667,
+    "LONGITUDE": 146.975,
+    "cover": 11.625,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "18025S",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.266667,
+    "LONGITUDE": 146.908333,
+    "cover": 19.828,
+    "year": 2002
+  },
+  {
+    "REEF_NAME": "18026S",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.333333,
+    "LONGITUDE": 146.741667,
+    "cover": 2.759,
+    "year": 2002
+  },
+  {
+    "REEF_NAME": "19131S",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.766667,
+    "LONGITUDE": 149.366667,
+    "cover": 26.13,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "19138S",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.808333,
+    "LONGITUDE": 149.425,
+    "cover": 19.643,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "20104S",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -20.033333,
+    "LONGITUDE": 149.683333,
+    "cover": 15.0,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "20348S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.891667,
+    "LONGITUDE": 150.958333,
+    "cover": 31.706,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "20353S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.966667,
+    "LONGITUDE": 150.916667,
+    "cover": 60.323,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "20354S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.975,
+    "LONGITUDE": 150.95,
+    "cover": 48.58,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21060S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.016667,
+    "LONGITUDE": 150.608333,
+    "cover": 34.881,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21062S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.033333,
+    "LONGITUDE": 150.866667,
+    "cover": 34.851,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21064S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.058333,
+    "LONGITUDE": 150.775,
+    "cover": 22.2,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21074S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.158333,
+    "LONGITUDE": 150.85,
+    "cover": 38.919,
+    "year": 2015
+  },
+  {
+    "REEF_NAME": "21104S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.1,
+    "LONGITUDE": 151.241667,
+    "cover": 31.927,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "21137S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.4,
+    "LONGITUDE": 151.416667,
+    "cover": 17.33,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "21139S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.475,
+    "LONGITUDE": 151.475,
+    "cover": 62.48,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21140S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.483333,
+    "LONGITUDE": 151.283333,
+    "cover": 35.893,
+    "year": 2015
+  },
+  {
+    "REEF_NAME": "21179S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.35,
+    "LONGITUDE": 151.725,
+    "cover": 15.905,
+    "year": 1995
+  },
+  {
+    "REEF_NAME": "21186S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.416667,
+    "LONGITUDE": 151.791667,
+    "cover": 17.123,
+    "year": 1995
+  },
+  {
+    "REEF_NAME": "21187S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.416667,
+    "LONGITUDE": 151.641667,
+    "cover": 52.083,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21217S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.125,
+    "LONGITUDE": 152.466667,
+    "cover": 37.386,
+    "year": 1994
+  },
+  {
+    "REEF_NAME": "21219S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.141667,
+    "LONGITUDE": 152.183333,
+    "cover": 28.077,
+    "year": 1994
+  },
+  {
+    "REEF_NAME": "21245S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.308333,
+    "LONGITUDE": 152.441667,
+    "cover": 43.706,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21278S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.108333,
+    "LONGITUDE": 152.55,
+    "cover": 32.176,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "21286S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.175,
+    "LONGITUDE": 152.516667,
+    "cover": 53.141,
+    "year": 1994
+  },
+  {
+    "REEF_NAME": "21296S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.341667,
+    "LONGITUDE": 152.55,
+    "cover": 30.625,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21302S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.433333,
+    "LONGITUDE": 152.575,
+    "cover": 51.726,
+    "year": 2018
+  },
+  {
+    "REEF_NAME": "21450S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.633333,
+    "LONGITUDE": 151.625,
+    "cover": 40.368,
+    "year": 1995
+  },
+  {
+    "REEF_NAME": "21467S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.883333,
+    "LONGITUDE": 151.925,
+    "cover": 30.804,
+    "year": 1996
+  },
+  {
+    "REEF_NAME": "21529S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.866667,
+    "LONGITUDE": 152.175,
+    "cover": 54.181,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "21550S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.958333,
+    "LONGITUDE": 152.316667,
+    "cover": 45.988,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "21557S1",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.983333,
+    "LONGITUDE": 152.458333,
+    "cover": 2.5,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "21558S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.558333,
+    "LONGITUDE": 152.541667,
+    "cover": 39.314,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "21583S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.941667,
+    "LONGITUDE": 152.655,
+    "cover": 40.125,
+    "year": 1996
+  },
+  {
+    "REEF_NAME": "21591S",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.025833,
+    "LONGITUDE": 150.373,
+    "cover": 29.107,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "22084S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -22.0,
+    "LONGITUDE": 152.458333,
+    "cover": 9.028,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "22112S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -22.083333,
+    "LONGITUDE": 152.591667,
+    "cover": 57.083,
+    "year": 1996
+  },
+  {
+    "REEF_NAME": "22118S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -22.125,
+    "LONGITUDE": 152.625,
+    "cover": 34.653,
+    "year": 1996
+  },
+  {
+    "REEF_NAME": "22144S",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -22.333333,
+    "LONGITUDE": 152.666667,
+    "cover": 31.292,
+    "year": 1996
+  },
+  {
+    "REEF_NAME": "AGINCOURT REEFS (NO 1)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.05,
+    "LONGITUDE": 145.858333,
+    "cover": 45.313,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "AGINCOURT REEFS (NO 3)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.991667,
+    "LONGITUDE": 145.825,
+    "cover": 24.932,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "AGINCOURT REEFS (NO 4)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.95,
+    "LONGITUDE": 145.816667,
+    "cover": 23.891,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "ANDERSEN REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.791667,
+    "LONGITUDE": 145.8,
+    "cover": 39.507,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "ARLINGTON REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.716667,
+    "LONGITUDE": 146.066667,
+    "cover": 8.75,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "ASHMORE BANKS (1)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.885167,
+    "LONGITUDE": 143.629333,
+    "cover": 51.591,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "ASHMORE BANKS (2)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.88,
+    "LONGITUDE": 143.709833,
+    "cover": 72.0,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "ASHMORE BANKS (3)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.926667,
+    "LONGITUDE": 143.688167,
+    "cover": 67.875,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "BAIT REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.808333,
+    "LONGITUDE": 149.075,
+    "cover": 16.957,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "BEAVER REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.85,
+    "LONGITUDE": 146.483333,
+    "cover": 12.833,
+    "year": 2019
+  },
+  {
+    "REEF_NAME": "BEN REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.008333,
+    "LONGITUDE": 150.325,
+    "cover": 45.804,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "BIRD ISLANDS REEF (NORTH)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.766667,
+    "LONGITUDE": 143.083333,
+    "cover": 67.135,
+    "year": 2003
+  },
+  {
+    "REEF_NAME": "BLANCHARD REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.416667,
+    "LONGITUDE": 143.75,
+    "cover": 11.745,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "BORDER ISLAND REEF (NO 1)",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -20.175,
+    "LONGITUDE": 149.025,
+    "cover": 10.227,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "BOULDER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.416667,
+    "LONGITUDE": 145.425,
+    "cover": 31.53,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "BOULT REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.758333,
+    "LONGITUDE": 152.266667,
+    "cover": 60.714,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "BOWDEN REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.033333,
+    "LONGITUDE": 147.933333,
+    "cover": 32.07,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "BRAMBLE REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.416667,
+    "LONGITUDE": 146.708333,
+    "cover": 6.864,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "BRIGGS REEF (NO 4)",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.683833,
+    "LONGITUDE": 150.4515,
+    "cover": 29.167,
+    "year": 2015
+  },
+  {
+    "REEF_NAME": "BROOMFIELD REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.275,
+    "LONGITUDE": 151.941667,
+    "cover": 57.823,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CANNAN REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.483333,
+    "LONGITUDE": 150.141667,
+    "cover": 17.024,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CARTER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.55,
+    "LONGITUDE": 145.583333,
+    "cover": 32.826,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CELEBRATION REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.275,
+    "LONGITUDE": 143.691667,
+    "cover": 11.759,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "CENTENERY REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.283333,
+    "LONGITUDE": 152.333333,
+    "cover": 48.558,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "CENTIPEDE REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.725,
+    "LONGITUDE": 147.541667,
+    "cover": 14.216,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "CENTRAL REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.925,
+    "LONGITUDE": 152.516667,
+    "cover": 3.047,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "CHARITY REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.366667,
+    "LONGITUDE": 148.333333,
+    "cover": 17.689,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "CHICKEN REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.658333,
+    "LONGITUDE": 147.708333,
+    "cover": 35.806,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CHINAMAN REEF(16024)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.208333,
+    "LONGITUDE": 145.8,
+    "cover": 10.743,
+    "year": 2019
+  },
+  {
+    "REEF_NAME": "CHINAMAN REEF(22102)",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -22.008333,
+    "LONGITUDE": 152.658333,
+    "cover": 20.313,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CLACK REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -14.066667,
+    "LONGITUDE": 144.241667,
+    "cover": 18.208,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "COATES REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.2,
+    "LONGITUDE": 146.366667,
+    "cover": 5.455,
+    "year": 2000
+  },
+  {
+    "REEF_NAME": "COIL REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.441667,
+    "LONGITUDE": 147.516667,
+    "cover": 34.625,
+    "year": 2002
+  },
+  {
+    "REEF_NAME": "CONDER REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -19.916667,
+    "LONGITUDE": 150.2,
+    "cover": 4.928,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "COQUET REEF(14097)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.541667,
+    "LONGITUDE": 144.991667,
+    "cover": 15.0,
+    "year": 1993
+  },
+  {
+    "REEF_NAME": "CORBETT REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -14.0,
+    "LONGITUDE": 144.108333,
+    "cover": 26.829,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CRAB REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.725,
+    "LONGITUDE": 149.708333,
+    "cover": 35.033,
+    "year": 1995
+  },
+  {
+    "REEF_NAME": "CREAL REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.533333,
+    "LONGITUDE": 150.383333,
+    "cover": 47.596,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "CREDLIN REEFS (EAST)",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.541667,
+    "LONGITUDE": 149.95,
+    "cover": 11.27,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CREECH REEF (NORTH)",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.625,
+    "LONGITUDE": 144.108333,
+    "cover": 46.969,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "CURD REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.591667,
+    "LONGITUDE": 143.55,
+    "cover": 17.759,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "CURLEW REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.6,
+    "LONGITUDE": 149.783333,
+    "cover": 1.862,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "DAVIE REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.975,
+    "LONGITUDE": 144.458333,
+    "cover": 37.075,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "DAVIES REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.825,
+    "LONGITUDE": 147.641667,
+    "cover": 48.958,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "DIP REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.416667,
+    "LONGITUDE": 147.458333,
+    "cover": 33.011,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "EAST CAY REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.491667,
+    "LONGITUDE": 152.558333,
+    "cover": 33.068,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "EDGELL REEFS (NO 5)",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.141667,
+    "LONGITUDE": 149.941667,
+    "cover": 8.938,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "EGRET REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.475,
+    "LONGITUDE": 145.416667,
+    "cover": 15.784,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "ELIZABETH REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.333333,
+    "LONGITUDE": 149.05,
+    "cover": 26.701,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "ELLISON REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.725,
+    "LONGITUDE": 146.4,
+    "cover": 9.312,
+    "year": 2019
+  },
+  {
+    "REEF_NAME": "ENDEAVOUR REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.783333,
+    "LONGITUDE": 145.583333,
+    "cover": 31.625,
+    "year": 1993
+  },
+  {
+    "REEF_NAME": "ERSKINE REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.508333,
+    "LONGITUDE": 151.775,
+    "cover": 46.667,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "ESCAPE (1)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.883333,
+    "LONGITUDE": 145.791667,
+    "cover": 20.703,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "EUSTON REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.691667,
+    "LONGITUDE": 146.25,
+    "cover": 13.571,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "EVENING REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.908333,
+    "LONGITUDE": 145.658333,
+    "cover": 28.627,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "EYE REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.891667,
+    "LONGITUDE": 145.475,
+    "cover": 2.955,
+    "year": 2015
+  },
+  {
+    "REEF_NAME": "EYRIE REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.716667,
+    "LONGITUDE": 145.375,
+    "cover": 29.853,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "FAIRFAX ISLANDS REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.858333,
+    "LONGITUDE": 152.366667,
+    "cover": 51.955,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "FAITH REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.283333,
+    "LONGITUDE": 148.35,
+    "cover": 32.674,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "FANTOME (EUMILLI) ISLAND REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.675,
+    "LONGITUDE": 146.516667,
+    "cover": 6.081,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "FARADAY REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.425,
+    "LONGITUDE": 147.358333,
+    "cover": 20.809,
+    "year": 2003
+  },
+  {
+    "REEF_NAME": "FARQUHARSON REEF (NO 1)",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.783333,
+    "LONGITUDE": 146.516667,
+    "cover": 12.313,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "FEATHER REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.533333,
+    "LONGITUDE": 146.383333,
+    "cover": 25.769,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "FIFE REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.658333,
+    "LONGITUDE": 143.725,
+    "cover": 40.662,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "FITZROY ISLAND REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.925,
+    "LONGITUDE": 145.983333,
+    "cover": 30.833,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "FITZROY REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.625,
+    "LONGITUDE": 152.158333,
+    "cover": 33.511,
+    "year": 1997
+  },
+  {
+    "REEF_NAME": "FLORA REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.183333,
+    "LONGITUDE": 146.291667,
+    "cover": 15.45,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "FLY REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.5,
+    "LONGITUDE": 145.158333,
+    "cover": 10.87,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "FLYNN REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.733333,
+    "LONGITUDE": 146.275,
+    "cover": 9.271,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "FORBES ISLANDS REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.291667,
+    "LONGITUDE": 143.408333,
+    "cover": 39.714,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "FORE AND AFT REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.5,
+    "LONGITUDE": 147.033333,
+    "cover": 25.991,
+    "year": 2018
+  },
+  {
+    "REEF_NAME": "FORK REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.616667,
+    "LONGITUDE": 147.558333,
+    "cover": 35.811,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "FORRESTER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.166667,
+    "LONGITUDE": 145.5,
+    "cover": 41.864,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "FRIGATE REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.733333,
+    "LONGITUDE": 152.425,
+    "cover": 72.188,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "GANNETT CAY REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.983333,
+    "LONGITUDE": 152.475,
+    "cover": 3.194,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "GILBEY REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.583333,
+    "LONGITUDE": 146.583333,
+    "cover": 26.667,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "GREEN ISLAND REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.758333,
+    "LONGITUDE": 145.98,
+    "cover": 18.698,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "GRUB REEF(14003)",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -14.008333,
+    "LONGITUDE": 143.991667,
+    "cover": 43.301,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "GRUB REEF(18077)",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.633333,
+    "LONGITUDE": 147.425,
+    "cover": 12.843,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "HARDY REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.758333,
+    "LONGITUDE": 149.225,
+    "cover": 34.456,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HARRIER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.133333,
+    "LONGITUDE": 145.691667,
+    "cover": 30.0,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "HASTINGS REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.516667,
+    "LONGITUDE": 146.016667,
+    "cover": 24.631,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HAVANNAH REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.85,
+    "LONGITUDE": 146.541667,
+    "cover": 25.806,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HAYMAN ISLAND REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -20.066667,
+    "LONGITUDE": 148.891667,
+    "cover": 15.096,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HEDGE REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.908333,
+    "LONGITUDE": 143.958333,
+    "cover": 2.875,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "HEDLEY REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.233333,
+    "LONGITUDE": 146.483333,
+    "cover": 15.391,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HELIX REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.633333,
+    "LONGITUDE": 147.3,
+    "cover": 53.603,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HELSDON REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.95,
+    "LONGITUDE": 145.491667,
+    "cover": 27.708,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "HILDER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.441667,
+    "LONGITUDE": 145.408333,
+    "cover": 39.224,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HOLBOURNE ISLAND REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.716667,
+    "LONGITUDE": 148.358333,
+    "cover": 8.452,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "HOPE REEF(16058)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.53,
+    "LONGITUDE": 146.125,
+    "cover": 33.125,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "HOPE REEF(19046)",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.325,
+    "LONGITUDE": 148.433333,
+    "cover": 17.583,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "HOPKINSON REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.558333,
+    "LONGITUDE": 147.191667,
+    "cover": 21.25,
+    "year": 2003
+  },
+  {
+    "REEF_NAME": "HORSESHOE",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -22.033333,
+    "LONGITUDE": 152.591667,
+    "cover": 8.83,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "HOSKYN ISLANDS REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.808333,
+    "LONGITUDE": 152.291667,
+    "cover": 63.281,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "HOUGHTON REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.525,
+    "LONGITUDE": 144.975,
+    "cover": 35.729,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "HUTCHISON REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.675,
+    "LONGITUDE": 146.166667,
+    "cover": 4.167,
+    "year": 2002
+  },
+  {
+    "REEF_NAME": "HYDE REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.758333,
+    "LONGITUDE": 150.091667,
+    "cover": 53.075,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "INGRAM-BEANLEY REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.425,
+    "LONGITUDE": 144.891667,
+    "cover": 25.98,
+    "year": 2010
+  },
+  {
+    "REEF_NAME": "IRENE REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.65,
+    "LONGITUDE": 145.716667,
+    "cover": 19.882,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "JACQUELINE REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.216667,
+    "LONGITUDE": 148.9,
+    "cover": 34.941,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "JAGUAR REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -18.983333,
+    "LONGITUDE": 148.425,
+    "cover": 47.5,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "JENKINS REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.958333,
+    "LONGITUDE": 152.6,
+    "cover": 3.966,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "JESSIE-KENT REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.676667,
+    "LONGITUDE": 146.175,
+    "cover": 2.368,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "JOHN BREWER REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.633333,
+    "LONGITUDE": 147.058333,
+    "cover": 25.688,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "KANGAROO REEF (EAST)",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.25,
+    "LONGITUDE": 148.625,
+    "cover": 15.417,
+    "year": 2002
+  },
+  {
+    "REEF_NAME": "KANGAROO REEF (WEST)",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.258333,
+    "LONGITUDE": 148.55,
+    "cover": 38.319,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "KAY REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.233333,
+    "LONGITUDE": 143.283333,
+    "cover": 14.246,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "KEEPER REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.75,
+    "LONGITUDE": 147.266667,
+    "cover": 5.4,
+    "year": 2003
+  },
+  {
+    "REEF_NAME": "KELSO REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.441667,
+    "LONGITUDE": 146.991667,
+    "cover": 37.313,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "KNIFE REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.583333,
+    "LONGITUDE": 147.558333,
+    "cover": 48.911,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "KNIGHT REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.45,
+    "LONGITUDE": 149.708333,
+    "cover": 3.462,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "LADY MUSGRAVE REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.908333,
+    "LONGITUDE": 152.408333,
+    "cover": 55.69,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LAGOON REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.391667,
+    "LONGITUDE": 143.741667,
+    "cover": 46.623,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LANGFORD-BIRD REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -20.091667,
+    "LONGITUDE": 148.875,
+    "cover": 12.578,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LAVERS REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.216667,
+    "LONGITUDE": 152.016667,
+    "cover": 19.481,
+    "year": 1994
+  },
+  {
+    "REEF_NAME": "LENA REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.65,
+    "LONGITUDE": 145.8,
+    "cover": 38.237,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LINNET REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.783333,
+    "LONGITUDE": 145.341667,
+    "cover": 34.393,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LITTLE KELSO REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.475,
+    "LONGITUDE": 147.0,
+    "cover": 26.912,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LIZARD ISLAND",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.675,
+    "LONGITUDE": 145.466667,
+    "cover": 24.083,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LODESTONE REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.7,
+    "LONGITUDE": 147.1,
+    "cover": 3.804,
+    "year": 2003
+  },
+  {
+    "REEF_NAME": "LOG REEF (SOUTH)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.675,
+    "LONGITUDE": 143.841667,
+    "cover": 26.538,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "LONG REEF(15019)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.05,
+    "LONGITUDE": 145.566667,
+    "cover": 21.968,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "LOW ISLANDS REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.383333,
+    "LONGITUDE": 145.566667,
+    "cover": 39.234,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "LYNCHS REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.775,
+    "LONGITUDE": 147.708333,
+    "cover": 4.609,
+    "year": 2010
+  },
+  {
+    "REEF_NAME": "MACGILLIVRAY REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.65,
+    "LONGITUDE": 145.491667,
+    "cover": 36.912,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MACKAY REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.05,
+    "LONGITUDE": 145.65,
+    "cover": 32.031,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MACKAY REEFS",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.15,
+    "LONGITUDE": 145.575,
+    "cover": 6.071,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "MAGPIE REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.775,
+    "LONGITUDE": 143.833333,
+    "cover": 21.335,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "MANTIS REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.275,
+    "LONGITUDE": 143.891667,
+    "cover": 39.357,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MARTIN REEF(14123)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.766667,
+    "LONGITUDE": 145.358333,
+    "cover": 41.602,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MARX REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.2,
+    "LONGITUDE": 145.616667,
+    "cover": 45.65,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MAST HEAD REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.541667,
+    "LONGITUDE": 151.733333,
+    "cover": 33.646,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MCCULLOCH",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.283333,
+    "LONGITUDE": 146.45,
+    "cover": 3.589,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "MCSWEENEY REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.0275,
+    "LONGITUDE": 143.251,
+    "cover": 13.654,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MICHAELMAS REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.583333,
+    "LONGITUDE": 146.016667,
+    "cover": 13.839,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MIDDLE BANKS (2)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.763333,
+    "LONGITUDE": 143.651667,
+    "cover": 68.889,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MIDDLE BANKS B (3)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.771667,
+    "LONGITUDE": 143.658333,
+    "cover": 49.479,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MILLN REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -16.791667,
+    "LONGITUDE": 146.275,
+    "cover": 22.946,
+    "year": 1994
+  },
+  {
+    "REEF_NAME": "MONSOON REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.133333,
+    "LONGITUDE": 143.258333,
+    "cover": 21.05,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "MOORE REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -16.866667,
+    "LONGITUDE": 146.233333,
+    "cover": 11.656,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "MORNING REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.975,
+    "LONGITUDE": 145.666667,
+    "cover": 28.466,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "MORRIS ISLAND REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.483333,
+    "LONGITUDE": 143.733333,
+    "cover": 23.784,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "MOSS REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.95,
+    "LONGITUDE": 146.8,
+    "cover": 28.31,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "MYRMIDON REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.266667,
+    "LONGITUDE": 147.391667,
+    "cover": 49.016,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "NAPIER REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.841667,
+    "LONGITUDE": 149.891667,
+    "cover": 39.355,
+    "year": 1996
+  },
+  {
+    "REEF_NAME": "NEEDLE REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.358333,
+    "LONGITUDE": 147.208333,
+    "cover": 22.813,
+    "year": 2002
+  },
+  {
+    "REEF_NAME": "NO 10 PATCHES (NO 2)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.933333,
+    "LONGITUDE": 145.683333,
+    "cover": 33.864,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "NO NAME REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.65,
+    "LONGITUDE": 145.65,
+    "cover": 25.411,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "NOGGIN REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.133333,
+    "LONGITUDE": 146.466667,
+    "cover": 15.56,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "NORMAN REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.433333,
+    "LONGITUDE": 146.0,
+    "cover": 17.643,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "NORMANBY-MABEL REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.208333,
+    "LONGITUDE": 146.083333,
+    "cover": 8.125,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "NORTH DIRECTION REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.741667,
+    "LONGITUDE": 145.508333,
+    "cover": 49.853,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "NORTH REEF (NORTH)",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.183333,
+    "LONGITUDE": 151.908333,
+    "cover": 46.034,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "NYMPH REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.658333,
+    "LONGITUDE": 145.25,
+    "cover": 38.641,
+    "year": 2010
+  },
+  {
+    "REEF_NAME": "OGILVIE REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.541667,
+    "LONGITUDE": 143.791667,
+    "cover": 31.926,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "ONE TREE REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.5,
+    "LONGITUDE": 152.066667,
+    "cover": 61.507,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "OPAL (2)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.216667,
+    "LONGITUDE": 145.891667,
+    "cover": 11.282,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "OSBORNE REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.041667,
+    "LONGITUDE": 143.625,
+    "cover": 9.881,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "OUTLIER REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.55,
+    "LONGITUDE": 149.358333,
+    "cover": 23.832,
+    "year": 1997
+  },
+  {
+    "REEF_NAME": "OYSTER REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.633333,
+    "LONGITUDE": 145.933333,
+    "cover": 4.214,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "PACKER REEFS",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.483333,
+    "LONGITUDE": 150.208333,
+    "cover": 32.667,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "PASCO REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.05,
+    "LONGITUDE": 145.533333,
+    "cover": 53.056,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "PEARSON REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.566667,
+    "LONGITUDE": 143.716667,
+    "cover": 20.286,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "PEART REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.483333,
+    "LONGITUDE": 146.391667,
+    "cover": 27.188,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "PELICAN ISLAND REEF(13107)",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.916667,
+    "LONGITUDE": 143.841667,
+    "cover": 30.213,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "PENRITH REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.016667,
+    "LONGITUDE": 149.9,
+    "cover": 17.076,
+    "year": 2020
+  },
+  {
+    "REEF_NAME": "PICKERSGILL REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.875,
+    "LONGITUDE": 145.583333,
+    "cover": 34.784,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "PINE PEAK REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.516667,
+    "LONGITUDE": 150.258333,
+    "cover": 6.912,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "PIXIE REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.55,
+    "LONGITUDE": 145.858333,
+    "cover": 44.25,
+    "year": 2010
+  },
+  {
+    "REEF_NAME": "PLASTER REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.633333,
+    "LONGITUDE": 149.658333,
+    "cover": 29.063,
+    "year": 1997
+  },
+  {
+    "REEF_NAME": "POMPEY REEF (NO 1)",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.941667,
+    "LONGITUDE": 150.533333,
+    "cover": 34.013,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "POMPEY REEF (NO 2)",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.991667,
+    "LONGITUDE": 150.525,
+    "cover": 16.611,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "POTTER REEF (NO 1)",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.7,
+    "LONGITUDE": 146.55,
+    "cover": 33.887,
+    "year": 2016
+  },
+  {
+    "REEF_NAME": "PRUDHOE ISLAND REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.333333,
+    "LONGITUDE": 149.691667,
+    "cover": 13.688,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "QUOIN REEF(12027)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.4,
+    "LONGITUDE": 143.533333,
+    "cover": 23.75,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "RACHEL CARSON REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.825,
+    "LONGITUDE": 145.816667,
+    "cover": 30.357,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "RAINE REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.6,
+    "LONGITUDE": 144.025,
+    "cover": 44.34,
+    "year": 1998
+  },
+  {
+    "REEF_NAME": "REBE REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.808333,
+    "LONGITUDE": 150.15,
+    "cover": 59.291,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "RECREATION REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.683333,
+    "LONGITUDE": 152.441667,
+    "cover": 45.404,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "RIB REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.483333,
+    "LONGITUDE": 146.883333,
+    "cover": 21.694,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "RIBBON NO 1 REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.608333,
+    "LONGITUDE": 145.8,
+    "cover": 35.303,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "RIBBON NO 3 REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.483333,
+    "LONGITUDE": 145.8,
+    "cover": 24.067,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "RIBBON NO 6 REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.283333,
+    "LONGITUDE": 145.75,
+    "cover": 10.727,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "RIBBON NO 9 REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.991667,
+    "LONGITUDE": 145.708333,
+    "cover": 28.056,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "ROCKY ISLAND REEF(15054)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.603333,
+    "LONGITUDE": 145.336667,
+    "cover": 17.321,
+    "year": 2009
+  },
+  {
+    "REEF_NAME": "RODDA REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.925,
+    "LONGITUDE": 144.366667,
+    "cover": 38.819,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "ROSSER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.616667,
+    "LONGITUDE": 145.516667,
+    "cover": 33.504,
+    "year": 2011
+  },
+  {
+    "REEF_NAME": "ROXBURGH REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.433333,
+    "LONGITUDE": 147.066667,
+    "cover": 31.65,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "RUBY REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -15.75,
+    "LONGITUDE": 145.783333,
+    "cover": 24.768,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "RUDDER REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.2,
+    "LONGITUDE": 145.7,
+    "cover": 18.171,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "SAND BANK NO 1 REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -14.191667,
+    "LONGITUDE": 144.916667,
+    "cover": 34.551,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "SAND BANK NO 8 REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.358333,
+    "LONGITUDE": 143.958333,
+    "cover": 43.4,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "SAVILLE-KENT REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.858333,
+    "LONGITUDE": 147.891667,
+    "cover": 16.125,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "SAXON REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.466667,
+    "LONGITUDE": 145.983333,
+    "cover": 30.5,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "SCOTT REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.075,
+    "LONGITUDE": 146.183333,
+    "cover": 9.706,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "SECOND SMALL REEF",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -12.566667,
+    "LONGITUDE": 143.775,
+    "cover": 43.092,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "SHELL REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.066667,
+    "LONGITUDE": 148.183333,
+    "cover": 35.75,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "SHOWERS REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.491667,
+    "LONGITUDE": 148.908333,
+    "cover": 24.56,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "SHRIMP REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -18.95,
+    "LONGITUDE": 148.083333,
+    "cover": 31.988,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "SIR CHARLES HARDY ISLANDS (1)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.908333,
+    "LONGITUDE": 143.466667,
+    "cover": 10.0,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "SIR CHARLES HARDY ISLANDS (2)",
+    "SECTOR": "CG",
+    "REGION": "Northern",
+    "LATITUDE": -11.908333,
+    "LONGITUDE": 143.466667,
+    "cover": 10.357,
+    "year": 2017
+  },
+  {
+    "REEF_NAME": "SLATE REEF",
+    "SECTOR": "WH",
+    "REGION": "Central",
+    "LATITUDE": -19.666667,
+    "LONGITUDE": 149.925,
+    "cover": 61.48,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "SMALL LAGOON REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.875,
+    "LONGITUDE": 152.508333,
+    "cover": 7.571,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "SNAKE (22088)",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -22.025,
+    "LONGITUDE": 152.15,
+    "cover": 23.577,
+    "year": 2022
+  },
+  {
+    "REEF_NAME": "SOUTH DIRECTION REEF (NORTH)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.825,
+    "LONGITUDE": 145.525,
+    "cover": 26.281,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "ST CRISPIN REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.108333,
+    "LONGITUDE": 145.833333,
+    "cover": 14.942,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "STANLEY REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.3,
+    "LONGITUDE": 148.083333,
+    "cover": 9.167,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "STAPLETON REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.325,
+    "LONGITUDE": 144.858333,
+    "cover": 20.478,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "STARTLE (EAST)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.208333,
+    "LONGITUDE": 145.55,
+    "cover": 8.704,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "SWINGER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.241667,
+    "LONGITUDE": 145.533333,
+    "cover": 39.338,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "SWITZER REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.358333,
+    "LONGITUDE": 144.758333,
+    "cover": 19.754,
+    "year": 2004
+  },
+  {
+    "REEF_NAME": "TAYLOR REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.833333,
+    "LONGITUDE": 146.55,
+    "cover": 14.873,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "TEMPLE ISLAND REEF",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.608333,
+    "LONGITUDE": 149.483333,
+    "cover": 3.214,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "TEMPLE SHOAL",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -21.6,
+    "LONGITUDE": 149.5,
+    "cover": 6.563,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "TERN REEF(20309)",
+    "SECTOR": "PO",
+    "REGION": "Southern",
+    "LATITUDE": -20.908333,
+    "LONGITUDE": 150.033333,
+    "cover": 32.574,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "THETFORD REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.808333,
+    "LONGITUDE": 146.191667,
+    "cover": 26.22,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "THOMAS REEF(21497)",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.666667,
+    "LONGITUDE": 152.341667,
+    "cover": 79.732,
+    "year": 2005
+  },
+  {
+    "REEF_NAME": "THREE ISLANDS REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.116667,
+    "LONGITUDE": 145.425,
+    "cover": 47.933,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "TONGUE (2)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.316667,
+    "LONGITUDE": 145.816667,
+    "cover": 3.468,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "TURNER REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.725,
+    "LONGITUDE": 152.558333,
+    "cover": 10.778,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "TURTLE GROUP REEF (NO 2)",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.736667,
+    "LONGITUDE": 145.2,
+    "cover": 26.641,
+    "year": 2001
+  },
+  {
+    "REEF_NAME": "TWO ISLANDS REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -15.025,
+    "LONGITUDE": 145.441667,
+    "cover": 33.9,
+    "year": 2013
+  },
+  {
+    "REEF_NAME": "TYDEMAN REEF",
+    "SECTOR": "PC",
+    "REGION": "Northern",
+    "LATITUDE": -13.983333,
+    "LONGITUDE": 144.516667,
+    "cover": 31.395,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "UNDINE REEF (WEST)",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.125,
+    "LONGITUDE": 145.666667,
+    "cover": 4.356,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "UPOLU REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.675,
+    "LONGITUDE": 145.933333,
+    "cover": 2.417,
+    "year": 2007
+  },
+  {
+    "REEF_NAME": "VIPER REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -18.866667,
+    "LONGITUDE": 148.141667,
+    "cover": 48.103,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "VLASOFF REEF",
+    "SECTOR": "CA",
+    "REGION": "Central",
+    "LATITUDE": -16.65,
+    "LONGITUDE": 146.0,
+    "cover": 4.924,
+    "year": 2019
+  },
+  {
+    "REEF_NAME": "WADE REEF",
+    "SECTOR": "SW",
+    "REGION": "Southern",
+    "LATITUDE": -21.983333,
+    "LONGITUDE": 152.65,
+    "cover": 11.563,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "WANSFELL REEF",
+    "SECTOR": "CU",
+    "REGION": "Central",
+    "LATITUDE": -19.508333,
+    "LONGITUDE": 149.116667,
+    "cover": 25.078,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "WARDLE REEF",
+    "SECTOR": "IN",
+    "REGION": "Central",
+    "LATITUDE": -17.45,
+    "LONGITUDE": 146.541667,
+    "cover": 12.974,
+    "year": 2021
+  },
+  {
+    "REEF_NAME": "WHEELER REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.808333,
+    "LONGITUDE": 147.525,
+    "cover": 65.95,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "WRECK ISLAND REEF",
+    "SECTOR": "CB",
+    "REGION": "Southern",
+    "LATITUDE": -23.333333,
+    "LONGITUDE": 151.966667,
+    "cover": 55.61,
+    "year": 2023
+  },
+  {
+    "REEF_NAME": "YANKEE REEF",
+    "SECTOR": "TO",
+    "REGION": "Central",
+    "LATITUDE": -18.566667,
+    "LONGITUDE": 147.491667,
+    "cover": 17.5,
+    "year": 2003
+  },
+  {
+    "REEF_NAME": "YONGE REEF",
+    "SECTOR": "CL",
+    "REGION": "Northern",
+    "LATITUDE": -14.6,
+    "LONGITUDE": 145.625,
+    "cover": 35.436,
+    "year": 2023
+  }
+]

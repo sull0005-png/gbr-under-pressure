@@ -1,0 +1,803 @@
+[
+  {
+    "year": 1993,
+    "region": "Central",
+    "mean_cover": 20.57,
+    "std": 12.3,
+    "n_reefs": 39,
+    "ci_lower": 16.71,
+    "ci_upper": 24.43
+  },
+  {
+    "year": 1993,
+    "region": "Northern",
+    "mean_cover": 29.86,
+    "std": 13.3,
+    "n_reefs": 28,
+    "ci_lower": 24.94,
+    "ci_upper": 34.79
+  },
+  {
+    "year": 1993,
+    "region": "Southern",
+    "mean_cover": 32.64,
+    "std": 14.96,
+    "n_reefs": 15,
+    "ci_lower": 25.07,
+    "ci_upper": 40.21
+  },
+  {
+    "year": 1994,
+    "region": "Central",
+    "mean_cover": 18.61,
+    "std": 9.36,
+    "n_reefs": 39,
+    "ci_lower": 15.68,
+    "ci_upper": 21.55
+  },
+  {
+    "year": 1994,
+    "region": "Northern",
+    "mean_cover": 30.12,
+    "std": 12.36,
+    "n_reefs": 29,
+    "ci_lower": 25.62,
+    "ci_upper": 34.62
+  },
+  {
+    "year": 1994,
+    "region": "Southern",
+    "mean_cover": 31.7,
+    "std": 15.49,
+    "n_reefs": 19,
+    "ci_lower": 24.73,
+    "ci_upper": 38.66
+  },
+  {
+    "year": 1995,
+    "region": "Central",
+    "mean_cover": 21.84,
+    "std": 10.12,
+    "n_reefs": 50,
+    "ci_lower": 19.04,
+    "ci_upper": 24.65
+  },
+  {
+    "year": 1995,
+    "region": "Northern",
+    "mean_cover": 27.44,
+    "std": 13.83,
+    "n_reefs": 34,
+    "ci_lower": 22.79,
+    "ci_upper": 32.09
+  },
+  {
+    "year": 1995,
+    "region": "Southern",
+    "mean_cover": 30.25,
+    "std": 10.19,
+    "n_reefs": 19,
+    "ci_lower": 25.66,
+    "ci_upper": 34.83
+  },
+  {
+    "year": 1996,
+    "region": "Central",
+    "mean_cover": 21.97,
+    "std": 9.48,
+    "n_reefs": 53,
+    "ci_lower": 19.42,
+    "ci_upper": 24.52
+  },
+  {
+    "year": 1996,
+    "region": "Northern",
+    "mean_cover": 28.73,
+    "std": 10.83,
+    "n_reefs": 35,
+    "ci_lower": 25.15,
+    "ci_upper": 32.32
+  },
+  {
+    "year": 1996,
+    "region": "Southern",
+    "mean_cover": 33.89,
+    "std": 12.53,
+    "n_reefs": 22,
+    "ci_lower": 28.66,
+    "ci_upper": 39.13
+  },
+  {
+    "year": 1997,
+    "region": "Central",
+    "mean_cover": 21.34,
+    "std": 8.57,
+    "n_reefs": 48,
+    "ci_lower": 18.91,
+    "ci_upper": 23.76
+  },
+  {
+    "year": 1997,
+    "region": "Northern",
+    "mean_cover": 22.68,
+    "std": 7.47,
+    "n_reefs": 12,
+    "ci_lower": 18.45,
+    "ci_upper": 26.91
+  },
+  {
+    "year": 1997,
+    "region": "Southern",
+    "mean_cover": 30.76,
+    "std": 10.08,
+    "n_reefs": 14,
+    "ci_lower": 25.48,
+    "ci_upper": 36.04
+  },
+  {
+    "year": 1998,
+    "region": "Central",
+    "mean_cover": 22.42,
+    "std": 8.71,
+    "n_reefs": 52,
+    "ci_lower": 20.05,
+    "ci_upper": 24.79
+  },
+  {
+    "year": 1998,
+    "region": "Northern",
+    "mean_cover": 26.2,
+    "std": 14.98,
+    "n_reefs": 39,
+    "ci_lower": 21.5,
+    "ci_upper": 30.9
+  },
+  {
+    "year": 1998,
+    "region": "Southern",
+    "mean_cover": 34.88,
+    "std": 9.71,
+    "n_reefs": 17,
+    "ci_lower": 30.27,
+    "ci_upper": 39.5
+  },
+  {
+    "year": 1999,
+    "region": "Central",
+    "mean_cover": 19.86,
+    "std": 9.01,
+    "n_reefs": 49,
+    "ci_lower": 17.34,
+    "ci_upper": 22.38
+  },
+  {
+    "year": 1999,
+    "region": "Northern",
+    "mean_cover": 26.41,
+    "std": 9.54,
+    "n_reefs": 26,
+    "ci_lower": 22.75,
+    "ci_upper": 30.08
+  },
+  {
+    "year": 1999,
+    "region": "Southern",
+    "mean_cover": 33.1,
+    "std": 12.1,
+    "n_reefs": 17,
+    "ci_lower": 27.35,
+    "ci_upper": 38.85
+  },
+  {
+    "year": 2000,
+    "region": "Central",
+    "mean_cover": 18.7,
+    "std": 9.13,
+    "n_reefs": 54,
+    "ci_lower": 16.26,
+    "ci_upper": 21.13
+  },
+  {
+    "year": 2000,
+    "region": "Northern",
+    "mean_cover": 26.54,
+    "std": 8.12,
+    "n_reefs": 27,
+    "ci_lower": 23.47,
+    "ci_upper": 29.6
+  },
+  {
+    "year": 2000,
+    "region": "Southern",
+    "mean_cover": 35.5,
+    "std": 12.01,
+    "n_reefs": 17,
+    "ci_lower": 29.79,
+    "ci_upper": 41.21
+  },
+  {
+    "year": 2001,
+    "region": "Central",
+    "mean_cover": 19.34,
+    "std": 10.16,
+    "n_reefs": 41,
+    "ci_lower": 16.24,
+    "ci_upper": 22.45
+  },
+  {
+    "year": 2001,
+    "region": "Northern",
+    "mean_cover": 24.29,
+    "std": 9.2,
+    "n_reefs": 27,
+    "ci_lower": 20.82,
+    "ci_upper": 27.76
+  },
+  {
+    "year": 2001,
+    "region": "Southern",
+    "mean_cover": 27.84,
+    "std": 18.17,
+    "n_reefs": 23,
+    "ci_lower": 20.42,
+    "ci_upper": 35.26
+  },
+  {
+    "year": 2002,
+    "region": "Central",
+    "mean_cover": 18.05,
+    "std": 9.05,
+    "n_reefs": 69,
+    "ci_lower": 15.91,
+    "ci_upper": 20.18
+  },
+  {
+    "year": 2002,
+    "region": "Northern",
+    "mean_cover": 26.93,
+    "std": 12.46,
+    "n_reefs": 29,
+    "ci_lower": 22.4,
+    "ci_upper": 31.46
+  },
+  {
+    "year": 2002,
+    "region": "Southern",
+    "mean_cover": 31.8,
+    "std": 14.97,
+    "n_reefs": 17,
+    "ci_lower": 24.69,
+    "ci_upper": 38.92
+  },
+  {
+    "year": 2003,
+    "region": "Central",
+    "mean_cover": 15.8,
+    "std": 11.73,
+    "n_reefs": 61,
+    "ci_lower": 12.86,
+    "ci_upper": 18.75
+  },
+  {
+    "year": 2003,
+    "region": "Northern",
+    "mean_cover": 26.81,
+    "std": 11.66,
+    "n_reefs": 20,
+    "ci_lower": 21.7,
+    "ci_upper": 31.92
+  },
+  {
+    "year": 2003,
+    "region": "Southern",
+    "mean_cover": 31.47,
+    "std": 18.65,
+    "n_reefs": 17,
+    "ci_lower": 22.61,
+    "ci_upper": 40.34
+  },
+  {
+    "year": 2004,
+    "region": "Central",
+    "mean_cover": 17.52,
+    "std": 10.45,
+    "n_reefs": 43,
+    "ci_lower": 14.4,
+    "ci_upper": 20.64
+  },
+  {
+    "year": 2004,
+    "region": "Northern",
+    "mean_cover": 22.51,
+    "std": 13.94,
+    "n_reefs": 29,
+    "ci_lower": 17.44,
+    "ci_upper": 27.59
+  },
+  {
+    "year": 2004,
+    "region": "Southern",
+    "mean_cover": 30.96,
+    "std": 20.92,
+    "n_reefs": 17,
+    "ci_lower": 21.02,
+    "ci_upper": 40.91
+  },
+  {
+    "year": 2005,
+    "region": "Central",
+    "mean_cover": 19.1,
+    "std": 11.09,
+    "n_reefs": 46,
+    "ci_lower": 15.9,
+    "ci_upper": 22.31
+  },
+  {
+    "year": 2005,
+    "region": "Northern",
+    "mean_cover": 27.22,
+    "std": 10.31,
+    "n_reefs": 30,
+    "ci_lower": 23.53,
+    "ci_upper": 30.91
+  },
+  {
+    "year": 2005,
+    "region": "Southern",
+    "mean_cover": 31.15,
+    "std": 22.13,
+    "n_reefs": 23,
+    "ci_lower": 22.1,
+    "ci_upper": 40.19
+  },
+  {
+    "year": 2006,
+    "region": "Central",
+    "mean_cover": 12.27,
+    "std": 7.93,
+    "n_reefs": 37,
+    "ci_lower": 9.72,
+    "ci_upper": 14.83
+  },
+  {
+    "year": 2006,
+    "region": "Northern",
+    "mean_cover": 20.21,
+    "std": 9.51,
+    "n_reefs": 29,
+    "ci_lower": 16.75,
+    "ci_upper": 23.67
+  },
+  {
+    "year": 2006,
+    "region": "Southern",
+    "mean_cover": 30.61,
+    "std": 17.62,
+    "n_reefs": 38,
+    "ci_lower": 25.01,
+    "ci_upper": 36.21
+  },
+  {
+    "year": 2007,
+    "region": "Central",
+    "mean_cover": 16.04,
+    "std": 10.21,
+    "n_reefs": 63,
+    "ci_lower": 13.52,
+    "ci_upper": 18.57
+  },
+  {
+    "year": 2007,
+    "region": "Northern",
+    "mean_cover": 20.29,
+    "std": 7.94,
+    "n_reefs": 20,
+    "ci_lower": 16.81,
+    "ci_upper": 23.78
+  },
+  {
+    "year": 2007,
+    "region": "Southern",
+    "mean_cover": 29.16,
+    "std": 18.93,
+    "n_reefs": 15,
+    "ci_lower": 19.59,
+    "ci_upper": 38.74
+  },
+  {
+    "year": 2008,
+    "region": "Central",
+    "mean_cover": 12.92,
+    "std": 6.88,
+    "n_reefs": 30,
+    "ci_lower": 10.46,
+    "ci_upper": 15.38
+  },
+  {
+    "year": 2008,
+    "region": "Northern",
+    "mean_cover": 19.43,
+    "std": 4.3,
+    "n_reefs": 8,
+    "ci_lower": 16.44,
+    "ci_upper": 22.41
+  },
+  {
+    "year": 2008,
+    "region": "Southern",
+    "mean_cover": 29.31,
+    "std": 13.52,
+    "n_reefs": 30,
+    "ci_lower": 24.47,
+    "ci_upper": 34.15
+  },
+  {
+    "year": 2009,
+    "region": "Central",
+    "mean_cover": 15.86,
+    "std": 6.51,
+    "n_reefs": 26,
+    "ci_lower": 13.36,
+    "ci_upper": 18.37
+  },
+  {
+    "year": 2009,
+    "region": "Northern",
+    "mean_cover": 23.79,
+    "std": 9.96,
+    "n_reefs": 28,
+    "ci_lower": 20.1,
+    "ci_upper": 27.48
+  },
+  {
+    "year": 2009,
+    "region": "Southern",
+    "mean_cover": 21.17,
+    "std": 9.82,
+    "n_reefs": 15,
+    "ci_lower": 16.2,
+    "ci_upper": 26.14
+  },
+  {
+    "year": 2010,
+    "region": "Central",
+    "mean_cover": 18.88,
+    "std": 9.45,
+    "n_reefs": 32,
+    "ci_lower": 15.61,
+    "ci_upper": 22.16
+  },
+  {
+    "year": 2010,
+    "region": "Northern",
+    "mean_cover": 23.53,
+    "std": 7.75,
+    "n_reefs": 23,
+    "ci_lower": 20.36,
+    "ci_upper": 26.7
+  },
+  {
+    "year": 2010,
+    "region": "Southern",
+    "mean_cover": 14.74,
+    "std": 7.88,
+    "n_reefs": 32,
+    "ci_lower": 12.01,
+    "ci_upper": 17.47
+  },
+  {
+    "year": 2011,
+    "region": "Central",
+    "mean_cover": 12.18,
+    "std": 7.48,
+    "n_reefs": 19,
+    "ci_lower": 8.82,
+    "ci_upper": 15.55
+  },
+  {
+    "year": 2011,
+    "region": "Northern",
+    "mean_cover": 24.69,
+    "std": 9.05,
+    "n_reefs": 16,
+    "ci_lower": 20.26,
+    "ci_upper": 29.13
+  },
+  {
+    "year": 2011,
+    "region": "Southern",
+    "mean_cover": 10.44,
+    "std": 6.55,
+    "n_reefs": 14,
+    "ci_lower": 7.01,
+    "ci_upper": 13.87
+  },
+  {
+    "year": 2012,
+    "region": "Central",
+    "mean_cover": 8.65,
+    "std": 4.51,
+    "n_reefs": 23,
+    "ci_lower": 6.81,
+    "ci_upper": 10.49
+  },
+  {
+    "year": 2012,
+    "region": "Southern",
+    "mean_cover": 16.74,
+    "std": 6.55,
+    "n_reefs": 28,
+    "ci_lower": 14.31,
+    "ci_upper": 19.16
+  },
+  {
+    "year": 2013,
+    "region": "Central",
+    "mean_cover": 12.84,
+    "std": 6.75,
+    "n_reefs": 29,
+    "ci_lower": 10.38,
+    "ci_upper": 15.3
+  },
+  {
+    "year": 2013,
+    "region": "Northern",
+    "mean_cover": 26.25,
+    "std": 12.56,
+    "n_reefs": 46,
+    "ci_lower": 22.62,
+    "ci_upper": 29.88
+  },
+  {
+    "year": 2013,
+    "region": "Southern",
+    "mean_cover": 15.19,
+    "std": 9.95,
+    "n_reefs": 17,
+    "ci_lower": 10.46,
+    "ci_upper": 19.92
+  },
+  {
+    "year": 2014,
+    "region": "Central",
+    "mean_cover": 13.78,
+    "std": 6.24,
+    "n_reefs": 17,
+    "ci_lower": 10.82,
+    "ci_upper": 16.75
+  },
+  {
+    "year": 2014,
+    "region": "Southern",
+    "mean_cover": 21.53,
+    "std": 8.98,
+    "n_reefs": 31,
+    "ci_lower": 18.37,
+    "ci_upper": 24.69
+  },
+  {
+    "year": 2015,
+    "region": "Central",
+    "mean_cover": 17.01,
+    "std": 8.67,
+    "n_reefs": 34,
+    "ci_lower": 14.1,
+    "ci_upper": 19.92
+  },
+  {
+    "year": 2015,
+    "region": "Northern",
+    "mean_cover": 16.54,
+    "std": 12.4,
+    "n_reefs": 27,
+    "ci_lower": 11.86,
+    "ci_upper": 21.22
+  },
+  {
+    "year": 2015,
+    "region": "Southern",
+    "mean_cover": 28.58,
+    "std": 10.22,
+    "n_reefs": 13,
+    "ci_lower": 23.02,
+    "ci_upper": 34.13
+  },
+  {
+    "year": 2016,
+    "region": "Central",
+    "mean_cover": 22.37,
+    "std": 11.15,
+    "n_reefs": 27,
+    "ci_lower": 18.16,
+    "ci_upper": 26.58
+  },
+  {
+    "year": 2016,
+    "region": "Southern",
+    "mean_cover": 30.17,
+    "std": 12.31,
+    "n_reefs": 25,
+    "ci_lower": 25.34,
+    "ci_upper": 34.99
+  },
+  {
+    "year": 2017,
+    "region": "Central",
+    "mean_cover": 22.95,
+    "std": 9.09,
+    "n_reefs": 35,
+    "ci_lower": 19.94,
+    "ci_upper": 25.96
+  },
+  {
+    "year": 2017,
+    "region": "Northern",
+    "mean_cover": 19.08,
+    "std": 17.36,
+    "n_reefs": 32,
+    "ci_lower": 13.06,
+    "ci_upper": 25.09
+  },
+  {
+    "year": 2017,
+    "region": "Southern",
+    "mean_cover": 36.71,
+    "std": 11.41,
+    "n_reefs": 16,
+    "ci_lower": 31.11,
+    "ci_upper": 42.3
+  },
+  {
+    "year": 2018,
+    "region": "Central",
+    "mean_cover": 14.74,
+    "std": 9.37,
+    "n_reefs": 24,
+    "ci_lower": 10.99,
+    "ci_upper": 18.48
+  },
+  {
+    "year": 2018,
+    "region": "Southern",
+    "mean_cover": 30.52,
+    "std": 15.8,
+    "n_reefs": 26,
+    "ci_lower": 24.45,
+    "ci_upper": 36.6
+  },
+  {
+    "year": 2019,
+    "region": "Central",
+    "mean_cover": 14.53,
+    "std": 8.56,
+    "n_reefs": 26,
+    "ci_lower": 11.24,
+    "ci_upper": 17.82
+  },
+  {
+    "year": 2019,
+    "region": "Northern",
+    "mean_cover": 20.91,
+    "std": 14.62,
+    "n_reefs": 26,
+    "ci_lower": 15.29,
+    "ci_upper": 26.53
+  },
+  {
+    "year": 2019,
+    "region": "Southern",
+    "mean_cover": 29.83,
+    "std": 19.15,
+    "n_reefs": 12,
+    "ci_lower": 19.0,
+    "ci_upper": 40.66
+  },
+  {
+    "year": 2020,
+    "region": "Central",
+    "mean_cover": 16.28,
+    "std": 10.76,
+    "n_reefs": 33,
+    "ci_lower": 12.61,
+    "ci_upper": 19.95
+  },
+  {
+    "year": 2020,
+    "region": "Northern",
+    "mean_cover": 23.21,
+    "std": 17.95,
+    "n_reefs": 26,
+    "ci_lower": 16.31,
+    "ci_upper": 30.11
+  },
+  {
+    "year": 2020,
+    "region": "Southern",
+    "mean_cover": 31.42,
+    "std": 16.95,
+    "n_reefs": 27,
+    "ci_lower": 25.02,
+    "ci_upper": 37.81
+  },
+  {
+    "year": 2021,
+    "region": "Central",
+    "mean_cover": 26.72,
+    "std": 14.42,
+    "n_reefs": 53,
+    "ci_lower": 22.83,
+    "ci_upper": 30.6
+  },
+  {
+    "year": 2021,
+    "region": "Northern",
+    "mean_cover": 27.49,
+    "std": 14.82,
+    "n_reefs": 54,
+    "ci_lower": 23.54,
+    "ci_upper": 31.45
+  },
+  {
+    "year": 2021,
+    "region": "Southern",
+    "mean_cover": 42.09,
+    "std": 19.34,
+    "n_reefs": 20,
+    "ci_lower": 33.61,
+    "ci_upper": 50.57
+  },
+  {
+    "year": 2022,
+    "region": "Central",
+    "mean_cover": 33.16,
+    "std": 13.66,
+    "n_reefs": 33,
+    "ci_lower": 28.5,
+    "ci_upper": 37.82
+  },
+  {
+    "year": 2022,
+    "region": "Northern",
+    "mean_cover": 39.4,
+    "std": 19.52,
+    "n_reefs": 26,
+    "ci_lower": 31.89,
+    "ci_upper": 46.9
+  },
+  {
+    "year": 2022,
+    "region": "Southern",
+    "mean_cover": 34.52,
+    "std": 21.59,
+    "n_reefs": 28,
+    "ci_lower": 26.52,
+    "ci_upper": 42.52
+  },
+  {
+    "year": 2023,
+    "region": "Central",
+    "mean_cover": 30.93,
+    "std": 14.96,
+    "n_reefs": 38,
+    "ci_lower": 26.17,
+    "ci_upper": 35.68
+  },
+  {
+    "year": 2023,
+    "region": "Northern",
+    "mean_cover": 36.16,
+    "std": 13.89,
+    "n_reefs": 42,
+    "ci_lower": 31.96,
+    "ci_upper": 40.36
+  },
+  {
+    "year": 2023,
+    "region": "Southern",
+    "mean_cover": 35.41,
+    "std": 17.41,
+    "n_reefs": 31,
+    "ci_lower": 29.28,
+    "ci_upper": 41.54
+  }
+]

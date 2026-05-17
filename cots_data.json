@@ -1,0 +1,447 @@
+[
+  {
+    "year": 1993,
+    "region": "Central",
+    "total_cots": 30
+  },
+  {
+    "year": 1993,
+    "region": "Northern",
+    "total_cots": 33
+  },
+  {
+    "year": 1993,
+    "region": "Southern",
+    "total_cots": 209
+  },
+  {
+    "year": 1994,
+    "region": "Central",
+    "total_cots": 15
+  },
+  {
+    "year": 1994,
+    "region": "Northern",
+    "total_cots": 52
+  },
+  {
+    "year": 1994,
+    "region": "Southern",
+    "total_cots": 54
+  },
+  {
+    "year": 1995,
+    "region": "Central",
+    "total_cots": 33
+  },
+  {
+    "year": 1995,
+    "region": "Northern",
+    "total_cots": 122
+  },
+  {
+    "year": 1995,
+    "region": "Southern",
+    "total_cots": 145
+  },
+  {
+    "year": 1996,
+    "region": "Central",
+    "total_cots": 22
+  },
+  {
+    "year": 1996,
+    "region": "Northern",
+    "total_cots": 430
+  },
+  {
+    "year": 1996,
+    "region": "Southern",
+    "total_cots": 90
+  },
+  {
+    "year": 1997,
+    "region": "Central",
+    "total_cots": 58
+  },
+  {
+    "year": 1997,
+    "region": "Northern",
+    "total_cots": 262
+  },
+  {
+    "year": 1997,
+    "region": "Southern",
+    "total_cots": 205
+  },
+  {
+    "year": 1998,
+    "region": "Central",
+    "total_cots": 156
+  },
+  {
+    "year": 1998,
+    "region": "Northern",
+    "total_cots": 403
+  },
+  {
+    "year": 1998,
+    "region": "Southern",
+    "total_cots": 526
+  },
+  {
+    "year": 1999,
+    "region": "Central",
+    "total_cots": 386
+  },
+  {
+    "year": 1999,
+    "region": "Northern",
+    "total_cots": 312
+  },
+  {
+    "year": 1999,
+    "region": "Southern",
+    "total_cots": 143
+  },
+  {
+    "year": 2000,
+    "region": "Central",
+    "total_cots": 4046
+  },
+  {
+    "year": 2000,
+    "region": "Northern",
+    "total_cots": 39
+  },
+  {
+    "year": 2000,
+    "region": "Southern",
+    "total_cots": 442
+  },
+  {
+    "year": 2001,
+    "region": "Central",
+    "total_cots": 569
+  },
+  {
+    "year": 2001,
+    "region": "Northern",
+    "total_cots": 42
+  },
+  {
+    "year": 2001,
+    "region": "Southern",
+    "total_cots": 3561
+  },
+  {
+    "year": 2002,
+    "region": "Central",
+    "total_cots": 852
+  },
+  {
+    "year": 2002,
+    "region": "Northern",
+    "total_cots": 57
+  },
+  {
+    "year": 2002,
+    "region": "Southern",
+    "total_cots": 1623
+  },
+  {
+    "year": 2003,
+    "region": "Central",
+    "total_cots": 3805
+  },
+  {
+    "year": 2003,
+    "region": "Northern",
+    "total_cots": 9
+  },
+  {
+    "year": 2003,
+    "region": "Southern",
+    "total_cots": 1684
+  },
+  {
+    "year": 2004,
+    "region": "Central",
+    "total_cots": 395
+  },
+  {
+    "year": 2004,
+    "region": "Northern",
+    "total_cots": 185
+  },
+  {
+    "year": 2004,
+    "region": "Southern",
+    "total_cots": 334
+  },
+  {
+    "year": 2005,
+    "region": "Central",
+    "total_cots": 481
+  },
+  {
+    "year": 2005,
+    "region": "Northern",
+    "total_cots": 41
+  },
+  {
+    "year": 2005,
+    "region": "Southern",
+    "total_cots": 146
+  },
+  {
+    "year": 2006,
+    "region": "Central",
+    "total_cots": 130
+  },
+  {
+    "year": 2006,
+    "region": "Northern",
+    "total_cots": 134
+  },
+  {
+    "year": 2006,
+    "region": "Southern",
+    "total_cots": 383
+  },
+  {
+    "year": 2007,
+    "region": "Central",
+    "total_cots": 147
+  },
+  {
+    "year": 2007,
+    "region": "Northern",
+    "total_cots": 8
+  },
+  {
+    "year": 2007,
+    "region": "Southern",
+    "total_cots": 5
+  },
+  {
+    "year": 2008,
+    "region": "Central",
+    "total_cots": 3
+  },
+  {
+    "year": 2008,
+    "region": "Northern",
+    "total_cots": 6
+  },
+  {
+    "year": 2008,
+    "region": "Southern",
+    "total_cots": 235
+  },
+  {
+    "year": 2009,
+    "region": "Central",
+    "total_cots": 3
+  },
+  {
+    "year": 2009,
+    "region": "Northern",
+    "total_cots": 20
+  },
+  {
+    "year": 2009,
+    "region": "Southern",
+    "total_cots": 2
+  },
+  {
+    "year": 2010,
+    "region": "Central",
+    "total_cots": 0
+  },
+  {
+    "year": 2010,
+    "region": "Northern",
+    "total_cots": 19
+  },
+  {
+    "year": 2010,
+    "region": "Southern",
+    "total_cots": 45
+  },
+  {
+    "year": 2011,
+    "region": "Central",
+    "total_cots": 0
+  },
+  {
+    "year": 2011,
+    "region": "Northern",
+    "total_cots": 41
+  },
+  {
+    "year": 2011,
+    "region": "Southern",
+    "total_cots": 3
+  },
+  {
+    "year": 2012,
+    "region": "Central",
+    "total_cots": 1
+  },
+  {
+    "year": 2012,
+    "region": "Southern",
+    "total_cots": 74
+  },
+  {
+    "year": 2013,
+    "region": "Central",
+    "total_cots": 65
+  },
+  {
+    "year": 2013,
+    "region": "Northern",
+    "total_cots": 860
+  },
+  {
+    "year": 2013,
+    "region": "Southern",
+    "total_cots": 32
+  },
+  {
+    "year": 2014,
+    "region": "Central",
+    "total_cots": 19
+  },
+  {
+    "year": 2014,
+    "region": "Southern",
+    "total_cots": 217
+  },
+  {
+    "year": 2015,
+    "region": "Central",
+    "total_cots": 113
+  },
+  {
+    "year": 2015,
+    "region": "Northern",
+    "total_cots": 558
+  },
+  {
+    "year": 2015,
+    "region": "Southern",
+    "total_cots": 2
+  },
+  {
+    "year": 2016,
+    "region": "Central",
+    "total_cots": 156
+  },
+  {
+    "year": 2016,
+    "region": "Southern",
+    "total_cots": 31
+  },
+  {
+    "year": 2017,
+    "region": "Central",
+    "total_cots": 218
+  },
+  {
+    "year": 2017,
+    "region": "Northern",
+    "total_cots": 75
+  },
+  {
+    "year": 2017,
+    "region": "Southern",
+    "total_cots": 108
+  },
+  {
+    "year": 2018,
+    "region": "Central",
+    "total_cots": 1446
+  },
+  {
+    "year": 2018,
+    "region": "Southern",
+    "total_cots": 248
+  },
+  {
+    "year": 2019,
+    "region": "Central",
+    "total_cots": 9
+  },
+  {
+    "year": 2019,
+    "region": "Northern",
+    "total_cots": 4
+  },
+  {
+    "year": 2019,
+    "region": "Southern",
+    "total_cots": 779
+  },
+  {
+    "year": 2020,
+    "region": "Central",
+    "total_cots": 11
+  },
+  {
+    "year": 2020,
+    "region": "Northern",
+    "total_cots": 13
+  },
+  {
+    "year": 2020,
+    "region": "Southern",
+    "total_cots": 460
+  },
+  {
+    "year": 2021,
+    "region": "Central",
+    "total_cots": 8
+  },
+  {
+    "year": 2021,
+    "region": "Northern",
+    "total_cots": 17
+  },
+  {
+    "year": 2021,
+    "region": "Southern",
+    "total_cots": 687
+  },
+  {
+    "year": 2022,
+    "region": "Central",
+    "total_cots": 6
+  },
+  {
+    "year": 2022,
+    "region": "Northern",
+    "total_cots": 47
+  },
+  {
+    "year": 2022,
+    "region": "Southern",
+    "total_cots": 574
+  },
+  {
+    "year": 2023,
+    "region": "Central",
+    "total_cots": 5
+  },
+  {
+    "year": 2023,
+    "region": "Northern",
+    "total_cots": 14
+  },
+  {
+    "year": 2023,
+    "region": "Southern",
+    "total_cots": 643
+  }
+]

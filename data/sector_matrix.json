@@ -1,0 +1,2370 @@
+[
+  {
+    "year": 1993,
+    "sector": "CA",
+    "cover": 19.04,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 1993,
+    "sector": "CB",
+    "cover": 21.1,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Fair"
+  },
+  {
+    "year": 1993,
+    "sector": "CG",
+    "cover": 44.44,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1993,
+    "sector": "CL",
+    "cover": 24.81,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 1993,
+    "sector": "CU",
+    "cover": 15.29,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 1993,
+    "sector": "IN",
+    "cover": 12.42,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 1993,
+    "sector": "PC",
+    "cover": 25.39,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 1993,
+    "sector": "PO",
+    "cover": 52.06,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1993,
+    "sector": "SW",
+    "cover": 33.45,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Good"
+  },
+  {
+    "year": 1993,
+    "sector": "TO",
+    "cover": 14.76,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 1993,
+    "sector": "WH",
+    "cover": 32.91,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Good"
+  },
+  {
+    "year": 1994,
+    "sector": "CA",
+    "cover": 15.9,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 1994,
+    "sector": "CB",
+    "cover": 19.36,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Poor"
+  },
+  {
+    "year": 1994,
+    "sector": "CG",
+    "cover": 37.7,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Good"
+  },
+  {
+    "year": 1994,
+    "sector": "CL",
+    "cover": 29.98,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 1994,
+    "sector": "CU",
+    "cover": 11.49,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 1994,
+    "sector": "IN",
+    "cover": 18.93,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 1994,
+    "sector": "PC",
+    "cover": 22.94,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 1994,
+    "sector": "PO",
+    "cover": 44.88,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1994,
+    "sector": "SW",
+    "cover": 27.49,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 1994,
+    "sector": "TO",
+    "cover": 23.59,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 1994,
+    "sector": "WH",
+    "cover": 24.55,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 1995,
+    "sector": "CA",
+    "cover": 21.78,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 1995,
+    "sector": "CB",
+    "cover": 24.51,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Fair"
+  },
+  {
+    "year": 1995,
+    "sector": "CG",
+    "cover": 43.25,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1995,
+    "sector": "CL",
+    "cover": 22.37,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 1995,
+    "sector": "CU",
+    "cover": 21.08,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Fair"
+  },
+  {
+    "year": 1995,
+    "sector": "IN",
+    "cover": 18.42,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 1995,
+    "sector": "PC",
+    "cover": 19.77,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Poor"
+  },
+  {
+    "year": 1995,
+    "sector": "PO",
+    "cover": 43.79,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1995,
+    "sector": "SW",
+    "cover": 27.17,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 1995,
+    "sector": "TO",
+    "cover": 23.85,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 1995,
+    "sector": "WH",
+    "cover": 23.07,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 1996,
+    "sector": "CA",
+    "cover": 18.07,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 1996,
+    "sector": "CB",
+    "cover": 26.84,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Fair"
+  },
+  {
+    "year": 1996,
+    "sector": "CG",
+    "cover": 42.65,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1996,
+    "sector": "CL",
+    "cover": 24.59,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 1996,
+    "sector": "CU",
+    "cover": 17.78,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 1996,
+    "sector": "IN",
+    "cover": 24.49,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Fair"
+  },
+  {
+    "year": 1996,
+    "sector": "PC",
+    "cover": 27.25,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 1996,
+    "sector": "PO",
+    "cover": 39.67,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 1996,
+    "sector": "SW",
+    "cover": 34.83,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Good"
+  },
+  {
+    "year": 1996,
+    "sector": "TO",
+    "cover": 24.4,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 1996,
+    "sector": "WH",
+    "cover": 26.98,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 1997,
+    "sector": "CA",
+    "cover": 22.05,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 1997,
+    "sector": "CB",
+    "cover": 31.41,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 1997,
+    "sector": "CL",
+    "cover": 22.68,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 1997,
+    "sector": "CU",
+    "cover": 17.18,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 1997,
+    "sector": "IN",
+    "cover": 22.49,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Fair"
+  },
+  {
+    "year": 1997,
+    "sector": "PO",
+    "cover": 46.16,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1997,
+    "sector": "SW",
+    "cover": 25.89,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 1997,
+    "sector": "TO",
+    "cover": 25.03,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 1997,
+    "sector": "WH",
+    "cover": 18.93,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "sector": "CA",
+    "cover": 21.96,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "sector": "CB",
+    "cover": 34.45,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "sector": "CG",
+    "cover": 39.7,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "sector": "CL",
+    "cover": 16.76,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "sector": "CU",
+    "cover": 19.46,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "sector": "IN",
+    "cover": 20.69,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "sector": "PC",
+    "cover": 28.4,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "sector": "PO",
+    "cover": 43.24,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "sector": "SW",
+    "cover": 27.97,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "sector": "TO",
+    "cover": 27.41,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "sector": "WH",
+    "cover": 21.23,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 1999,
+    "sector": "CA",
+    "cover": 18.3,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 1999,
+    "sector": "CB",
+    "cover": 43.68,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1999,
+    "sector": "CL",
+    "cover": 25.5,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 1999,
+    "sector": "CU",
+    "cover": 25.67,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Fair"
+  },
+  {
+    "year": 1999,
+    "sector": "IN",
+    "cover": 13.1,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 1999,
+    "sector": "PC",
+    "cover": 29.46,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 1999,
+    "sector": "PO",
+    "cover": 31.17,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 1999,
+    "sector": "SW",
+    "cover": 28.71,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 1999,
+    "sector": "TO",
+    "cover": 22.16,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 1999,
+    "sector": "WH",
+    "cover": 19.67,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2000,
+    "sector": "CA",
+    "cover": 22.69,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2000,
+    "sector": "CB",
+    "cover": 45.79,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2000,
+    "sector": "CL",
+    "cover": 25.93,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2000,
+    "sector": "CU",
+    "cover": 21.28,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Fair"
+  },
+  {
+    "year": 2000,
+    "sector": "IN",
+    "cover": 10.26,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2000,
+    "sector": "PC",
+    "cover": 28.66,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2000,
+    "sector": "PO",
+    "cover": 36.34,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2000,
+    "sector": "SW",
+    "cover": 28.91,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2000,
+    "sector": "TO",
+    "cover": 14.9,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2000,
+    "sector": "WH",
+    "cover": 24.69,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2001,
+    "sector": "CA",
+    "cover": 21.27,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2001,
+    "sector": "CB",
+    "cover": 42.77,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2001,
+    "sector": "CL",
+    "cover": 21.76,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2001,
+    "sector": "CU",
+    "cover": 16.74,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2001,
+    "sector": "IN",
+    "cover": 6.65,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2001,
+    "sector": "PC",
+    "cover": 33.13,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Good"
+  },
+  {
+    "year": 2001,
+    "sector": "PO",
+    "cover": 24.23,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Fair"
+  },
+  {
+    "year": 2001,
+    "sector": "SW",
+    "cover": 25.49,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2001,
+    "sector": "TO",
+    "cover": 16.83,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2001,
+    "sector": "WH",
+    "cover": 23.46,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "sector": "CA",
+    "cover": 14.37,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "sector": "CB",
+    "cover": 46.8,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "sector": "CG",
+    "cover": 44.1,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "sector": "CL",
+    "cover": 21.12,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "sector": "CU",
+    "cover": 20.89,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "sector": "IN",
+    "cover": 12.68,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "sector": "PC",
+    "cover": 30.04,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "sector": "PO",
+    "cover": 34.26,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "sector": "SW",
+    "cover": 21.12,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "sector": "TO",
+    "cover": 18.54,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "sector": "WH",
+    "cover": 28.42,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2003,
+    "sector": "CA",
+    "cover": 18.17,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2003,
+    "sector": "CB",
+    "cover": 44.1,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2003,
+    "sector": "CG",
+    "cover": 51.76,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2003,
+    "sector": "CL",
+    "cover": 23.96,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2003,
+    "sector": "CU",
+    "cover": 14.51,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2003,
+    "sector": "IN",
+    "cover": 4.25,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2003,
+    "sector": "PC",
+    "cover": 24.62,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2003,
+    "sector": "PO",
+    "cover": 37.9,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2003,
+    "sector": "SW",
+    "cover": 18.75,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Poor"
+  },
+  {
+    "year": 2003,
+    "sector": "TO",
+    "cover": 14.0,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2003,
+    "sector": "WH",
+    "cover": 21.9,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2004,
+    "sector": "CA",
+    "cover": 15.71,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2004,
+    "sector": "CB",
+    "cover": 38.74,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 2004,
+    "sector": "CG",
+    "cover": 43.02,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2004,
+    "sector": "CL",
+    "cover": 16.03,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Poor"
+  },
+  {
+    "year": 2004,
+    "sector": "CU",
+    "cover": 12.33,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2004,
+    "sector": "IN",
+    "cover": 10.38,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2004,
+    "sector": "PC",
+    "cover": 24.69,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2004,
+    "sector": "PO",
+    "cover": 41.56,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2004,
+    "sector": "SW",
+    "cover": 17.43,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Poor"
+  },
+  {
+    "year": 2004,
+    "sector": "TO",
+    "cover": 14.96,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2004,
+    "sector": "WH",
+    "cover": 25.22,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2005,
+    "sector": "CA",
+    "cover": 16.2,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2005,
+    "sector": "CB",
+    "cover": 34.82,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 2005,
+    "sector": "CG",
+    "cover": 38.71,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Good"
+  },
+  {
+    "year": 2005,
+    "sector": "CL",
+    "cover": 23.94,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2005,
+    "sector": "CU",
+    "cover": 20.03,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Fair"
+  },
+  {
+    "year": 2005,
+    "sector": "IN",
+    "cover": 18.62,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2005,
+    "sector": "PC",
+    "cover": 25.88,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2005,
+    "sector": "PO",
+    "cover": 31.04,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2005,
+    "sector": "SW",
+    "cover": 30.07,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Good"
+  },
+  {
+    "year": 2005,
+    "sector": "TO",
+    "cover": 18.3,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2005,
+    "sector": "WH",
+    "cover": 25.86,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "sector": "CA",
+    "cover": 15.57,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "sector": "CB",
+    "cover": 42.94,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "sector": "CG",
+    "cover": 25.45,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "sector": "CL",
+    "cover": 20.92,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "sector": "IN",
+    "cover": 8.43,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "sector": "PC",
+    "cover": 13.72,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "sector": "PO",
+    "cover": 35.23,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "sector": "SW",
+    "cover": 21.28,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "sector": "TO",
+    "cover": 10.48,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "sector": "WH",
+    "cover": 18.31,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2007,
+    "sector": "CA",
+    "cover": 17.43,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2007,
+    "sector": "CB",
+    "cover": 35.23,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 2007,
+    "sector": "CL",
+    "cover": 20.29,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2007,
+    "sector": "CU",
+    "cover": 13.04,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2007,
+    "sector": "IN",
+    "cover": 9.37,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2007,
+    "sector": "PO",
+    "cover": 32.47,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2007,
+    "sector": "SW",
+    "cover": 22.37,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2007,
+    "sector": "TO",
+    "cover": 13.14,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2007,
+    "sector": "WH",
+    "cover": 30.04,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Good"
+  },
+  {
+    "year": 2008,
+    "sector": "CA",
+    "cover": 17.43,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2008,
+    "sector": "CB",
+    "cover": 32.24,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 2008,
+    "sector": "CL",
+    "cover": 19.43,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Poor"
+  },
+  {
+    "year": 2008,
+    "sector": "IN",
+    "cover": 7.89,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2008,
+    "sector": "PO",
+    "cover": 41.12,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2008,
+    "sector": "SW",
+    "cover": 21.65,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2008,
+    "sector": "TO",
+    "cover": 11.79,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2008,
+    "sector": "WH",
+    "cover": 22.33,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2009,
+    "sector": "CA",
+    "cover": 19.4,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2009,
+    "sector": "CB",
+    "cover": 23.32,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Fair"
+  },
+  {
+    "year": 2009,
+    "sector": "CL",
+    "cover": 23.79,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2009,
+    "sector": "IN",
+    "cover": 11.89,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2009,
+    "sector": "PO",
+    "cover": 16.62,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2009,
+    "sector": "SW",
+    "cover": 22.55,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2009,
+    "sector": "TO",
+    "cover": 12.85,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2009,
+    "sector": "WH",
+    "cover": 16.59,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2010,
+    "sector": "CA",
+    "cover": 24.41,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2010,
+    "sector": "CB",
+    "cover": 12.98,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Poor"
+  },
+  {
+    "year": 2010,
+    "sector": "CL",
+    "cover": 23.53,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2010,
+    "sector": "IN",
+    "cover": 12.56,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2010,
+    "sector": "PO",
+    "cover": 16.25,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2010,
+    "sector": "SW",
+    "cover": 14.55,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Poor"
+  },
+  {
+    "year": 2010,
+    "sector": "TO",
+    "cover": 15.76,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2010,
+    "sector": "WH",
+    "cover": 17.96,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2011,
+    "sector": "CA",
+    "cover": 21.54,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2011,
+    "sector": "CB",
+    "cover": 16.03,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Poor"
+  },
+  {
+    "year": 2011,
+    "sector": "CL",
+    "cover": 24.69,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2011,
+    "sector": "CU",
+    "cover": 9.96,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Critical"
+  },
+  {
+    "year": 2011,
+    "sector": "PO",
+    "cover": 3.93,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Critical"
+  },
+  {
+    "year": 2011,
+    "sector": "SW",
+    "cover": 11.76,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Poor"
+  },
+  {
+    "year": 2011,
+    "sector": "TO",
+    "cover": 7.3,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Critical"
+  },
+  {
+    "year": 2011,
+    "sector": "WH",
+    "cover": 10.56,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2012,
+    "sector": "CA",
+    "cover": 13.18,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2012,
+    "sector": "CB",
+    "cover": 14.77,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Poor"
+  },
+  {
+    "year": 2012,
+    "sector": "IN",
+    "cover": 8.62,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2012,
+    "sector": "PO",
+    "cover": 18.23,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2012,
+    "sector": "SW",
+    "cover": 16.62,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Poor"
+  },
+  {
+    "year": 2012,
+    "sector": "TO",
+    "cover": 5.15,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Critical"
+  },
+  {
+    "year": 2013,
+    "sector": "CA",
+    "cover": 15.73,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2013,
+    "sector": "CB",
+    "cover": 20.97,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Fair"
+  },
+  {
+    "year": 2013,
+    "sector": "CG",
+    "cover": 36.48,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Good"
+  },
+  {
+    "year": 2013,
+    "sector": "CL",
+    "cover": 22.39,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2013,
+    "sector": "IN",
+    "cover": 5.25,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2013,
+    "sector": "PC",
+    "cover": 24.12,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2013,
+    "sector": "PO",
+    "cover": 10.27,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2013,
+    "sector": "SW",
+    "cover": 16.1,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Poor"
+  },
+  {
+    "year": 2013,
+    "sector": "TO",
+    "cover": 11.52,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2013,
+    "sector": "WH",
+    "cover": 12.01,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2014,
+    "sector": "CA",
+    "cover": 13.74,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2014,
+    "sector": "CB",
+    "cover": 19.88,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Poor"
+  },
+  {
+    "year": 2014,
+    "sector": "IN",
+    "cover": 15.53,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2014,
+    "sector": "PO",
+    "cover": 16.1,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2014,
+    "sector": "SW",
+    "cover": 27.61,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2014,
+    "sector": "TO",
+    "cover": 13.27,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2015,
+    "sector": "CA",
+    "cover": 15.34,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2015,
+    "sector": "CB",
+    "cover": 30.63,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 2015,
+    "sector": "CL",
+    "cover": 12.33,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Poor"
+  },
+  {
+    "year": 2015,
+    "sector": "CU",
+    "cover": 13.63,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2015,
+    "sector": "IN",
+    "cover": 20.41,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Fair"
+  },
+  {
+    "year": 2015,
+    "sector": "PC",
+    "cover": 35.03,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Good"
+  },
+  {
+    "year": 2015,
+    "sector": "PO",
+    "cover": 29.92,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Fair"
+  },
+  {
+    "year": 2015,
+    "sector": "SW",
+    "cover": 27.22,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2015,
+    "sector": "TO",
+    "cover": 19.38,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2015,
+    "sector": "WH",
+    "cover": 16.35,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "sector": "CA",
+    "cover": 18.82,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "sector": "CB",
+    "cover": 34.08,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "sector": "IN",
+    "cover": 22.09,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "sector": "PO",
+    "cover": 17.18,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "sector": "SW",
+    "cover": 34.37,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "sector": "TO",
+    "cover": 24.35,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "sector": "CA",
+    "cover": 19.54,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "sector": "CB",
+    "cover": 45.04,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "sector": "CG",
+    "cover": 31.69,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "sector": "CL",
+    "cover": 6.14,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "sector": "IN",
+    "cover": 23.45,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "sector": "PC",
+    "cover": 19.43,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "sector": "PO",
+    "cover": 23.33,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "sector": "SW",
+    "cover": 41.5,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "sector": "TO",
+    "cover": 22.8,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "sector": "WH",
+    "cover": 26.85,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2018,
+    "sector": "CA",
+    "cover": 9.95,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Critical"
+  },
+  {
+    "year": 2018,
+    "sector": "CB",
+    "cover": 40.37,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2018,
+    "sector": "CU",
+    "cover": 22.69,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Fair"
+  },
+  {
+    "year": 2018,
+    "sector": "IN",
+    "cover": 6.97,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2018,
+    "sector": "PO",
+    "cover": 20.33,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Fair"
+  },
+  {
+    "year": 2018,
+    "sector": "SW",
+    "cover": 32.8,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Good"
+  },
+  {
+    "year": 2018,
+    "sector": "TO",
+    "cover": 21.13,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 2019,
+    "sector": "CA",
+    "cover": 10.79,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2019,
+    "sector": "CB",
+    "cover": 49.63,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2019,
+    "sector": "CG",
+    "cover": 32.1,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Good"
+  },
+  {
+    "year": 2019,
+    "sector": "CL",
+    "cover": 7.82,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Critical"
+  },
+  {
+    "year": 2019,
+    "sector": "IN",
+    "cover": 9.77,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2019,
+    "sector": "PC",
+    "cover": 21.35,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2019,
+    "sector": "PO",
+    "cover": 19.35,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2019,
+    "sector": "SW",
+    "cover": 20.12,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2019,
+    "sector": "TO",
+    "cover": 20.77,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 2019,
+    "sector": "WH",
+    "cover": 23.38,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "sector": "CA",
+    "cover": 14.51,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "sector": "CB",
+    "cover": 44.9,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "sector": "CG",
+    "cover": 29.38,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "sector": "CL",
+    "cover": 14.04,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "sector": "IN",
+    "cover": 7.16,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "sector": "PC",
+    "cover": 16.68,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "sector": "PO",
+    "cover": 27.64,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "sector": "SW",
+    "cover": 23.13,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "sector": "TO",
+    "cover": 23.67,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Fair"
+  },
+  {
+    "year": 2021,
+    "sector": "CA",
+    "cover": 25.06,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2021,
+    "sector": "CB",
+    "cover": 52.52,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2021,
+    "sector": "CG",
+    "cover": 32.77,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Good"
+  },
+  {
+    "year": 2021,
+    "sector": "CL",
+    "cover": 23.63,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2021,
+    "sector": "CU",
+    "cover": 28.83,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Fair"
+  },
+  {
+    "year": 2021,
+    "sector": "IN",
+    "cover": 13.17,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2021,
+    "sector": "PC",
+    "cover": 28.48,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2021,
+    "sector": "PO",
+    "cover": 39.89,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2021,
+    "sector": "SW",
+    "cover": 28.13,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2021,
+    "sector": "TO",
+    "cover": 30.54,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Good"
+  },
+  {
+    "year": 2021,
+    "sector": "WH",
+    "cover": 28.59,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "sector": "CA",
+    "cover": 30.83,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "sector": "CB",
+    "cover": 56.69,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "sector": "CG",
+    "cover": 45.4,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "sector": "CL",
+    "cover": 29.74,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "sector": "CU",
+    "cover": 34.21,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "sector": "IN",
+    "cover": 13.71,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "sector": "PC",
+    "cover": 40.27,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "sector": "PO",
+    "cover": 35.1,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "sector": "SW",
+    "cover": 21.15,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "sector": "TO",
+    "cover": 37.59,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "sector": "WH",
+    "cover": 37.19,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "sector": "CA",
+    "cover": 28.52,
+    "sector_name": "Cairns",
+    "sector_order": 4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "sector": "CB",
+    "cover": 51.84,
+    "sector_name": "Capricorn-Bunker",
+    "sector_order": 11,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "sector": "CG",
+    "cover": 40.87,
+    "sector_name": "Cape Grenville",
+    "sector_order": 1,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "sector": "CL",
+    "cover": 34.01,
+    "sector_name": "Cooktown-Lizard Is.",
+    "sector_order": 3,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "sector": "CU",
+    "cover": 32.07,
+    "sector_name": "Cape Upstart",
+    "sector_order": 7,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "sector": "IN",
+    "cover": 19.11,
+    "sector_name": "Innisfail",
+    "sector_order": 5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "sector": "PC",
+    "cover": 33.44,
+    "sector_name": "Princess Charlotte Bay",
+    "sector_order": 2,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "sector": "PO",
+    "cover": 35.57,
+    "sector_name": "Pompey",
+    "sector_order": 9,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "sector": "SW",
+    "cover": 22.38,
+    "sector_name": "Swain",
+    "sector_order": 10,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "sector": "TO",
+    "cover": 37.95,
+    "sector_name": "Townsville",
+    "sector_order": 6,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "sector": "WH",
+    "cover": 30.7,
+    "sector_name": "Whitsunday",
+    "sector_order": 8,
+    "condition": "Good"
+  }
+]

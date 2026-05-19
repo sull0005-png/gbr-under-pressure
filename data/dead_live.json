@@ -1,0 +1,625 @@
+[
+  {
+    "year": 1993,
+    "region": "Central",
+    "live": 20.57,
+    "dead": 1.54,
+    "dead_neg": -1.54
+  },
+  {
+    "year": 1993,
+    "region": "Northern",
+    "live": 29.86,
+    "dead": 2.67,
+    "dead_neg": -2.67
+  },
+  {
+    "year": 1993,
+    "region": "Southern",
+    "live": 32.64,
+    "dead": 2.59,
+    "dead_neg": -2.59
+  },
+  {
+    "year": 1994,
+    "region": "Central",
+    "live": 18.61,
+    "dead": 0.85,
+    "dead_neg": -0.85
+  },
+  {
+    "year": 1994,
+    "region": "Northern",
+    "live": 30.12,
+    "dead": 1.65,
+    "dead_neg": -1.65
+  },
+  {
+    "year": 1994,
+    "region": "Southern",
+    "live": 31.7,
+    "dead": 1.12,
+    "dead_neg": -1.12
+  },
+  {
+    "year": 1995,
+    "region": "Central",
+    "live": 21.84,
+    "dead": 0.77,
+    "dead_neg": -0.77
+  },
+  {
+    "year": 1995,
+    "region": "Northern",
+    "live": 27.44,
+    "dead": 1.4,
+    "dead_neg": -1.4
+  },
+  {
+    "year": 1995,
+    "region": "Southern",
+    "live": 30.25,
+    "dead": 1.38,
+    "dead_neg": -1.38
+  },
+  {
+    "year": 1996,
+    "region": "Central",
+    "live": 21.97,
+    "dead": 1.24,
+    "dead_neg": -1.24
+  },
+  {
+    "year": 1996,
+    "region": "Northern",
+    "live": 28.73,
+    "dead": 1.75,
+    "dead_neg": -1.75
+  },
+  {
+    "year": 1996,
+    "region": "Southern",
+    "live": 33.89,
+    "dead": 1.6,
+    "dead_neg": -1.6
+  },
+  {
+    "year": 1997,
+    "region": "Central",
+    "live": 21.34,
+    "dead": 1.22,
+    "dead_neg": -1.22
+  },
+  {
+    "year": 1997,
+    "region": "Northern",
+    "live": 22.68,
+    "dead": 1.57,
+    "dead_neg": -1.57
+  },
+  {
+    "year": 1997,
+    "region": "Southern",
+    "live": 30.76,
+    "dead": 1.5,
+    "dead_neg": -1.5
+  },
+  {
+    "year": 1998,
+    "region": "Central",
+    "live": 22.42,
+    "dead": 2.25,
+    "dead_neg": -2.25
+  },
+  {
+    "year": 1998,
+    "region": "Northern",
+    "live": 26.2,
+    "dead": 1.61,
+    "dead_neg": -1.61
+  },
+  {
+    "year": 1998,
+    "region": "Southern",
+    "live": 34.88,
+    "dead": 1.69,
+    "dead_neg": -1.69
+  },
+  {
+    "year": 1999,
+    "region": "Central",
+    "live": 19.86,
+    "dead": 1.94,
+    "dead_neg": -1.94
+  },
+  {
+    "year": 1999,
+    "region": "Northern",
+    "live": 26.41,
+    "dead": 1.99,
+    "dead_neg": -1.99
+  },
+  {
+    "year": 1999,
+    "region": "Southern",
+    "live": 33.1,
+    "dead": 1.92,
+    "dead_neg": -1.92
+  },
+  {
+    "year": 2000,
+    "region": "Central",
+    "live": 18.7,
+    "dead": 2.62,
+    "dead_neg": -2.62
+  },
+  {
+    "year": 2000,
+    "region": "Northern",
+    "live": 26.54,
+    "dead": 2.25,
+    "dead_neg": -2.25
+  },
+  {
+    "year": 2000,
+    "region": "Southern",
+    "live": 35.5,
+    "dead": 2.1,
+    "dead_neg": -2.1
+  },
+  {
+    "year": 2001,
+    "region": "Central",
+    "live": 19.34,
+    "dead": 1.98,
+    "dead_neg": -1.98
+  },
+  {
+    "year": 2001,
+    "region": "Northern",
+    "live": 24.29,
+    "dead": 2.03,
+    "dead_neg": -2.03
+  },
+  {
+    "year": 2001,
+    "region": "Southern",
+    "live": 27.84,
+    "dead": 2.22,
+    "dead_neg": -2.22
+  },
+  {
+    "year": 2002,
+    "region": "Central",
+    "live": 18.05,
+    "dead": 2.23,
+    "dead_neg": -2.23
+  },
+  {
+    "year": 2002,
+    "region": "Northern",
+    "live": 26.93,
+    "dead": 2.2,
+    "dead_neg": -2.2
+  },
+  {
+    "year": 2002,
+    "region": "Southern",
+    "live": 31.8,
+    "dead": 2.57,
+    "dead_neg": -2.57
+  },
+  {
+    "year": 2003,
+    "region": "Central",
+    "live": 15.8,
+    "dead": 2.19,
+    "dead_neg": -2.19
+  },
+  {
+    "year": 2003,
+    "region": "Northern",
+    "live": 26.81,
+    "dead": 2.38,
+    "dead_neg": -2.38
+  },
+  {
+    "year": 2003,
+    "region": "Southern",
+    "live": 31.47,
+    "dead": 2.62,
+    "dead_neg": -2.62
+  },
+  {
+    "year": 2004,
+    "region": "Central",
+    "live": 17.52,
+    "dead": 2.16,
+    "dead_neg": -2.16
+  },
+  {
+    "year": 2004,
+    "region": "Northern",
+    "live": 22.51,
+    "dead": 2.47,
+    "dead_neg": -2.47
+  },
+  {
+    "year": 2004,
+    "region": "Southern",
+    "live": 30.96,
+    "dead": 2.26,
+    "dead_neg": -2.26
+  },
+  {
+    "year": 2005,
+    "region": "Central",
+    "live": 19.1,
+    "dead": 1.6,
+    "dead_neg": -1.6
+  },
+  {
+    "year": 2005,
+    "region": "Northern",
+    "live": 27.22,
+    "dead": 1.82,
+    "dead_neg": -1.82
+  },
+  {
+    "year": 2005,
+    "region": "Southern",
+    "live": 31.15,
+    "dead": 1.75,
+    "dead_neg": -1.75
+  },
+  {
+    "year": 2006,
+    "region": "Central",
+    "live": 12.27,
+    "dead": 1.39,
+    "dead_neg": -1.39
+  },
+  {
+    "year": 2006,
+    "region": "Northern",
+    "live": 20.21,
+    "dead": 2.17,
+    "dead_neg": -2.17
+  },
+  {
+    "year": 2006,
+    "region": "Southern",
+    "live": 30.61,
+    "dead": 1.72,
+    "dead_neg": -1.72
+  },
+  {
+    "year": 2007,
+    "region": "Central",
+    "live": 16.04,
+    "dead": 1.34,
+    "dead_neg": -1.34
+  },
+  {
+    "year": 2007,
+    "region": "Northern",
+    "live": 20.29,
+    "dead": 2.09,
+    "dead_neg": -2.09
+  },
+  {
+    "year": 2007,
+    "region": "Southern",
+    "live": 29.16,
+    "dead": 1.97,
+    "dead_neg": -1.97
+  },
+  {
+    "year": 2008,
+    "region": "Central",
+    "live": 12.92,
+    "dead": 1.12,
+    "dead_neg": -1.12
+  },
+  {
+    "year": 2008,
+    "region": "Northern",
+    "live": 19.43,
+    "dead": 2.08,
+    "dead_neg": -2.08
+  },
+  {
+    "year": 2008,
+    "region": "Southern",
+    "live": 29.31,
+    "dead": 1.77,
+    "dead_neg": -1.77
+  },
+  {
+    "year": 2009,
+    "region": "Central",
+    "live": 15.86,
+    "dead": 1.62,
+    "dead_neg": -1.62
+  },
+  {
+    "year": 2009,
+    "region": "Northern",
+    "live": 23.79,
+    "dead": 1.89,
+    "dead_neg": -1.89
+  },
+  {
+    "year": 2009,
+    "region": "Southern",
+    "live": 21.17,
+    "dead": 2.0,
+    "dead_neg": -2.0
+  },
+  {
+    "year": 2010,
+    "region": "Central",
+    "live": 18.88,
+    "dead": 1.51,
+    "dead_neg": -1.51
+  },
+  {
+    "year": 2010,
+    "region": "Northern",
+    "live": 23.53,
+    "dead": 2.17,
+    "dead_neg": -2.17
+  },
+  {
+    "year": 2010,
+    "region": "Southern",
+    "live": 14.74,
+    "dead": 1.24,
+    "dead_neg": -1.24
+  },
+  {
+    "year": 2011,
+    "region": "Central",
+    "live": 12.18,
+    "dead": 1.26,
+    "dead_neg": -1.26
+  },
+  {
+    "year": 2011,
+    "region": "Northern",
+    "live": 24.69,
+    "dead": 2.11,
+    "dead_neg": -2.11
+  },
+  {
+    "year": 2011,
+    "region": "Southern",
+    "live": 10.44,
+    "dead": 0.79,
+    "dead_neg": -0.79
+  },
+  {
+    "year": 2012,
+    "region": "Central",
+    "live": 8.65,
+    "dead": 1.34,
+    "dead_neg": -1.34
+  },
+  {
+    "year": 2012,
+    "region": "Southern",
+    "live": 16.74,
+    "dead": 1.08,
+    "dead_neg": -1.08
+  },
+  {
+    "year": 2013,
+    "region": "Central",
+    "live": 12.84,
+    "dead": 1.22,
+    "dead_neg": -1.22
+  },
+  {
+    "year": 2013,
+    "region": "Northern",
+    "live": 26.25,
+    "dead": 2.48,
+    "dead_neg": -2.48
+  },
+  {
+    "year": 2013,
+    "region": "Southern",
+    "live": 15.19,
+    "dead": 1.14,
+    "dead_neg": -1.14
+  },
+  {
+    "year": 2014,
+    "region": "Central",
+    "live": 13.78,
+    "dead": 1.17,
+    "dead_neg": -1.17
+  },
+  {
+    "year": 2014,
+    "region": "Southern",
+    "live": 21.53,
+    "dead": 1.63,
+    "dead_neg": -1.63
+  },
+  {
+    "year": 2015,
+    "region": "Central",
+    "live": 17.01,
+    "dead": 1.54,
+    "dead_neg": -1.54
+  },
+  {
+    "year": 2015,
+    "region": "Northern",
+    "live": 16.54,
+    "dead": 1.57,
+    "dead_neg": -1.57
+  },
+  {
+    "year": 2015,
+    "region": "Southern",
+    "live": 28.58,
+    "dead": 1.47,
+    "dead_neg": -1.47
+  },
+  {
+    "year": 2016,
+    "region": "Central",
+    "live": 22.37,
+    "dead": 1.72,
+    "dead_neg": -1.72
+  },
+  {
+    "year": 2016,
+    "region": "Southern",
+    "live": 30.17,
+    "dead": 1.6,
+    "dead_neg": -1.6
+  },
+  {
+    "year": 2017,
+    "region": "Central",
+    "live": 22.95,
+    "dead": 4.25,
+    "dead_neg": -4.25
+  },
+  {
+    "year": 2017,
+    "region": "Northern",
+    "live": 19.08,
+    "dead": 10.26,
+    "dead_neg": -10.26
+  },
+  {
+    "year": 2017,
+    "region": "Southern",
+    "live": 36.71,
+    "dead": 2.0,
+    "dead_neg": -2.0
+  },
+  {
+    "year": 2018,
+    "region": "Central",
+    "live": 14.74,
+    "dead": 1.62,
+    "dead_neg": -1.62
+  },
+  {
+    "year": 2018,
+    "region": "Southern",
+    "live": 30.52,
+    "dead": 1.59,
+    "dead_neg": -1.59
+  },
+  {
+    "year": 2019,
+    "region": "Central",
+    "live": 14.53,
+    "dead": 0.99,
+    "dead_neg": -0.99
+  },
+  {
+    "year": 2019,
+    "region": "Northern",
+    "live": 20.91,
+    "dead": 1.54,
+    "dead_neg": -1.54
+  },
+  {
+    "year": 2019,
+    "region": "Southern",
+    "live": 29.83,
+    "dead": 1.94,
+    "dead_neg": -1.94
+  },
+  {
+    "year": 2020,
+    "region": "Central",
+    "live": 16.28,
+    "dead": 1.14,
+    "dead_neg": -1.14
+  },
+  {
+    "year": 2020,
+    "region": "Northern",
+    "live": 23.21,
+    "dead": 1.09,
+    "dead_neg": -1.09
+  },
+  {
+    "year": 2020,
+    "region": "Southern",
+    "live": 31.42,
+    "dead": 1.48,
+    "dead_neg": -1.48
+  },
+  {
+    "year": 2021,
+    "region": "Central",
+    "live": 26.72,
+    "dead": 1.03,
+    "dead_neg": -1.03
+  },
+  {
+    "year": 2021,
+    "region": "Northern",
+    "live": 27.49,
+    "dead": 0.65,
+    "dead_neg": -0.65
+  },
+  {
+    "year": 2021,
+    "region": "Southern",
+    "live": 42.09,
+    "dead": 0.94,
+    "dead_neg": -0.94
+  },
+  {
+    "year": 2022,
+    "region": "Central",
+    "live": 33.16,
+    "dead": 1.06,
+    "dead_neg": -1.06
+  },
+  {
+    "year": 2022,
+    "region": "Northern",
+    "live": 39.4,
+    "dead": 1.22,
+    "dead_neg": -1.22
+  },
+  {
+    "year": 2022,
+    "region": "Southern",
+    "live": 34.52,
+    "dead": 1.43,
+    "dead_neg": -1.43
+  },
+  {
+    "year": 2023,
+    "region": "Central",
+    "live": 30.93,
+    "dead": 1.56,
+    "dead_neg": -1.56
+  },
+  {
+    "year": 2023,
+    "region": "Northern",
+    "live": 36.16,
+    "dead": 1.64,
+    "dead_neg": -1.64
+  },
+  {
+    "year": 2023,
+    "region": "Southern",
+    "live": 35.41,
+    "dead": 2.1,
+    "dead_neg": -2.1
+  }
+]

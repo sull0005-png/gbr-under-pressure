@@ -1,0 +1,77 @@
+[
+  {
+    "region": "Northern",
+    "threat": "Thermal bleaching",
+    "score": 9.5
+  },
+  {
+    "region": "Northern",
+    "threat": "COTS outbreaks",
+    "score": 7.0
+  },
+  {
+    "region": "Northern",
+    "threat": "Cyclone damage",
+    "score": 6.0
+  },
+  {
+    "region": "Northern",
+    "threat": "Water quality",
+    "score": 4.0
+  },
+  {
+    "region": "Northern",
+    "threat": "Coastal development",
+    "score": 3.5
+  },
+  {
+    "region": "Central",
+    "threat": "Thermal bleaching",
+    "score": 8.5
+  },
+  {
+    "region": "Central",
+    "threat": "COTS outbreaks",
+    "score": 8.5
+  },
+  {
+    "region": "Central",
+    "threat": "Cyclone damage",
+    "score": 7.5
+  },
+  {
+    "region": "Central",
+    "threat": "Water quality",
+    "score": 6.5
+  },
+  {
+    "region": "Central",
+    "threat": "Coastal development",
+    "score": 5.0
+  },
+  {
+    "region": "Southern",
+    "threat": "Thermal bleaching",
+    "score": 7.0
+  },
+  {
+    "region": "Southern",
+    "threat": "COTS outbreaks",
+    "score": 5.0
+  },
+  {
+    "region": "Southern",
+    "threat": "Cyclone damage",
+    "score": 6.0
+  },
+  {
+    "region": "Southern",
+    "threat": "Water quality",
+    "score": 8.0
+  },
+  {
+    "region": "Southern",
+    "threat": "Coastal development",
+    "score": 7.0
+  }
+]

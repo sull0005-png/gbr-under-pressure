@@ -1,0 +1,50 @@
+[
+  {
+    "year": 1998,
+    "pct": 42,
+    "label": "1998",
+    "severity": 2
+  },
+  {
+    "year": 2002,
+    "pct": 54,
+    "label": "2002",
+    "severity": 2
+  },
+  {
+    "year": 2006,
+    "pct": 17,
+    "label": "2006",
+    "severity": 1
+  },
+  {
+    "year": 2016,
+    "pct": 91,
+    "label": "2016",
+    "severity": 4
+  },
+  {
+    "year": 2017,
+    "pct": 75,
+    "label": "2017",
+    "severity": 3
+  },
+  {
+    "year": 2020,
+    "pct": 98,
+    "label": "2020",
+    "severity": 4
+  },
+  {
+    "year": 2022,
+    "pct": 91,
+    "label": "2022",
+    "severity": 4
+  },
+  {
+    "year": 2024,
+    "pct": 100,
+    "label": "2024",
+    "severity": 5
+  }
+]

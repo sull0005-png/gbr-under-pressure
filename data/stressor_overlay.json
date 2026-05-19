@@ -1,0 +1,188 @@
+[
+  {
+    "year": 1993,
+    "sst": 1.798,
+    "cots": 33,
+    "bleaching": 0
+  },
+  {
+    "year": 1994,
+    "sst": 2.237,
+    "cots": 52,
+    "bleaching": 0
+  },
+  {
+    "year": 1995,
+    "sst": 2.244,
+    "cots": 122,
+    "bleaching": 0
+  },
+  {
+    "year": 1996,
+    "sst": 2.775,
+    "cots": 430,
+    "bleaching": 0
+  },
+  {
+    "year": 1997,
+    "sst": 0.908,
+    "cots": 262,
+    "bleaching": 0
+  },
+  {
+    "year": 1998,
+    "sst": 2.509,
+    "cots": 403,
+    "bleaching": 1
+  },
+  {
+    "year": 1999,
+    "sst": 2.045,
+    "cots": 312,
+    "bleaching": 0
+  },
+  {
+    "year": 2000,
+    "sst": 1.071,
+    "cots": 39,
+    "bleaching": 0
+  },
+  {
+    "year": 2001,
+    "sst": 2.288,
+    "cots": 42,
+    "bleaching": 0
+  },
+  {
+    "year": 2002,
+    "sst": 1.94,
+    "cots": 57,
+    "bleaching": 1
+  },
+  {
+    "year": 2003,
+    "sst": 1.562,
+    "cots": 9,
+    "bleaching": 0
+  },
+  {
+    "year": 2004,
+    "sst": 2.371,
+    "cots": 185,
+    "bleaching": 0
+  },
+  {
+    "year": 2005,
+    "sst": 1.538,
+    "cots": 41,
+    "bleaching": 0
+  },
+  {
+    "year": 2006,
+    "sst": 1.333,
+    "cots": 134,
+    "bleaching": 1
+  },
+  {
+    "year": 2007,
+    "sst": 1.348,
+    "cots": 8,
+    "bleaching": 0
+  },
+  {
+    "year": 2008,
+    "sst": 2.06,
+    "cots": 6,
+    "bleaching": 0
+  },
+  {
+    "year": 2009,
+    "sst": 1.751,
+    "cots": 20,
+    "bleaching": 0
+  },
+  {
+    "year": 2010,
+    "sst": 2.336,
+    "cots": 19,
+    "bleaching": 0
+  },
+  {
+    "year": 2011,
+    "sst": 1.978,
+    "cots": 41,
+    "bleaching": 0
+  },
+  {
+    "year": 2012,
+    "sst": 1.314,
+    "cots": 0,
+    "bleaching": 0
+  },
+  {
+    "year": 2013,
+    "sst": 1.809,
+    "cots": 860,
+    "bleaching": 0
+  },
+  {
+    "year": 2014,
+    "sst": 1.225,
+    "cots": 0,
+    "bleaching": 0
+  },
+  {
+    "year": 2015,
+    "sst": 2.098,
+    "cots": 558,
+    "bleaching": 0
+  },
+  {
+    "year": 2016,
+    "sst": 2.576,
+    "cots": 0,
+    "bleaching": 1
+  },
+  {
+    "year": 2017,
+    "sst": 3.0,
+    "cots": 75,
+    "bleaching": 1
+  },
+  {
+    "year": 2018,
+    "sst": 1.75,
+    "cots": 0,
+    "bleaching": 0
+  },
+  {
+    "year": 2019,
+    "sst": 1.614,
+    "cots": 4,
+    "bleaching": 0
+  },
+  {
+    "year": 2020,
+    "sst": 2.156,
+    "cots": 13,
+    "bleaching": 1
+  },
+  {
+    "year": 2021,
+    "sst": 2.205,
+    "cots": 17,
+    "bleaching": 0
+  },
+  {
+    "year": 2022,
+    "sst": 3.091,
+    "cots": 47,
+    "bleaching": 1
+  },
+  {
+    "year": 2023,
+    "sst": 3.15,
+    "cots": 14,
+    "bleaching": 0
+  }
+]

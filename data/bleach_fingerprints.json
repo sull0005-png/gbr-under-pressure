@@ -1,0 +1,5970 @@
+[
+  {
+    "year": 1998,
+    "reef": "13124S",
+    "lat": -13.8667,
+    "lon": 144.0917,
+    "cover": 13.96,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "14056S",
+    "lat": -14.325,
+    "lon": 144.9583,
+    "cover": 6.02,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "14075S",
+    "lat": -14.2833,
+    "lon": 145.175,
+    "cover": 22.5,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "15077S",
+    "lat": -15.5583,
+    "lon": 145.65,
+    "cover": 15.79,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "16013A",
+    "lat": -16.0133,
+    "lon": 145.7917,
+    "cover": 25.0,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "16013B",
+    "lat": -16.0133,
+    "lon": 145.8,
+    "cover": 39.29,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "16013C",
+    "lat": -16.03,
+    "lon": 145.8033,
+    "cover": 20.62,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "19131S",
+    "lat": -19.7667,
+    "lon": 149.3667,
+    "cover": 14.83,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "19138S",
+    "lat": -19.8083,
+    "lon": 149.425,
+    "cover": 16.25,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "20104S",
+    "lat": -20.0333,
+    "lon": 149.6833,
+    "cover": 12.28,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "21074S",
+    "lat": -21.1583,
+    "lon": 150.85,
+    "cover": 52.24,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "21137S",
+    "lat": -21.4,
+    "lon": 151.4167,
+    "cover": 54.29,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "21140S",
+    "lat": -21.4833,
+    "lon": 151.2833,
+    "cover": 36.31,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "21529S",
+    "lat": -21.8667,
+    "lon": 152.175,
+    "cover": 26.88,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "AGINCOURT REEFS (NO 1)",
+    "lat": -16.05,
+    "lon": 145.8583,
+    "cover": 23.05,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "ASHMORE BANKS (1)",
+    "lat": -11.8852,
+    "lon": 143.6293,
+    "cover": 45.23,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "ASHMORE BANKS (2)",
+    "lat": -11.88,
+    "lon": 143.7098,
+    "cover": 37.29,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "ASHMORE BANKS (3)",
+    "lat": -11.9267,
+    "lon": 143.6882,
+    "cover": 40.83,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "BEN REEF",
+    "lat": -20.0083,
+    "lon": 150.325,
+    "cover": 36.67,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "BIRD ISLANDS REEF (NORTH)",
+    "lat": -11.7667,
+    "lon": 143.0833,
+    "cover": 45.42,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "BORDER ISLAND REEF (NO 1)",
+    "lat": -20.175,
+    "lon": 149.025,
+    "cover": 15.28,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "BOULDER REEF",
+    "lat": -15.4167,
+    "lon": 145.425,
+    "cover": 17.22,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "BOWDEN REEF",
+    "lat": -19.0333,
+    "lon": 147.9333,
+    "cover": 20.56,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "BRIGGS REEF (NO 4)",
+    "lat": -20.6838,
+    "lon": 150.4515,
+    "cover": 45.16,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 29.69,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "CARTER REEF",
+    "lat": -14.55,
+    "lon": 145.5833,
+    "cover": 18.38,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 25.46,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 35.08,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "CREDLIN REEFS (EAST)",
+    "lat": -20.5417,
+    "lon": 149.95,
+    "cover": 34.76,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "CREECH REEF (NORTH)",
+    "lat": -13.625,
+    "lon": 144.1083,
+    "cover": 36.57,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "DAVIE REEF",
+    "lat": -13.975,
+    "lon": 144.4583,
+    "cover": 26.36,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "DAVIES REEF",
+    "lat": -18.825,
+    "lon": 147.6417,
+    "cover": 32.96,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "DIP REEF",
+    "lat": -18.4167,
+    "lon": 147.4583,
+    "cover": 19.56,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "EAST CAY REEF",
+    "lat": -21.4917,
+    "lon": 152.5583,
+    "cover": 18.46,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "ELIZABETH REEF",
+    "lat": -19.3333,
+    "lon": 149.05,
+    "cover": 27.7,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "EUSTON REEF",
+    "lat": -16.6917,
+    "lon": 146.25,
+    "cover": 21.25,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "EVENING REEF",
+    "lat": -15.9083,
+    "lon": 145.6583,
+    "cover": 19.6,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "EYRIE REEF",
+    "lat": -14.7167,
+    "lon": 145.375,
+    "cover": 14.68,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "FAITH REEF",
+    "lat": -19.2833,
+    "lon": 148.35,
+    "cover": 23.28,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "FANTOME (EUMILLI) ISLAND REEF",
+    "lat": -18.675,
+    "lon": 146.5167,
+    "cover": 23.14,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 16.52,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "FIFE REEF",
+    "lat": -13.6583,
+    "lon": 143.725,
+    "cover": 40.08,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "FITZROY ISLAND REEF",
+    "lat": -16.925,
+    "lon": 145.9833,
+    "cover": 27.29,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "FLYNN REEF",
+    "lat": -16.7333,
+    "lon": 146.275,
+    "cover": 23.39,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "GANNETT CAY REEF",
+    "lat": -21.9833,
+    "lon": 152.475,
+    "cover": 24.54,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "GREEN ISLAND REEF",
+    "lat": -16.7583,
+    "lon": 145.98,
+    "cover": 4.44,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "HARDY REEF",
+    "lat": -19.7583,
+    "lon": 149.225,
+    "cover": 27.11,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 10.22,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "HAVANNAH REEF",
+    "lat": -18.85,
+    "lon": 146.5417,
+    "cover": 13.18,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "HAYMAN ISLAND REEF",
+    "lat": -20.0667,
+    "lon": 148.8917,
+    "cover": 16.98,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "HOLBOURNE ISLAND REEF",
+    "lat": -19.7167,
+    "lon": 148.3583,
+    "cover": 4.05,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "HORSESHOE",
+    "lat": -22.0333,
+    "lon": 152.5917,
+    "cover": 27.7,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "HUTCHISON REEF",
+    "lat": -17.675,
+    "lon": 146.1667,
+    "cover": 27.68,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "HYDE REEF",
+    "lat": -19.7583,
+    "lon": 150.0917,
+    "cover": 30.19,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "JACQUELINE REEF",
+    "lat": -19.2167,
+    "lon": 148.9,
+    "cover": 20.38,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "JESSIE-KENT REEF",
+    "lat": -17.6767,
+    "lon": 146.175,
+    "cover": 21.25,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "JOHN BREWER REEF",
+    "lat": -18.6333,
+    "lon": 147.0583,
+    "cover": 29.55,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "KAY REEF",
+    "lat": -12.2333,
+    "lon": 143.2833,
+    "cover": 34.23,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 36.88,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "LAGOON REEF",
+    "lat": -12.3917,
+    "lon": 143.7417,
+    "cover": 34.48,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "LINNET REEF",
+    "lat": -14.7833,
+    "lon": 145.3417,
+    "cover": 27.64,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "LIZARD ISLAND",
+    "lat": -14.675,
+    "lon": 145.4667,
+    "cover": 5.14,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "LOG REEF (SOUTH)",
+    "lat": -12.675,
+    "lon": 143.8417,
+    "cover": 37.13,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "LOW ISLANDS REEF",
+    "lat": -16.3833,
+    "lon": 145.5667,
+    "cover": 37.42,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "MACGILLIVRAY REEF",
+    "lat": -14.65,
+    "lon": 145.4917,
+    "cover": 15.83,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "MACKAY REEF",
+    "lat": -16.05,
+    "lon": 145.65,
+    "cover": 27.03,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "MACKAY REEFS",
+    "lat": -15.15,
+    "lon": 145.575,
+    "cover": 8.25,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "MARTIN REEF(14123)",
+    "lat": -14.7667,
+    "lon": 145.3583,
+    "cover": 19.92,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "MICHAELMAS REEF",
+    "lat": -16.5833,
+    "lon": 146.0167,
+    "cover": 7.75,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "MIDDLE BANKS (2)",
+    "lat": -11.7633,
+    "lon": 143.6517,
+    "cover": 70.25,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "MIDDLE BANKS B (3)",
+    "lat": -11.7717,
+    "lon": 143.6583,
+    "cover": 61.56,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "MYRMIDON REEF",
+    "lat": -18.2667,
+    "lon": 147.3917,
+    "cover": 30.9,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "NO NAME REEF",
+    "lat": -14.65,
+    "lon": 145.65,
+    "cover": 26.89,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "NOGGIN REEF",
+    "lat": -17.1333,
+    "lon": 146.4667,
+    "cover": 17.38,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "NORMAN REEF",
+    "lat": -16.4333,
+    "lon": 146.0,
+    "cover": 32.24,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "NORTH DIRECTION REEF",
+    "lat": -14.7417,
+    "lon": 145.5083,
+    "cover": 15.56,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "ONE TREE REEF",
+    "lat": -23.5,
+    "lon": 152.0667,
+    "cover": 37.04,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "OPAL (2)",
+    "lat": -16.2167,
+    "lon": 145.8917,
+    "cover": 18.16,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "PEARSON REEF",
+    "lat": -11.5667,
+    "lon": 143.7167,
+    "cover": 25.04,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "PELICAN ISLAND REEF(13107)",
+    "lat": -13.9167,
+    "lon": 143.8417,
+    "cover": 23.51,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "PICKERSGILL REEF",
+    "lat": -15.875,
+    "lon": 145.5833,
+    "cover": 17.1,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "POTTER REEF (NO 1)",
+    "lat": -17.7,
+    "lon": 146.55,
+    "cover": 26.25,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "QUOIN REEF(12027)",
+    "lat": -12.4,
+    "lon": 143.5333,
+    "cover": 7.86,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "RACHEL CARSON REEF",
+    "lat": -15.825,
+    "lon": 145.8167,
+    "cover": 31.15,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "RAINE REEF",
+    "lat": -11.6,
+    "lon": 144.025,
+    "cover": 44.34,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "REBE REEF",
+    "lat": -19.8083,
+    "lon": 150.15,
+    "cover": 24.04,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 38.92,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "RIBBON NO 1 REEF",
+    "lat": -15.6083,
+    "lon": 145.8,
+    "cover": 25.0,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "RIBBON NO 3 REEF",
+    "lat": -15.4833,
+    "lon": 145.8,
+    "cover": 19.19,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "RODDA REEF",
+    "lat": -13.925,
+    "lon": 144.3667,
+    "cover": 29.89,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "SAVILLE-KENT REEF",
+    "lat": -18.8583,
+    "lon": 147.8917,
+    "cover": 15.87,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "SCOTT REEF",
+    "lat": -17.075,
+    "lon": 146.1833,
+    "cover": 16.38,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "SECOND SMALL REEF",
+    "lat": -12.5667,
+    "lon": 143.775,
+    "cover": 32.5,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "SLATE REEF",
+    "lat": -19.6667,
+    "lon": 149.925,
+    "cover": 34.12,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "SNAKE (22088)",
+    "lat": -22.025,
+    "lon": 152.15,
+    "cover": 22.41,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "ST CRISPIN REEF",
+    "lat": -16.1083,
+    "lon": 145.8333,
+    "cover": 14.78,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "STAPLETON REEF",
+    "lat": -14.325,
+    "lon": 144.8583,
+    "cover": 8.36,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "STARTLE (EAST)",
+    "lat": -15.2083,
+    "lon": 145.55,
+    "cover": 5.86,
+    "condition": "Critical"
+  },
+  {
+    "year": 1998,
+    "reef": "SWINGER REEF",
+    "lat": -15.2417,
+    "lon": 145.5333,
+    "cover": 17.33,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "SWITZER REEF",
+    "lat": -14.3583,
+    "lon": 144.7583,
+    "cover": 15.18,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 28.31,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "TURNER REEF",
+    "lat": -21.725,
+    "lon": 152.5583,
+    "cover": 40.71,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "UPOLU REEF",
+    "lat": -16.675,
+    "lon": 145.9333,
+    "cover": 11.1,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "WANSFELL REEF",
+    "lat": -19.5083,
+    "lon": 149.1167,
+    "cover": 20.77,
+    "condition": "Fair"
+  },
+  {
+    "year": 1998,
+    "reef": "WARDLE REEF",
+    "lat": -17.45,
+    "lon": 146.5417,
+    "cover": 19.38,
+    "condition": "Poor"
+  },
+  {
+    "year": 1998,
+    "reef": "WHEELER REEF",
+    "lat": -18.8083,
+    "lon": 147.525,
+    "cover": 44.58,
+    "condition": "Very Good"
+  },
+  {
+    "year": 1998,
+    "reef": "WRECK ISLAND REEF",
+    "lat": -23.3333,
+    "lon": 151.9667,
+    "cover": 34.19,
+    "condition": "Good"
+  },
+  {
+    "year": 1998,
+    "reef": "YONGE REEF",
+    "lat": -14.6,
+    "lon": 145.625,
+    "cover": 30.44,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "(LITTLE) BROADHURST REEF",
+    "lat": -18.9667,
+    "lon": 147.7,
+    "cover": 19.64,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "13063S",
+    "lat": -13.4167,
+    "lon": 143.8167,
+    "cover": 16.27,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "13124S",
+    "lat": -13.8667,
+    "lon": 144.0917,
+    "cover": 24.15,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "14056S",
+    "lat": -14.325,
+    "lon": 144.9583,
+    "cover": 9.59,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "15034S",
+    "lat": -15.3167,
+    "lon": 145.7667,
+    "cover": 24.92,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "15047S",
+    "lat": -15.4667,
+    "lon": 145.6833,
+    "cover": 20.79,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "18023S",
+    "lat": -18.1417,
+    "lon": 146.975,
+    "cover": 3.75,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "18025S",
+    "lat": -18.2667,
+    "lon": 146.9083,
+    "cover": 19.83,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "18026S",
+    "lat": -18.3333,
+    "lon": 146.7417,
+    "cover": 2.76,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "19131S",
+    "lat": -19.7667,
+    "lon": 149.3667,
+    "cover": 18.95,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "19138S",
+    "lat": -19.8083,
+    "lon": 149.425,
+    "cover": 21.53,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "20104S",
+    "lat": -20.0333,
+    "lon": 149.6833,
+    "cover": 27.8,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "20348S",
+    "lat": -20.8917,
+    "lon": 150.9583,
+    "cover": 22.72,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "20354S",
+    "lat": -20.975,
+    "lon": 150.95,
+    "cover": 52.27,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "21104S",
+    "lat": -21.1,
+    "lon": 151.2417,
+    "cover": 27.14,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "21529S",
+    "lat": -21.8667,
+    "lon": 152.175,
+    "cover": 43.05,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "AGINCOURT REEFS (NO 1)",
+    "lat": -16.05,
+    "lon": 145.8583,
+    "cover": 28.84,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "AGINCOURT REEFS (NO 4)",
+    "lat": -15.95,
+    "lon": 145.8167,
+    "cover": 28.16,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "BAIT REEF",
+    "lat": -19.8083,
+    "lon": 149.075,
+    "cover": 27.29,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "BEN REEF",
+    "lat": -20.0083,
+    "lon": 150.325,
+    "cover": 45.73,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "BOULDER REEF",
+    "lat": -15.4167,
+    "lon": 145.425,
+    "cover": 28.98,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "BOWDEN REEF",
+    "lat": -19.0333,
+    "lon": 147.9333,
+    "cover": 18.15,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 35.61,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "CANNAN REEF",
+    "lat": -20.4833,
+    "lon": 150.1417,
+    "cover": 25.89,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "CARTER REEF",
+    "lat": -14.55,
+    "lon": 145.5833,
+    "cover": 35.06,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "CENTIPEDE REEF",
+    "lat": -18.725,
+    "lon": 147.5417,
+    "cover": 16.6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 19.61,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 19.96,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "COIL REEF",
+    "lat": -18.4417,
+    "lon": 147.5167,
+    "cover": 34.62,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "CREDLIN REEFS (EAST)",
+    "lat": -20.5417,
+    "lon": 149.95,
+    "cover": 31.83,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "CURD REEF",
+    "lat": -12.5917,
+    "lon": 143.55,
+    "cover": 20.7,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "DAVIES REEF",
+    "lat": -18.825,
+    "lon": 147.6417,
+    "cover": 23.94,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "DIP REEF",
+    "lat": -18.4167,
+    "lon": 147.4583,
+    "cover": 16.76,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "EAST CAY REEF",
+    "lat": -21.4917,
+    "lon": 152.5583,
+    "cover": 23.73,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "EGRET REEF",
+    "lat": -15.475,
+    "lon": 145.4167,
+    "cover": 15.31,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "FAITH REEF",
+    "lat": -19.2833,
+    "lon": 148.35,
+    "cover": 19.67,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "FARADAY REEF",
+    "lat": -18.425,
+    "lon": 147.3583,
+    "cover": 23.88,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 5.0,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "FITZROY ISLAND REEF",
+    "lat": -16.925,
+    "lon": 145.9833,
+    "cover": 4.1,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "FLORA REEF",
+    "lat": -17.1833,
+    "lon": 146.2917,
+    "cover": 7.65,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "FORBES ISLANDS REEF",
+    "lat": -12.2917,
+    "lon": 143.4083,
+    "cover": 56.04,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "FORE AND AFT REEF",
+    "lat": -18.5,
+    "lon": 147.0333,
+    "cover": 18.1,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "GANNETT CAY REEF",
+    "lat": -21.9833,
+    "lon": 152.475,
+    "cover": 3.95,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "GILBEY REEF",
+    "lat": -17.5833,
+    "lon": 146.5833,
+    "cover": 15.13,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "GREEN ISLAND REEF",
+    "lat": -16.7583,
+    "lon": 145.98,
+    "cover": 4.42,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "GRUB REEF(18077)",
+    "lat": -18.6333,
+    "lon": 147.425,
+    "cover": 18.58,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "HARDY REEF",
+    "lat": -19.7583,
+    "lon": 149.225,
+    "cover": 32.35,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 13.1,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "HAVANNAH REEF",
+    "lat": -18.85,
+    "lon": 146.5417,
+    "cover": 4.14,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "HELIX REEF",
+    "lat": -18.6333,
+    "lon": 147.3,
+    "cover": 31.35,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "HELSDON REEF",
+    "lat": -14.95,
+    "lon": 145.4917,
+    "cover": 15.73,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "HOPKINSON REEF",
+    "lat": -18.5583,
+    "lon": 147.1917,
+    "cover": 27.33,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "HORSESHOE",
+    "lat": -22.0333,
+    "lon": 152.5917,
+    "cover": 15.06,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "HUTCHISON REEF",
+    "lat": -17.675,
+    "lon": 146.1667,
+    "cover": 4.17,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "HYDE REEF",
+    "lat": -19.7583,
+    "lon": 150.0917,
+    "cover": 33.49,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "JAGUAR REEF",
+    "lat": -18.9833,
+    "lon": 148.425,
+    "cover": 20.88,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "JESSIE-KENT REEF",
+    "lat": -17.6767,
+    "lon": 146.175,
+    "cover": 7.29,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "JOHN BREWER REEF",
+    "lat": -18.6333,
+    "lon": 147.0583,
+    "cover": 11.69,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "KANGAROO REEF (EAST)",
+    "lat": -19.25,
+    "lon": 148.625,
+    "cover": 15.42,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "KANGAROO REEF (WEST)",
+    "lat": -19.2583,
+    "lon": 148.55,
+    "cover": 23.65,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "KAY REEF",
+    "lat": -12.2333,
+    "lon": 143.2833,
+    "cover": 42.58,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "KEEPER REEF",
+    "lat": -18.75,
+    "lon": 147.2667,
+    "cover": 24.62,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "KELSO REEF",
+    "lat": -18.4417,
+    "lon": 146.9917,
+    "cover": 9.25,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "KNIFE REEF",
+    "lat": -18.5833,
+    "lon": 147.5583,
+    "cover": 26.69,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 58.65,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "LINNET REEF",
+    "lat": -14.7833,
+    "lon": 145.3417,
+    "cover": 28.62,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "LITTLE KELSO REEF",
+    "lat": -18.475,
+    "lon": 147.0,
+    "cover": 18.07,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "LIZARD ISLAND",
+    "lat": -14.675,
+    "lon": 145.4667,
+    "cover": 6.77,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "LODESTONE REEF",
+    "lat": -18.7,
+    "lon": 147.1,
+    "cover": 14.8,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "LOW ISLANDS REEF",
+    "lat": -16.3833,
+    "lon": 145.5667,
+    "cover": 12.07,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "MACGILLIVRAY REEF",
+    "lat": -14.65,
+    "lon": 145.4917,
+    "cover": 16.76,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "MACKAY REEF",
+    "lat": -16.05,
+    "lon": 145.65,
+    "cover": 20.34,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "MARTIN REEF(14123)",
+    "lat": -14.7667,
+    "lon": 145.3583,
+    "cover": 23.04,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "MICHAELMAS REEF",
+    "lat": -16.5833,
+    "lon": 146.0167,
+    "cover": 10.96,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "MOSS REEF",
+    "lat": -17.95,
+    "lon": 146.8,
+    "cover": 25.83,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "MYRMIDON REEF",
+    "lat": -18.2667,
+    "lon": 147.3917,
+    "cover": 19.0,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "NEEDLE REEF",
+    "lat": -18.3583,
+    "lon": 147.2083,
+    "cover": 22.81,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "NO NAME REEF",
+    "lat": -14.65,
+    "lon": 145.65,
+    "cover": 23.46,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "NOGGIN REEF",
+    "lat": -17.1333,
+    "lon": 146.4667,
+    "cover": 26.75,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "NORMANBY-MABEL REEF",
+    "lat": -17.2083,
+    "lon": 146.0833,
+    "cover": 5.14,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "NORTH DIRECTION REEF",
+    "lat": -14.7417,
+    "lon": 145.5083,
+    "cover": 18.06,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "NYMPH REEF",
+    "lat": -14.6583,
+    "lon": 145.25,
+    "cover": 31.2,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "ONE TREE REEF",
+    "lat": -23.5,
+    "lon": 152.0667,
+    "cover": 49.92,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "OPAL (2)",
+    "lat": -16.2167,
+    "lon": 145.8917,
+    "cover": 16.44,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "OSBORNE REEF",
+    "lat": -13.0417,
+    "lon": 143.625,
+    "cover": 39.91,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "OYSTER REEF",
+    "lat": -16.6333,
+    "lon": 145.9333,
+    "cover": 2.8,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "PIXIE REEF",
+    "lat": -16.55,
+    "lon": 145.8583,
+    "cover": 16.92,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "POTTER REEF (NO 1)",
+    "lat": -17.7,
+    "lon": 146.55,
+    "cover": 9.87,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "REBE REEF",
+    "lat": -19.8083,
+    "lon": 150.15,
+    "cover": 27.1,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 8.78,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "RIBBON NO 9 REEF",
+    "lat": -14.9917,
+    "lon": 145.7083,
+    "cover": 22.77,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "RODDA REEF",
+    "lat": -13.925,
+    "lon": 144.3667,
+    "cover": 37.17,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "ROSSER REEF",
+    "lat": -15.6167,
+    "lon": 145.5167,
+    "cover": 18.92,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "RUBY REEF",
+    "lat": -15.75,
+    "lon": 145.7833,
+    "cover": 25.15,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "RUDDER REEF",
+    "lat": -16.2,
+    "lon": 145.7,
+    "cover": 10.7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "SAND BANK NO 1 REEF",
+    "lat": -14.1917,
+    "lon": 144.9167,
+    "cover": 31.94,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "SAVILLE-KENT REEF",
+    "lat": -18.8583,
+    "lon": 147.8917,
+    "cover": 14.82,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "SAXON REEF",
+    "lat": -16.4667,
+    "lon": 145.9833,
+    "cover": 23.12,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "SIR CHARLES HARDY ISLANDS (1)",
+    "lat": -11.9083,
+    "lon": 143.4667,
+    "cover": 57.17,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "SIR CHARLES HARDY ISLANDS (2)",
+    "lat": -11.9083,
+    "lon": 143.4667,
+    "cover": 44.03,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "SLATE REEF",
+    "lat": -19.6667,
+    "lon": 149.925,
+    "cover": 38.87,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "SNAKE (22088)",
+    "lat": -22.025,
+    "lon": 152.15,
+    "cover": 24.73,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "ST CRISPIN REEF",
+    "lat": -16.1083,
+    "lon": 145.8333,
+    "cover": 13.88,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "STANLEY REEF",
+    "lat": -19.3,
+    "lon": 148.0833,
+    "cover": 19.45,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 9.17,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "TONGUE (2)",
+    "lat": -16.3167,
+    "lon": 145.8167,
+    "cover": 4.04,
+    "condition": "Critical"
+  },
+  {
+    "year": 2002,
+    "reef": "TURNER REEF",
+    "lat": -21.725,
+    "lon": 152.5583,
+    "cover": 17.4,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "TWO ISLANDS REEF",
+    "lat": -15.025,
+    "lon": 145.4417,
+    "cover": 13.52,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "TYDEMAN REEF",
+    "lat": -13.9833,
+    "lon": 144.5167,
+    "cover": 30.82,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "VIPER REEF",
+    "lat": -18.8667,
+    "lon": 148.1417,
+    "cover": 29.01,
+    "condition": "Fair"
+  },
+  {
+    "year": 2002,
+    "reef": "WARDLE REEF",
+    "lat": -17.45,
+    "lon": 146.5417,
+    "cover": 19.92,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "WHEELER REEF",
+    "lat": -18.8083,
+    "lon": 147.525,
+    "cover": 34.69,
+    "condition": "Good"
+  },
+  {
+    "year": 2002,
+    "reef": "WRECK ISLAND REEF",
+    "lat": -23.3333,
+    "lon": 151.9667,
+    "cover": 43.04,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2002,
+    "reef": "YANKEE REEF",
+    "lat": -18.5667,
+    "lon": 147.4917,
+    "cover": 14.48,
+    "condition": "Poor"
+  },
+  {
+    "year": 2002,
+    "reef": "YONGE REEF",
+    "lat": -14.6,
+    "lon": 145.625,
+    "cover": 26.65,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "13040S",
+    "lat": -13.2667,
+    "lon": 143.9417,
+    "cover": 10.17,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "13121S",
+    "lat": -13.7833,
+    "lon": 144.2667,
+    "cover": 15.38,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "13124S",
+    "lat": -13.8667,
+    "lon": 144.0917,
+    "cover": 18.93,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "14056S",
+    "lat": -14.325,
+    "lon": 144.9583,
+    "cover": 9.76,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "19131S",
+    "lat": -19.7667,
+    "lon": 149.3667,
+    "cover": 16.33,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "19138S",
+    "lat": -19.8083,
+    "lon": 149.425,
+    "cover": 20.29,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "20353S",
+    "lat": -20.9667,
+    "lon": 150.9167,
+    "cover": 38.1,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21060S",
+    "lat": -21.0167,
+    "lon": 150.6083,
+    "cover": 44.14,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21062S",
+    "lat": -21.0333,
+    "lon": 150.8667,
+    "cover": 24.33,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "21064S",
+    "lat": -21.0583,
+    "lon": 150.775,
+    "cover": 44.79,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21139S",
+    "lat": -21.475,
+    "lon": 151.475,
+    "cover": 36.71,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21187S",
+    "lat": -21.4167,
+    "lon": 151.6417,
+    "cover": 51.08,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21245S",
+    "lat": -21.3083,
+    "lon": 152.4417,
+    "cover": 29.83,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "21278S",
+    "lat": -21.1083,
+    "lon": 152.55,
+    "cover": 22.4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "21296S",
+    "lat": -21.3417,
+    "lon": 152.55,
+    "cover": 12.74,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "21302S",
+    "lat": -21.4333,
+    "lon": 152.575,
+    "cover": 39.5,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21529S",
+    "lat": -21.8667,
+    "lon": 152.175,
+    "cover": 52.61,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21550S",
+    "lat": -21.9583,
+    "lon": 152.3167,
+    "cover": 46.03,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21558S",
+    "lat": -21.5583,
+    "lon": 152.5417,
+    "cover": 39.62,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "21591S",
+    "lat": -21.0258,
+    "lon": 150.373,
+    "cover": 31.2,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "22084S",
+    "lat": -22.0,
+    "lon": 152.4583,
+    "cover": 5.0,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "AGINCOURT REEFS (NO 1)",
+    "lat": -16.05,
+    "lon": 145.8583,
+    "cover": 17.93,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "ARLINGTON REEF",
+    "lat": -16.7167,
+    "lon": 146.0667,
+    "cover": 8.29,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "BEAVER REEF",
+    "lat": -17.85,
+    "lon": 146.4833,
+    "cover": 3.88,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "BEN REEF",
+    "lat": -20.0083,
+    "lon": 150.325,
+    "cover": 65.0,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "BOULDER REEF",
+    "lat": -15.4167,
+    "lon": 145.425,
+    "cover": 22.77,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "BOULT REEF",
+    "lat": -23.7583,
+    "lon": 152.2667,
+    "cover": 52.22,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 36.59,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "CARTER REEF",
+    "lat": -14.55,
+    "lon": 145.5833,
+    "cover": 14.34,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "CELEBRATION REEF",
+    "lat": -13.275,
+    "lon": 143.6917,
+    "cover": 3.54,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "CENTIPEDE REEF",
+    "lat": -18.725,
+    "lon": 147.5417,
+    "cover": 5.35,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 9.64,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 15.46,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "CLACK REEF",
+    "lat": -14.0667,
+    "lon": 144.2417,
+    "cover": 21.54,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "CREDLIN REEFS (EAST)",
+    "lat": -20.5417,
+    "lon": 149.95,
+    "cover": 3.42,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "EAST CAY REEF",
+    "lat": -21.4917,
+    "lon": 152.5583,
+    "cover": 40.2,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "ELLISON REEF",
+    "lat": -17.725,
+    "lon": 146.4,
+    "cover": 7.34,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "ERSKINE REEF",
+    "lat": -23.5083,
+    "lon": 151.775,
+    "cover": 27.84,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "FAIRFAX ISLANDS REEF",
+    "lat": -23.8583,
+    "lon": 152.3667,
+    "cover": 54.97,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "FARQUHARSON REEF (NO 1)",
+    "lat": -17.7833,
+    "lon": 146.5167,
+    "cover": 3.55,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 9.9,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "FITZROY ISLAND REEF",
+    "lat": -16.925,
+    "lon": 145.9833,
+    "cover": 12.29,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "FLY REEF",
+    "lat": -14.5,
+    "lon": 145.1583,
+    "cover": 21.88,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "FORE AND AFT REEF",
+    "lat": -18.5,
+    "lon": 147.0333,
+    "cover": 2.66,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "FORRESTER REEF",
+    "lat": -15.1667,
+    "lon": 145.5,
+    "cover": 17.93,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "GANNETT CAY REEF",
+    "lat": -21.9833,
+    "lon": 152.475,
+    "cover": 3.45,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "GREEN ISLAND REEF",
+    "lat": -16.7583,
+    "lon": 145.98,
+    "cover": 7.74,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "GRUB REEF(18077)",
+    "lat": -18.6333,
+    "lon": 147.425,
+    "cover": 7.96,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 12.01,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "HAVANNAH REEF",
+    "lat": -18.85,
+    "lon": 146.5417,
+    "cover": 7.5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "HEDLEY REEF",
+    "lat": -17.2333,
+    "lon": 146.4833,
+    "cover": 15.95,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "HELIX REEF",
+    "lat": -18.6333,
+    "lon": 147.3,
+    "cover": 33.97,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "HILDER REEF",
+    "lat": -14.4417,
+    "lon": 145.4083,
+    "cover": 5.51,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "HOPE REEF(16058)",
+    "lat": -16.53,
+    "lon": 146.125,
+    "cover": 38.67,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "HORSESHOE",
+    "lat": -22.0333,
+    "lon": 152.5917,
+    "cover": 4.14,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "HOSKYN ISLANDS REEF",
+    "lat": -23.8083,
+    "lon": 152.2917,
+    "cover": 55.04,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "INGRAM-BEANLEY REEF",
+    "lat": -14.425,
+    "lon": 144.8917,
+    "cover": 19.55,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "IRENE REEF",
+    "lat": -15.65,
+    "lon": 145.7167,
+    "cover": 18.72,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "JENKINS REEF",
+    "lat": -21.9583,
+    "lon": 152.6,
+    "cover": 3.98,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "KAY REEF",
+    "lat": -12.2333,
+    "lon": 143.2833,
+    "cover": 40.18,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "KNIFE REEF",
+    "lat": -18.5833,
+    "lon": 147.5583,
+    "cover": 19.29,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 51.15,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "LAGOON REEF",
+    "lat": -12.3917,
+    "lon": 143.7417,
+    "cover": 27.34,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "LINNET REEF",
+    "lat": -14.7833,
+    "lon": 145.3417,
+    "cover": 21.28,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "LITTLE KELSO REEF",
+    "lat": -18.475,
+    "lon": 147.0,
+    "cover": 3.83,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "LIZARD ISLAND",
+    "lat": -14.675,
+    "lon": 145.4667,
+    "cover": 11.48,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "LOG REEF (SOUTH)",
+    "lat": -12.675,
+    "lon": 143.8417,
+    "cover": 16.86,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "LOW ISLANDS REEF",
+    "lat": -16.3833,
+    "lon": 145.5667,
+    "cover": 20.75,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "LYNCHS REEF",
+    "lat": -18.775,
+    "lon": 147.7083,
+    "cover": 3.16,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "MACGILLIVRAY REEF",
+    "lat": -14.65,
+    "lon": 145.4917,
+    "cover": 26.32,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "MACKAY REEF",
+    "lat": -16.05,
+    "lon": 145.65,
+    "cover": 21.36,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "MARTIN REEF(14123)",
+    "lat": -14.7667,
+    "lon": 145.3583,
+    "cover": 28.56,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "MARX REEF",
+    "lat": -15.2,
+    "lon": 145.6167,
+    "cover": 20.33,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "MAST HEAD REEF",
+    "lat": -23.5417,
+    "lon": 151.7333,
+    "cover": 22.08,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "MCCULLOCH",
+    "lat": -17.2833,
+    "lon": 146.45,
+    "cover": 6.67,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "MICHAELMAS REEF",
+    "lat": -16.5833,
+    "lon": 146.0167,
+    "cover": 12.92,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "MOORE REEF",
+    "lat": -16.8667,
+    "lon": 146.2333,
+    "cover": 13.77,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "NO 10 PATCHES (NO 2)",
+    "lat": -14.9333,
+    "lon": 145.6833,
+    "cover": 22.5,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "NO NAME REEF",
+    "lat": -14.65,
+    "lon": 145.65,
+    "cover": 17.28,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "NORTH DIRECTION REEF",
+    "lat": -14.7417,
+    "lon": 145.5083,
+    "cover": 38.42,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "NORTH REEF (NORTH)",
+    "lat": -23.1833,
+    "lon": 151.9083,
+    "cover": 43.67,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "OPAL (2)",
+    "lat": -16.2167,
+    "lon": 145.8917,
+    "cover": 15.85,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "PEART REEF",
+    "lat": -17.4833,
+    "lon": 146.3917,
+    "cover": 8.88,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "PENRITH REEF",
+    "lat": -21.0167,
+    "lon": 149.9,
+    "cover": 26.38,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "PICKERSGILL REEF",
+    "lat": -15.875,
+    "lon": 145.5833,
+    "cover": 15.0,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "POMPEY REEF (NO 1)",
+    "lat": -20.9417,
+    "lon": 150.5333,
+    "cover": 26.3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "POMPEY REEF (NO 2)",
+    "lat": -20.9917,
+    "lon": 150.525,
+    "cover": 27.83,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "QUOIN REEF(12027)",
+    "lat": -12.4,
+    "lon": 143.5333,
+    "cover": 11.25,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 5.96,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "RODDA REEF",
+    "lat": -13.925,
+    "lon": 144.3667,
+    "cover": 12.76,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "ROXBURGH REEF",
+    "lat": -18.4333,
+    "lon": 147.0667,
+    "cover": 15.91,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "SECOND SMALL REEF",
+    "lat": -12.5667,
+    "lon": 143.775,
+    "cover": 31.62,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "SMALL LAGOON REEF",
+    "lat": -21.875,
+    "lon": 152.5083,
+    "cover": 4.47,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "SNAKE (22088)",
+    "lat": -22.025,
+    "lon": 152.15,
+    "cover": 27.17,
+    "condition": "Fair"
+  },
+  {
+    "year": 2006,
+    "reef": "ST CRISPIN REEF",
+    "lat": -16.1083,
+    "lon": 145.8333,
+    "cover": 12.59,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "TAYLOR REEF",
+    "lat": -17.8333,
+    "lon": 146.55,
+    "cover": 2.84,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "TERN REEF(20309)",
+    "lat": -20.9083,
+    "lon": 150.0333,
+    "cover": 38.66,
+    "condition": "Good"
+  },
+  {
+    "year": 2006,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 11.25,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "THREE ISLANDS REEF",
+    "lat": -15.1167,
+    "lon": 145.425,
+    "cover": 42.3,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2006,
+    "reef": "TURNER REEF",
+    "lat": -21.725,
+    "lon": 152.5583,
+    "cover": 6.03,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "VLASOFF REEF",
+    "lat": -16.65,
+    "lon": 146.0,
+    "cover": 11.29,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "WADE REEF",
+    "lat": -21.9833,
+    "lon": 152.65,
+    "cover": 9.1,
+    "condition": "Critical"
+  },
+  {
+    "year": 2006,
+    "reef": "WARDLE REEF",
+    "lat": -17.45,
+    "lon": 146.5417,
+    "cover": 11.48,
+    "condition": "Poor"
+  },
+  {
+    "year": 2006,
+    "reef": "YONGE REEF",
+    "lat": -14.6,
+    "lon": 145.625,
+    "cover": 17.61,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "20348S",
+    "lat": -20.8917,
+    "lon": 150.9583,
+    "cover": 12.34,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "21062S",
+    "lat": -21.0333,
+    "lon": 150.8667,
+    "cover": 6.73,
+    "condition": "Critical"
+  },
+  {
+    "year": 2016,
+    "reef": "21064S",
+    "lat": -21.0583,
+    "lon": 150.775,
+    "cover": 6.94,
+    "condition": "Critical"
+  },
+  {
+    "year": 2016,
+    "reef": "21139S",
+    "lat": -21.475,
+    "lon": 151.475,
+    "cover": 33.6,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "21187S",
+    "lat": -21.4167,
+    "lon": 151.6417,
+    "cover": 23.23,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "21245S",
+    "lat": -21.3083,
+    "lon": 152.4417,
+    "cover": 22.88,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "21278S",
+    "lat": -21.1083,
+    "lon": 152.55,
+    "cover": 29.36,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "21296S",
+    "lat": -21.3417,
+    "lon": 152.55,
+    "cover": 19.78,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "21302S",
+    "lat": -21.4333,
+    "lon": 152.575,
+    "cover": 31.25,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "21550S",
+    "lat": -21.9583,
+    "lon": 152.3167,
+    "cover": 32.47,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "21558S",
+    "lat": -21.5583,
+    "lon": 152.5417,
+    "cover": 38.67,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "22084S",
+    "lat": -22.0,
+    "lon": 152.4583,
+    "cover": 39.88,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "AGINCOURT REEFS (NO 1)",
+    "lat": -16.05,
+    "lon": 145.8583,
+    "cover": 17.42,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "ARLINGTON REEF",
+    "lat": -16.7167,
+    "lon": 146.0667,
+    "cover": 15.04,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "BOULT REEF",
+    "lat": -23.7583,
+    "lon": 152.2667,
+    "cover": 36.68,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 50.0,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2016,
+    "reef": "CENTIPEDE REEF",
+    "lat": -18.725,
+    "lon": 147.5417,
+    "cover": 14.89,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 11.36,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 37.54,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "CREDLIN REEFS (EAST)",
+    "lat": -20.5417,
+    "lon": 149.95,
+    "cover": 20.26,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "EAST CAY REEF",
+    "lat": -21.4917,
+    "lon": 152.5583,
+    "cover": 31.86,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "ERSKINE REEF",
+    "lat": -23.5083,
+    "lon": 151.775,
+    "cover": 23.06,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "FAIRFAX ISLANDS REEF",
+    "lat": -23.8583,
+    "lon": 152.3667,
+    "cover": 19.96,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "FARQUHARSON REEF (NO 1)",
+    "lat": -17.7833,
+    "lon": 146.5167,
+    "cover": 15.82,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 24.95,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "FORE AND AFT REEF",
+    "lat": -18.5,
+    "lon": 147.0333,
+    "cover": 24.77,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "FORK REEF",
+    "lat": -18.6167,
+    "lon": 147.5583,
+    "cover": 17.67,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "GRUB REEF(18077)",
+    "lat": -18.6333,
+    "lon": 147.425,
+    "cover": 10.22,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 22.41,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "HEDLEY REEF",
+    "lat": -17.2333,
+    "lon": 146.4833,
+    "cover": 11.67,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "HELIX REEF",
+    "lat": -18.6333,
+    "lon": 147.3,
+    "cover": 21.11,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "HOSKYN ISLANDS REEF",
+    "lat": -23.8083,
+    "lon": 152.2917,
+    "cover": 30.22,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "JENKINS REEF",
+    "lat": -21.9583,
+    "lon": 152.6,
+    "cover": 53.2,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2016,
+    "reef": "JOHN BREWER REEF",
+    "lat": -18.6333,
+    "lon": 147.0583,
+    "cover": 43.08,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2016,
+    "reef": "KELSO REEF",
+    "lat": -18.4417,
+    "lon": 146.9917,
+    "cover": 22.64,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "KNIFE REEF",
+    "lat": -18.5833,
+    "lon": 147.5583,
+    "cover": 19.38,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 30.24,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "LITTLE KELSO REEF",
+    "lat": -18.475,
+    "lon": 147.0,
+    "cover": 36.8,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "MACKAY REEF",
+    "lat": -16.05,
+    "lon": 145.65,
+    "cover": 14.64,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "MCCULLOCH",
+    "lat": -17.2833,
+    "lon": 146.45,
+    "cover": 10.53,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "MOORE REEF",
+    "lat": -16.8667,
+    "lon": 146.2333,
+    "cover": 16.68,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "NORTH REEF (NORTH)",
+    "lat": -23.1833,
+    "lon": 151.9083,
+    "cover": 48.42,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2016,
+    "reef": "PEART REEF",
+    "lat": -17.4833,
+    "lon": 146.3917,
+    "cover": 21.3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "POTTER REEF (NO 1)",
+    "lat": -17.7,
+    "lon": 146.55,
+    "cover": 33.89,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 54.39,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2016,
+    "reef": "ROXBURGH REEF",
+    "lat": -18.4333,
+    "lon": 147.0667,
+    "cover": 15.9,
+    "condition": "Poor"
+  },
+  {
+    "year": 2016,
+    "reef": "SMALL LAGOON REEF",
+    "lat": -21.875,
+    "lon": 152.5083,
+    "cover": 30.34,
+    "condition": "Good"
+  },
+  {
+    "year": 2016,
+    "reef": "ST CRISPIN REEF",
+    "lat": -16.1083,
+    "lon": 145.8333,
+    "cover": 20.88,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "TAYLOR REEF",
+    "lat": -17.8333,
+    "lon": 146.55,
+    "cover": 45.61,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2016,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 22.56,
+    "condition": "Fair"
+  },
+  {
+    "year": 2016,
+    "reef": "WADE REEF",
+    "lat": -21.9833,
+    "lon": 152.65,
+    "cover": 45.21,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2016,
+    "reef": "WARDLE REEF",
+    "lat": -17.45,
+    "lon": 146.5417,
+    "cover": 18.36,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "13121S",
+    "lat": -13.7833,
+    "lon": 144.2667,
+    "cover": 11.48,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "13124S",
+    "lat": -13.8667,
+    "lon": 144.0917,
+    "cover": 20.3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "15034S",
+    "lat": -15.3167,
+    "lon": 145.7667,
+    "cover": 13.79,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "19131S",
+    "lat": -19.7667,
+    "lon": 149.3667,
+    "cover": 24.91,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "19138S",
+    "lat": -19.8083,
+    "lon": 149.425,
+    "cover": 35.98,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "20104S",
+    "lat": -20.0333,
+    "lon": 149.6833,
+    "cover": 31.09,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "20354S",
+    "lat": -20.975,
+    "lon": 150.95,
+    "cover": 25.06,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "21529S",
+    "lat": -21.8667,
+    "lon": 152.175,
+    "cover": 38.72,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "AGINCOURT REEFS (NO 1)",
+    "lat": -16.05,
+    "lon": 145.8583,
+    "cover": 11.6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "ARLINGTON REEF",
+    "lat": -16.7167,
+    "lon": 146.0667,
+    "cover": 16.38,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "ASHMORE BANKS (1)",
+    "lat": -11.8852,
+    "lon": 143.6293,
+    "cover": 58.98,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "ASHMORE BANKS (2)",
+    "lat": -11.88,
+    "lon": 143.7098,
+    "cover": 54.2,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "ASHMORE BANKS (3)",
+    "lat": -11.9267,
+    "lon": 143.6882,
+    "cover": 58.41,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "BEN REEF",
+    "lat": -20.0083,
+    "lon": 150.325,
+    "cover": 25.7,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "BLANCHARD REEF",
+    "lat": -13.4167,
+    "lon": 143.75,
+    "cover": 11.74,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "BORDER ISLAND REEF (NO 1)",
+    "lat": -20.175,
+    "lon": 149.025,
+    "cover": 17.86,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 44.87,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "CANNAN REEF",
+    "lat": -20.4833,
+    "lon": 150.1417,
+    "cover": 24.23,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "CARTER REEF",
+    "lat": -14.55,
+    "lon": 145.5833,
+    "cover": 3.94,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "CELEBRATION REEF",
+    "lat": -13.275,
+    "lon": 143.6917,
+    "cover": 11.76,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 14.62,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 47.04,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "CLACK REEF",
+    "lat": -14.0667,
+    "lon": 144.2417,
+    "cover": 18.21,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "CREAL REEF",
+    "lat": -20.5333,
+    "lon": 150.3833,
+    "cover": 15.26,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "CREDLIN REEFS (EAST)",
+    "lat": -20.5417,
+    "lon": 149.95,
+    "cover": 26.41,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "CREECH REEF (NORTH)",
+    "lat": -13.625,
+    "lon": 144.1083,
+    "cover": 32.26,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "CURD REEF",
+    "lat": -12.5917,
+    "lon": 143.55,
+    "cover": 12.75,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "DAVIE REEF",
+    "lat": -13.975,
+    "lon": 144.4583,
+    "cover": 25.06,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "DAVIES REEF",
+    "lat": -18.825,
+    "lon": 147.6417,
+    "cover": 24.79,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "DIP REEF",
+    "lat": -18.4167,
+    "lon": 147.4583,
+    "cover": 12.96,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "EAST CAY REEF",
+    "lat": -21.4917,
+    "lon": 152.5583,
+    "cover": 35.72,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 26.35,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "FITZROY ISLAND REEF",
+    "lat": -16.925,
+    "lon": 145.9833,
+    "cover": 23.26,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "FLORA REEF",
+    "lat": -17.1833,
+    "lon": 146.2917,
+    "cover": 15.45,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "GANNETT CAY REEF",
+    "lat": -21.9833,
+    "lon": 152.475,
+    "cover": 47.62,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "GILBEY REEF",
+    "lat": -17.5833,
+    "lon": 146.5833,
+    "cover": 26.67,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "GREEN ISLAND REEF",
+    "lat": -16.7583,
+    "lon": 145.98,
+    "cover": 14.94,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "HARDY REEF",
+    "lat": -19.7583,
+    "lon": 149.225,
+    "cover": 40.51,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "HARRIER REEF",
+    "lat": -15.1333,
+    "lon": 145.6917,
+    "cover": 8.91,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 17.57,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "HAVANNAH REEF",
+    "lat": -18.85,
+    "lon": 146.5417,
+    "cover": 27.13,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "HAYMAN ISLAND REEF",
+    "lat": -20.0667,
+    "lon": 148.8917,
+    "cover": 31.61,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "HORSESHOE",
+    "lat": -22.0333,
+    "lon": 152.5917,
+    "cover": 30.6,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "HYDE REEF",
+    "lat": -19.7583,
+    "lon": 150.0917,
+    "cover": 23.3,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "JOHN BREWER REEF",
+    "lat": -18.6333,
+    "lon": 147.0583,
+    "cover": 37.75,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "KAY REEF",
+    "lat": -12.2333,
+    "lon": 143.2833,
+    "cover": 14.25,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 39.6,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "LANGFORD-BIRD REEF",
+    "lat": -20.0917,
+    "lon": 148.875,
+    "cover": 15.54,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "LINNET REEF",
+    "lat": -14.7833,
+    "lon": 145.3417,
+    "cover": 2.92,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "LIZARD ISLAND",
+    "lat": -14.675,
+    "lon": 145.4667,
+    "cover": 3.18,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "LOW ISLANDS REEF",
+    "lat": -16.3833,
+    "lon": 145.5667,
+    "cover": 44.86,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "MACGILLIVRAY REEF",
+    "lat": -14.65,
+    "lon": 145.4917,
+    "cover": 4.82,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "MACKAY REEF",
+    "lat": -16.05,
+    "lon": 145.65,
+    "cover": 13.7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "MARTIN REEF(14123)",
+    "lat": -14.7667,
+    "lon": 145.3583,
+    "cover": 6.39,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "MICHAELMAS REEF",
+    "lat": -16.5833,
+    "lon": 146.0167,
+    "cover": 14.6,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "MIDDLE BANKS (2)",
+    "lat": -11.7633,
+    "lon": 143.6517,
+    "cover": 52.12,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "MIDDLE BANKS B (3)",
+    "lat": -11.7717,
+    "lon": 143.6583,
+    "cover": 53.02,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "MORRIS ISLAND REEF",
+    "lat": -13.4833,
+    "lon": 143.7333,
+    "cover": 23.78,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "MOSS REEF",
+    "lat": -17.95,
+    "lon": 146.8,
+    "cover": 28.31,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "MYRMIDON REEF",
+    "lat": -18.2667,
+    "lon": 147.3917,
+    "cover": 14.28,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "NO NAME REEF",
+    "lat": -14.65,
+    "lon": 145.65,
+    "cover": 4.27,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "NORTH DIRECTION REEF",
+    "lat": -14.7417,
+    "lon": 145.5083,
+    "cover": 3.12,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "ONE TREE REEF",
+    "lat": -23.5,
+    "lon": 152.0667,
+    "cover": 39.65,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "OPAL (2)",
+    "lat": -16.2167,
+    "lon": 145.8917,
+    "cover": 16.74,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "OSBORNE REEF",
+    "lat": -13.0417,
+    "lon": 143.625,
+    "cover": 15.0,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "PEARSON REEF",
+    "lat": -11.5667,
+    "lon": 143.7167,
+    "cover": 11.97,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "QUOIN REEF(12027)",
+    "lat": -12.4,
+    "lon": 143.5333,
+    "cover": 12.5,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "REBE REEF",
+    "lat": -19.8083,
+    "lon": 150.15,
+    "cover": 27.42,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 28.09,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "RIBBON NO 6 REEF",
+    "lat": -15.2833,
+    "lon": 145.75,
+    "cover": 10.73,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "RODDA REEF",
+    "lat": -13.925,
+    "lon": 144.3667,
+    "cover": 24.72,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "SAXON REEF",
+    "lat": -16.4667,
+    "lon": 145.9833,
+    "cover": 30.5,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "SIR CHARLES HARDY ISLANDS (1)",
+    "lat": -11.9083,
+    "lon": 143.4667,
+    "cover": 10.0,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "SIR CHARLES HARDY ISLANDS (2)",
+    "lat": -11.9083,
+    "lon": 143.4667,
+    "cover": 10.36,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "SLATE REEF",
+    "lat": -19.6667,
+    "lon": 149.925,
+    "cover": 20.26,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "SNAKE (22088)",
+    "lat": -22.025,
+    "lon": 152.15,
+    "cover": 38.34,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "ST CRISPIN REEF",
+    "lat": -16.1083,
+    "lon": 145.8333,
+    "cover": 7.95,
+    "condition": "Critical"
+  },
+  {
+    "year": 2017,
+    "reef": "TAYLOR REEF",
+    "lat": -17.8333,
+    "lon": 146.55,
+    "cover": 32.75,
+    "condition": "Good"
+  },
+  {
+    "year": 2017,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 22.34,
+    "condition": "Fair"
+  },
+  {
+    "year": 2017,
+    "reef": "TURNER REEF",
+    "lat": -21.725,
+    "lon": 152.5583,
+    "cover": 52.43,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "WARDLE REEF",
+    "lat": -17.45,
+    "lon": 146.5417,
+    "cover": 11.16,
+    "condition": "Poor"
+  },
+  {
+    "year": 2017,
+    "reef": "WRECK ISLAND REEF",
+    "lat": -23.3333,
+    "lon": 151.9667,
+    "cover": 56.03,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2017,
+    "reef": "YONGE REEF",
+    "lat": -14.6,
+    "lon": 145.625,
+    "cover": 5.51,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "11049S",
+    "lat": -11.3583,
+    "lon": 143.3333,
+    "cover": 3.11,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "11162S",
+    "lat": -11.6,
+    "lon": 143.2917,
+    "cover": 8.88,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "12071S",
+    "lat": -12.4833,
+    "lon": 143.75,
+    "cover": 39.12,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "13040S",
+    "lat": -13.2667,
+    "lon": 143.9417,
+    "cover": 16.56,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "13093A",
+    "lat": -13.7583,
+    "lon": 143.9917,
+    "cover": 7.1,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "13124S",
+    "lat": -13.8667,
+    "lon": 144.0917,
+    "cover": 20.54,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "16013A",
+    "lat": -16.0133,
+    "lon": 145.7917,
+    "cover": 21.39,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "16013B",
+    "lat": -16.0133,
+    "lon": 145.8,
+    "cover": 25.36,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "16013C",
+    "lat": -16.03,
+    "lon": 145.8033,
+    "cover": 3.75,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "20353S",
+    "lat": -20.9667,
+    "lon": 150.9167,
+    "cover": 45.7,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "21060S",
+    "lat": -21.0167,
+    "lon": 150.6083,
+    "cover": 10.24,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "21064S",
+    "lat": -21.0583,
+    "lon": 150.775,
+    "cover": 6.67,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "21139S",
+    "lat": -21.475,
+    "lon": 151.475,
+    "cover": 57.06,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "21187S",
+    "lat": -21.4167,
+    "lon": 151.6417,
+    "cover": 40.42,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "21245S",
+    "lat": -21.3083,
+    "lon": 152.4417,
+    "cover": 28.18,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "21278S",
+    "lat": -21.1083,
+    "lon": 152.55,
+    "cover": 32.18,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "21550S",
+    "lat": -21.9583,
+    "lon": 152.3167,
+    "cover": 45.99,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "21591S",
+    "lat": -21.0258,
+    "lon": 150.373,
+    "cover": 15.96,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "22084S",
+    "lat": -22.0,
+    "lon": 152.4583,
+    "cover": 43.94,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "AGINCOURT REEFS (NO 1)",
+    "lat": -16.05,
+    "lon": 145.8583,
+    "cover": 25.08,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "ARLINGTON REEF",
+    "lat": -16.7167,
+    "lon": 146.0667,
+    "cover": 8.75,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "ASHMORE BANKS (1)",
+    "lat": -11.8852,
+    "lon": 143.6293,
+    "cover": 43.23,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "ASHMORE BANKS (2)",
+    "lat": -11.88,
+    "lon": 143.7098,
+    "cover": 54.38,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "ASHMORE BANKS (3)",
+    "lat": -11.9267,
+    "lon": 143.6882,
+    "cover": 50.12,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "BEN REEF",
+    "lat": -20.0083,
+    "lon": 150.325,
+    "cover": 41.67,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "BOULT REEF",
+    "lat": -23.7583,
+    "lon": 152.2667,
+    "cover": 48.95,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 51.68,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "CENTIPEDE REEF",
+    "lat": -18.725,
+    "lon": 147.5417,
+    "cover": 14.22,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 22.1,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 4.47,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "CORBETT REEF",
+    "lat": -14.0,
+    "lon": 144.1083,
+    "cover": 10.3,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "CREECH REEF (NORTH)",
+    "lat": -13.625,
+    "lon": 144.1083,
+    "cover": 39.19,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "DAVIE REEF",
+    "lat": -13.975,
+    "lon": 144.4583,
+    "cover": 24.44,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "ERSKINE REEF",
+    "lat": -23.5083,
+    "lon": 151.775,
+    "cover": 41.97,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "EVENING REEF",
+    "lat": -15.9083,
+    "lon": 145.6583,
+    "cover": 9.41,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "FAIRFAX ISLANDS REEF",
+    "lat": -23.8583,
+    "lon": 152.3667,
+    "cover": 39.28,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "FARQUHARSON REEF (NO 1)",
+    "lat": -17.7833,
+    "lon": 146.5167,
+    "cover": 9.33,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 8.32,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "FLYNN REEF",
+    "lat": -16.7333,
+    "lon": 146.275,
+    "cover": 9.27,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "FORK REEF",
+    "lat": -18.6167,
+    "lon": 147.5583,
+    "cover": 35.81,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "GRUB REEF(18077)",
+    "lat": -18.6333,
+    "lon": 147.425,
+    "cover": 12.84,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 4.33,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "HEDGE REEF",
+    "lat": -13.9083,
+    "lon": 143.9583,
+    "cover": 2.88,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "HEDLEY REEF",
+    "lat": -17.2333,
+    "lon": 146.4833,
+    "cover": 6.05,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "HELIX REEF",
+    "lat": -18.6333,
+    "lon": 147.3,
+    "cover": 49.25,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "HOSKYN ISLANDS REEF",
+    "lat": -23.8083,
+    "lon": 152.2917,
+    "cover": 47.76,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "JENKINS REEF",
+    "lat": -21.9583,
+    "lon": 152.6,
+    "cover": 2.5,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "JOHN BREWER REEF",
+    "lat": -18.6333,
+    "lon": 147.0583,
+    "cover": 13.33,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "KELSO REEF",
+    "lat": -18.4417,
+    "lon": 146.9917,
+    "cover": 32.82,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "KNIFE REEF",
+    "lat": -18.5833,
+    "lon": 147.5583,
+    "cover": 28.78,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 49.65,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "LAGOON REEF",
+    "lat": -12.3917,
+    "lon": 143.7417,
+    "cover": 39.23,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "LINNET REEF",
+    "lat": -14.7833,
+    "lon": 145.3417,
+    "cover": 20.26,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "LITTLE KELSO REEF",
+    "lat": -18.475,
+    "lon": 147.0,
+    "cover": 14.49,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "LOW ISLANDS REEF",
+    "lat": -16.3833,
+    "lon": 145.5667,
+    "cover": 16.2,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "MACGILLIVRAY REEF",
+    "lat": -14.65,
+    "lon": 145.4917,
+    "cover": 9.06,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "MANTIS REEF",
+    "lat": -12.275,
+    "lon": 143.8917,
+    "cover": 21.67,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "MAST HEAD REEF",
+    "lat": -23.5417,
+    "lon": 151.7333,
+    "cover": 38.21,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "MCCULLOCH",
+    "lat": -17.2833,
+    "lon": 146.45,
+    "cover": 3.59,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "MCSWEENEY REEF",
+    "lat": -11.0275,
+    "lon": 143.251,
+    "cover": 2.84,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "MIDDLE BANKS (2)",
+    "lat": -11.7633,
+    "lon": 143.6517,
+    "cover": 49.12,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "MIDDLE BANKS B (3)",
+    "lat": -11.7717,
+    "lon": 143.6583,
+    "cover": 61.38,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "MONSOON REEF",
+    "lat": -11.1333,
+    "lon": 143.2583,
+    "cover": 7.19,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "MOORE REEF",
+    "lat": -16.8667,
+    "lon": 146.2333,
+    "cover": 7.1,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "MYRMIDON REEF",
+    "lat": -18.2667,
+    "lon": 147.3917,
+    "cover": 17.65,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "NO NAME REEF",
+    "lat": -14.65,
+    "lon": 145.65,
+    "cover": 12.79,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "NORMAN REEF",
+    "lat": -16.4333,
+    "lon": 146.0,
+    "cover": 18.85,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "NORTH REEF (NORTH)",
+    "lat": -23.1833,
+    "lon": 151.9083,
+    "cover": 41.69,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2020,
+    "reef": "OSBORNE REEF",
+    "lat": -13.0417,
+    "lon": 143.625,
+    "cover": 3.48,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "PEARSON REEF",
+    "lat": -11.5667,
+    "lon": 143.7167,
+    "cover": 10.07,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "PEART REEF",
+    "lat": -17.4833,
+    "lon": 146.3917,
+    "cover": 8.01,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "PENRITH REEF",
+    "lat": -21.0167,
+    "lon": 149.9,
+    "cover": 17.08,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "PICKERSGILL REEF",
+    "lat": -15.875,
+    "lon": 145.5833,
+    "cover": 17.67,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "POMPEY REEF (NO 1)",
+    "lat": -20.9417,
+    "lon": 150.5333,
+    "cover": 32.05,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "POMPEY REEF (NO 2)",
+    "lat": -20.9917,
+    "lon": 150.525,
+    "cover": 10.21,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "RACHEL CARSON REEF",
+    "lat": -15.825,
+    "lon": 145.8167,
+    "cover": 20.58,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 8.05,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "ROXBURGH REEF",
+    "lat": -18.4333,
+    "lon": 147.0667,
+    "cover": 34.67,
+    "condition": "Good"
+  },
+  {
+    "year": 2020,
+    "reef": "SAND BANK NO 1 REEF",
+    "lat": -14.1917,
+    "lon": 144.9167,
+    "cover": 25.66,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "SECOND SMALL REEF",
+    "lat": -12.5667,
+    "lon": 143.775,
+    "cover": 20.96,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "SMALL LAGOON REEF",
+    "lat": -21.875,
+    "lon": 152.5083,
+    "cover": 24.95,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "ST CRISPIN REEF",
+    "lat": -16.1083,
+    "lon": 145.8333,
+    "cover": 8.17,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "TAYLOR REEF",
+    "lat": -17.8333,
+    "lon": 146.55,
+    "cover": 7.73,
+    "condition": "Critical"
+  },
+  {
+    "year": 2020,
+    "reef": "TERN REEF(20309)",
+    "lat": -20.9083,
+    "lon": 150.0333,
+    "cover": 26.96,
+    "condition": "Fair"
+  },
+  {
+    "year": 2020,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 14.36,
+    "condition": "Poor"
+  },
+  {
+    "year": 2020,
+    "reef": "WADE REEF",
+    "lat": -21.9833,
+    "lon": 152.65,
+    "cover": 2.84,
+    "condition": "Critical"
+  },
+  {
+    "year": 2022,
+    "reef": "11049S",
+    "lat": -11.3583,
+    "lon": 143.3333,
+    "cover": 19.7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "11162S",
+    "lat": -11.6,
+    "lon": 143.2917,
+    "cover": 29.19,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "13124S",
+    "lat": -13.8667,
+    "lon": 144.0917,
+    "cover": 31.44,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "19131S",
+    "lat": -19.7667,
+    "lon": 149.3667,
+    "cover": 34.42,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "19138S",
+    "lat": -19.8083,
+    "lon": 149.425,
+    "cover": 24.78,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "20104S",
+    "lat": -20.0333,
+    "lon": 149.6833,
+    "cover": 31.04,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "20348S",
+    "lat": -20.8917,
+    "lon": 150.9583,
+    "cover": 31.55,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "20354S",
+    "lat": -20.975,
+    "lon": 150.95,
+    "cover": 42.64,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "21060S",
+    "lat": -21.0167,
+    "lon": 150.6083,
+    "cover": 27.43,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "21139S",
+    "lat": -21.475,
+    "lon": 151.475,
+    "cover": 61.16,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "21187S",
+    "lat": -21.4167,
+    "lon": 151.6417,
+    "cover": 52.55,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "21529S",
+    "lat": -21.8667,
+    "lon": 152.175,
+    "cover": 54.18,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "21558S",
+    "lat": -21.5583,
+    "lon": 152.5417,
+    "cover": 49.82,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "21591S",
+    "lat": -21.0258,
+    "lon": 150.373,
+    "cover": 21.85,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "22084S",
+    "lat": -22.0,
+    "lon": 152.4583,
+    "cover": 9.03,
+    "condition": "Critical"
+  },
+  {
+    "year": 2022,
+    "reef": "ASHMORE BANKS (1)",
+    "lat": -11.8852,
+    "lon": 143.6293,
+    "cover": 86.46,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "ASHMORE BANKS (2)",
+    "lat": -11.88,
+    "lon": 143.7098,
+    "cover": 66.88,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "ASHMORE BANKS (3)",
+    "lat": -11.9267,
+    "lon": 143.6882,
+    "cover": 72.03,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "BORDER ISLAND REEF (NO 1)",
+    "lat": -20.175,
+    "lon": 149.025,
+    "cover": 10.82,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "BOWDEN REEF",
+    "lat": -19.0333,
+    "lon": 147.9333,
+    "cover": 28.01,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 59.29,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "CARTER REEF",
+    "lat": -14.55,
+    "lon": 145.5833,
+    "cover": 29.16,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 38.8,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 28.21,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "CORBETT REEF",
+    "lat": -14.0,
+    "lon": 144.1083,
+    "cover": 30.46,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "DAVIE REEF",
+    "lat": -13.975,
+    "lon": 144.4583,
+    "cover": 38.17,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "DAVIES REEF",
+    "lat": -18.825,
+    "lon": 147.6417,
+    "cover": 52.9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "DIP REEF",
+    "lat": -18.4167,
+    "lon": 147.4583,
+    "cover": 26.4,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "EAST CAY REEF",
+    "lat": -21.4917,
+    "lon": 152.5583,
+    "cover": 45.65,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "ERSKINE REEF",
+    "lat": -23.5083,
+    "lon": 151.775,
+    "cover": 37.68,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "EVENING REEF",
+    "lat": -15.9083,
+    "lon": 145.6583,
+    "cover": 28.63,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "FAIRFAX ISLANDS REEF",
+    "lat": -23.8583,
+    "lon": 152.3667,
+    "cover": 59.9,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "FAITH REEF",
+    "lat": -19.2833,
+    "lon": 148.35,
+    "cover": 32.67,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 17.08,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "FITZROY ISLAND REEF",
+    "lat": -16.925,
+    "lon": 145.9833,
+    "cover": 35.59,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "GANNETT CAY REEF",
+    "lat": -21.9833,
+    "lon": 152.475,
+    "cover": 6.05,
+    "condition": "Critical"
+  },
+  {
+    "year": 2022,
+    "reef": "GREEN ISLAND REEF",
+    "lat": -16.7583,
+    "lon": 145.98,
+    "cover": 20.44,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "HARDY REEF",
+    "lat": -19.7583,
+    "lon": 149.225,
+    "cover": 36.06,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 16.56,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "HAYMAN ISLAND REEF",
+    "lat": -20.0667,
+    "lon": 148.8917,
+    "cover": 21.45,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "HORSESHOE",
+    "lat": -22.0333,
+    "lon": 152.5917,
+    "cover": 6.59,
+    "condition": "Critical"
+  },
+  {
+    "year": 2022,
+    "reef": "HYDE REEF",
+    "lat": -19.7583,
+    "lon": 150.0917,
+    "cover": 59.28,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "JAGUAR REEF",
+    "lat": -18.9833,
+    "lon": 148.425,
+    "cover": 47.5,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "JENKINS REEF",
+    "lat": -21.9583,
+    "lon": 152.6,
+    "cover": 3.97,
+    "condition": "Critical"
+  },
+  {
+    "year": 2022,
+    "reef": "JOHN BREWER REEF",
+    "lat": -18.6333,
+    "lon": 147.0583,
+    "cover": 23.22,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "KANGAROO REEF (WEST)",
+    "lat": -19.2583,
+    "lon": 148.55,
+    "cover": 38.32,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "KELSO REEF",
+    "lat": -18.4417,
+    "lon": 146.9917,
+    "cover": 40.18,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "KNIFE REEF",
+    "lat": -18.5833,
+    "lon": 147.5583,
+    "cover": 48.91,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 68.35,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "LAGOON REEF",
+    "lat": -12.3917,
+    "lon": 143.7417,
+    "cover": 35.09,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "LINNET REEF",
+    "lat": -14.7833,
+    "lon": 145.3417,
+    "cover": 29.84,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "LIZARD ISLAND",
+    "lat": -14.675,
+    "lon": 145.4667,
+    "cover": 22.37,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "LOW ISLANDS REEF",
+    "lat": -16.3833,
+    "lon": 145.5667,
+    "cover": 41.21,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "MACGILLIVRAY REEF",
+    "lat": -14.65,
+    "lon": 145.4917,
+    "cover": 31.32,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "MACKAY REEF",
+    "lat": -16.05,
+    "lon": 145.65,
+    "cover": 44.95,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "MANTIS REEF",
+    "lat": -12.275,
+    "lon": 143.8917,
+    "cover": 33.24,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "MARTIN REEF(14123)",
+    "lat": -14.7667,
+    "lon": 145.3583,
+    "cover": 23.06,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "MAST HEAD REEF",
+    "lat": -23.5417,
+    "lon": 151.7333,
+    "cover": 34.59,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "MCSWEENEY REEF",
+    "lat": -11.0275,
+    "lon": 143.251,
+    "cover": 11.32,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "MIDDLE BANKS (2)",
+    "lat": -11.7633,
+    "lon": 143.6517,
+    "cover": 77.08,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "MIDDLE BANKS B (3)",
+    "lat": -11.7717,
+    "lon": 143.6583,
+    "cover": 64.72,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "MONSOON REEF",
+    "lat": -11.1333,
+    "lon": 143.2583,
+    "cover": 17.25,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "MORNING REEF",
+    "lat": -15.975,
+    "lon": 145.6667,
+    "cover": 28.47,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "MYRMIDON REEF",
+    "lat": -18.2667,
+    "lon": 147.3917,
+    "cover": 45.88,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "NO NAME REEF",
+    "lat": -14.65,
+    "lon": 145.65,
+    "cover": 29.94,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "NORTH DIRECTION REEF",
+    "lat": -14.7417,
+    "lon": 145.5083,
+    "cover": 43.75,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "ONE TREE REEF",
+    "lat": -23.5,
+    "lon": 152.0667,
+    "cover": 62.71,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "PEARSON REEF",
+    "lat": -11.5667,
+    "lon": 143.7167,
+    "cover": 31.84,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "PEART REEF",
+    "lat": -17.4833,
+    "lon": 146.3917,
+    "cover": 10.2,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "POMPEY REEF (NO 1)",
+    "lat": -20.9417,
+    "lon": 150.5333,
+    "cover": 26.64,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "POMPEY REEF (NO 2)",
+    "lat": -20.9917,
+    "lon": 150.525,
+    "cover": 15.72,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "REBE REEF",
+    "lat": -19.8083,
+    "lon": 150.15,
+    "cover": 56.5,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 24.44,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "RODDA REEF",
+    "lat": -13.925,
+    "lon": 144.3667,
+    "cover": 52.2,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "SAND BANK NO 1 REEF",
+    "lat": -14.1917,
+    "lon": 144.9167,
+    "cover": 52.93,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "SHOWERS REEF",
+    "lat": -19.4917,
+    "lon": 148.9083,
+    "cover": 24.56,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "SLATE REEF",
+    "lat": -19.6667,
+    "lon": 149.925,
+    "cover": 60.33,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "SMALL LAGOON REEF",
+    "lat": -21.875,
+    "lon": 152.5083,
+    "cover": 7.57,
+    "condition": "Critical"
+  },
+  {
+    "year": 2022,
+    "reef": "SNAKE (22088)",
+    "lat": -22.025,
+    "lon": 152.15,
+    "cover": 23.58,
+    "condition": "Fair"
+  },
+  {
+    "year": 2022,
+    "reef": "TAYLOR REEF",
+    "lat": -17.8333,
+    "lon": 146.55,
+    "cover": 13.85,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "TERN REEF(20309)",
+    "lat": -20.9083,
+    "lon": 150.0333,
+    "cover": 36.33,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 30.76,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "TURNER REEF",
+    "lat": -21.725,
+    "lon": 152.5583,
+    "cover": 11.58,
+    "condition": "Poor"
+  },
+  {
+    "year": 2022,
+    "reef": "TYDEMAN REEF",
+    "lat": -13.9833,
+    "lon": 144.5167,
+    "cover": 36.4,
+    "condition": "Good"
+  },
+  {
+    "year": 2022,
+    "reef": "WADE REEF",
+    "lat": -21.9833,
+    "lon": 152.65,
+    "cover": 7.61,
+    "condition": "Critical"
+  },
+  {
+    "year": 2022,
+    "reef": "WRECK ISLAND REEF",
+    "lat": -23.3333,
+    "lon": 151.9667,
+    "cover": 74.3,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2022,
+    "reef": "YONGE REEF",
+    "lat": -14.6,
+    "lon": 145.625,
+    "cover": 28.51,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "11049S",
+    "lat": -11.3583,
+    "lon": 143.3333,
+    "cover": 18.67,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "11162S",
+    "lat": -11.6,
+    "lon": 143.2917,
+    "cover": 22.08,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "12071S",
+    "lat": -12.4833,
+    "lon": 143.75,
+    "cover": 37.59,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "13121S",
+    "lat": -13.7833,
+    "lon": 144.2667,
+    "cover": 29.42,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "13124S",
+    "lat": -13.8667,
+    "lon": 144.0917,
+    "cover": 36.03,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "19131S",
+    "lat": -19.7667,
+    "lon": 149.3667,
+    "cover": 26.13,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "19138S",
+    "lat": -19.8083,
+    "lon": 149.425,
+    "cover": 19.64,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "20104S",
+    "lat": -20.0333,
+    "lon": 149.6833,
+    "cover": 15.0,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "20348S",
+    "lat": -20.8917,
+    "lon": 150.9583,
+    "cover": 31.71,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "20353S",
+    "lat": -20.9667,
+    "lon": 150.9167,
+    "cover": 60.32,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "20354S",
+    "lat": -20.975,
+    "lon": 150.95,
+    "cover": 48.58,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21060S",
+    "lat": -21.0167,
+    "lon": 150.6083,
+    "cover": 34.88,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21062S",
+    "lat": -21.0333,
+    "lon": 150.8667,
+    "cover": 34.85,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21064S",
+    "lat": -21.0583,
+    "lon": 150.775,
+    "cover": 22.2,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "21139S",
+    "lat": -21.475,
+    "lon": 151.475,
+    "cover": 62.48,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21187S",
+    "lat": -21.4167,
+    "lon": 151.6417,
+    "cover": 52.08,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21245S",
+    "lat": -21.3083,
+    "lon": 152.4417,
+    "cover": 43.71,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21296S",
+    "lat": -21.3417,
+    "lon": 152.55,
+    "cover": 30.62,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21558S",
+    "lat": -21.5583,
+    "lon": 152.5417,
+    "cover": 39.31,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "21591S",
+    "lat": -21.0258,
+    "lon": 150.373,
+    "cover": 29.11,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "AGINCOURT REEFS (NO 1)",
+    "lat": -16.05,
+    "lon": 145.8583,
+    "cover": 45.31,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "ANDERSEN REEF",
+    "lat": -15.7917,
+    "lon": 145.8,
+    "cover": 39.51,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "ASHMORE BANKS (1)",
+    "lat": -11.8852,
+    "lon": 143.6293,
+    "cover": 51.59,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "ASHMORE BANKS (2)",
+    "lat": -11.88,
+    "lon": 143.7098,
+    "cover": 72.0,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "ASHMORE BANKS (3)",
+    "lat": -11.9267,
+    "lon": 143.6882,
+    "cover": 67.88,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "BEN REEF",
+    "lat": -20.0083,
+    "lon": 150.325,
+    "cover": 45.8,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "BORDER ISLAND REEF (NO 1)",
+    "lat": -20.175,
+    "lon": 149.025,
+    "cover": 10.23,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "BOULDER REEF",
+    "lat": -15.4167,
+    "lon": 145.425,
+    "cover": 31.53,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "BOWDEN REEF",
+    "lat": -19.0333,
+    "lon": 147.9333,
+    "cover": 32.07,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "BROOMFIELD REEF",
+    "lat": -23.275,
+    "lon": 151.9417,
+    "cover": 57.82,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "CANNAN REEF",
+    "lat": -20.4833,
+    "lon": 150.1417,
+    "cover": 17.02,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "CARTER REEF",
+    "lat": -14.55,
+    "lon": 145.5833,
+    "cover": 32.83,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "CHICKEN REEF",
+    "lat": -18.6583,
+    "lon": 147.7083,
+    "cover": 35.81,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "CHINAMAN REEF(22102)",
+    "lat": -22.0083,
+    "lon": 152.6583,
+    "cover": 20.31,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "CORBETT REEF",
+    "lat": -14.0,
+    "lon": 144.1083,
+    "cover": 26.83,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "CREDLIN REEFS (EAST)",
+    "lat": -20.5417,
+    "lon": 149.95,
+    "cover": 11.27,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "CREECH REEF (NORTH)",
+    "lat": -13.625,
+    "lon": 144.1083,
+    "cover": 46.97,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "DAVIE REEF",
+    "lat": -13.975,
+    "lon": 144.4583,
+    "cover": 37.08,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "DAVIES REEF",
+    "lat": -18.825,
+    "lon": 147.6417,
+    "cover": 48.96,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "DIP REEF",
+    "lat": -18.4167,
+    "lon": 147.4583,
+    "cover": 33.01,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "EAST CAY REEF",
+    "lat": -21.4917,
+    "lon": 152.5583,
+    "cover": 33.07,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "EGRET REEF",
+    "lat": -15.475,
+    "lon": 145.4167,
+    "cover": 15.78,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "ERSKINE REEF",
+    "lat": -23.5083,
+    "lon": 151.775,
+    "cover": 46.67,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "FAIRFAX ISLANDS REEF",
+    "lat": -23.8583,
+    "lon": 152.3667,
+    "cover": 51.96,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "FARQUHARSON REEF (NO 1)",
+    "lat": -17.7833,
+    "lon": 146.5167,
+    "cover": 12.31,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "FEATHER REEF",
+    "lat": -17.5333,
+    "lon": 146.3833,
+    "cover": 25.77,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "FITZROY ISLAND REEF",
+    "lat": -16.925,
+    "lon": 145.9833,
+    "cover": 30.83,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "FORRESTER REEF",
+    "lat": -15.1667,
+    "lon": 145.5,
+    "cover": 41.86,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "GANNETT CAY REEF",
+    "lat": -21.9833,
+    "lon": 152.475,
+    "cover": 3.19,
+    "condition": "Critical"
+  },
+  {
+    "year": 2023,
+    "reef": "GREEN ISLAND REEF",
+    "lat": -16.7583,
+    "lon": 145.98,
+    "cover": 18.7,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "HARDY REEF",
+    "lat": -19.7583,
+    "lon": 149.225,
+    "cover": 34.46,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "HASTINGS REEF",
+    "lat": -16.5167,
+    "lon": 146.0167,
+    "cover": 24.63,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "HAVANNAH REEF",
+    "lat": -18.85,
+    "lon": 146.5417,
+    "cover": 25.81,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "HAYMAN ISLAND REEF",
+    "lat": -20.0667,
+    "lon": 148.8917,
+    "cover": 15.1,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "HEDLEY REEF",
+    "lat": -17.2333,
+    "lon": 146.4833,
+    "cover": 15.39,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "HELIX REEF",
+    "lat": -18.6333,
+    "lon": 147.3,
+    "cover": 53.6,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "HILDER REEF",
+    "lat": -14.4417,
+    "lon": 145.4083,
+    "cover": 39.22,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "HORSESHOE",
+    "lat": -22.0333,
+    "lon": 152.5917,
+    "cover": 8.83,
+    "condition": "Critical"
+  },
+  {
+    "year": 2023,
+    "reef": "HYDE REEF",
+    "lat": -19.7583,
+    "lon": 150.0917,
+    "cover": 53.08,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "IRENE REEF",
+    "lat": -15.65,
+    "lon": 145.7167,
+    "cover": 19.88,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "JOHN BREWER REEF",
+    "lat": -18.6333,
+    "lon": 147.0583,
+    "cover": 25.69,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "KELSO REEF",
+    "lat": -18.4417,
+    "lon": 146.9917,
+    "cover": 37.31,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "LADY MUSGRAVE REEF",
+    "lat": -23.9083,
+    "lon": 152.4083,
+    "cover": 55.69,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "LAGOON REEF",
+    "lat": -12.3917,
+    "lon": 143.7417,
+    "cover": 46.62,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "LANGFORD-BIRD REEF",
+    "lat": -20.0917,
+    "lon": 148.875,
+    "cover": 12.58,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "LENA REEF",
+    "lat": -15.65,
+    "lon": 145.8,
+    "cover": 38.24,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "LINNET REEF",
+    "lat": -14.7833,
+    "lon": 145.3417,
+    "cover": 34.39,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "LITTLE KELSO REEF",
+    "lat": -18.475,
+    "lon": 147.0,
+    "cover": 26.91,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "LIZARD ISLAND",
+    "lat": -14.675,
+    "lon": 145.4667,
+    "cover": 24.08,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "LOW ISLANDS REEF",
+    "lat": -16.3833,
+    "lon": 145.5667,
+    "cover": 39.23,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MACGILLIVRAY REEF",
+    "lat": -14.65,
+    "lon": 145.4917,
+    "cover": 36.91,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MACKAY REEF",
+    "lat": -16.05,
+    "lon": 145.65,
+    "cover": 32.03,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MANTIS REEF",
+    "lat": -12.275,
+    "lon": 143.8917,
+    "cover": 39.36,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MARTIN REEF(14123)",
+    "lat": -14.7667,
+    "lon": 145.3583,
+    "cover": 41.6,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MARX REEF",
+    "lat": -15.2,
+    "lon": 145.6167,
+    "cover": 45.65,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MAST HEAD REEF",
+    "lat": -23.5417,
+    "lon": 151.7333,
+    "cover": 33.65,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MCSWEENEY REEF",
+    "lat": -11.0275,
+    "lon": 143.251,
+    "cover": 13.65,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "MICHAELMAS REEF",
+    "lat": -16.5833,
+    "lon": 146.0167,
+    "cover": 13.84,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "MIDDLE BANKS (2)",
+    "lat": -11.7633,
+    "lon": 143.6517,
+    "cover": 68.89,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MIDDLE BANKS B (3)",
+    "lat": -11.7717,
+    "lon": 143.6583,
+    "cover": 49.48,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "MONSOON REEF",
+    "lat": -11.1333,
+    "lon": 143.2583,
+    "cover": 21.05,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "MYRMIDON REEF",
+    "lat": -18.2667,
+    "lon": 147.3917,
+    "cover": 49.02,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "NO 10 PATCHES (NO 2)",
+    "lat": -14.9333,
+    "lon": 145.6833,
+    "cover": 33.86,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "NO NAME REEF",
+    "lat": -14.65,
+    "lon": 145.65,
+    "cover": 25.41,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "NORTH DIRECTION REEF",
+    "lat": -14.7417,
+    "lon": 145.5083,
+    "cover": 49.85,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "ONE TREE REEF",
+    "lat": -23.5,
+    "lon": 152.0667,
+    "cover": 61.51,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "OSBORNE REEF",
+    "lat": -13.0417,
+    "lon": 143.625,
+    "cover": 9.88,
+    "condition": "Critical"
+  },
+  {
+    "year": 2023,
+    "reef": "PEARSON REEF",
+    "lat": -11.5667,
+    "lon": 143.7167,
+    "cover": 20.29,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "PEART REEF",
+    "lat": -17.4833,
+    "lon": 146.3917,
+    "cover": 27.19,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "POMPEY REEF (NO 1)",
+    "lat": -20.9417,
+    "lon": 150.5333,
+    "cover": 34.01,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "POMPEY REEF (NO 2)",
+    "lat": -20.9917,
+    "lon": 150.525,
+    "cover": 16.61,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "REBE REEF",
+    "lat": -19.8083,
+    "lon": 150.15,
+    "cover": 59.29,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "RIB REEF",
+    "lat": -18.4833,
+    "lon": 146.8833,
+    "cover": 21.69,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "RODDA REEF",
+    "lat": -13.925,
+    "lon": 144.3667,
+    "cover": 38.82,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "ROXBURGH REEF",
+    "lat": -18.4333,
+    "lon": 147.0667,
+    "cover": 31.65,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "SAND BANK NO 1 REEF",
+    "lat": -14.1917,
+    "lon": 144.9167,
+    "cover": 34.55,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "SAND BANK NO 8 REEF",
+    "lat": -13.3583,
+    "lon": 143.9583,
+    "cover": 43.4,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "SECOND SMALL REEF",
+    "lat": -12.5667,
+    "lon": 143.775,
+    "cover": 43.09,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "SLATE REEF",
+    "lat": -19.6667,
+    "lon": 149.925,
+    "cover": 61.48,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "SOUTH DIRECTION REEF (NORTH)",
+    "lat": -14.825,
+    "lon": 145.525,
+    "cover": 26.28,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "ST CRISPIN REEF",
+    "lat": -16.1083,
+    "lon": 145.8333,
+    "cover": 14.94,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "SWINGER REEF",
+    "lat": -15.2417,
+    "lon": 145.5333,
+    "cover": 39.34,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "TAYLOR REEF",
+    "lat": -17.8333,
+    "lon": 146.55,
+    "cover": 14.87,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "TERN REEF(20309)",
+    "lat": -20.9083,
+    "lon": 150.0333,
+    "cover": 32.57,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "THETFORD REEF",
+    "lat": -16.8083,
+    "lon": 146.1917,
+    "cover": 26.22,
+    "condition": "Fair"
+  },
+  {
+    "year": 2023,
+    "reef": "TURNER REEF",
+    "lat": -21.725,
+    "lon": 152.5583,
+    "cover": 10.78,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "TYDEMAN REEF",
+    "lat": -13.9833,
+    "lon": 144.5167,
+    "cover": 31.4,
+    "condition": "Good"
+  },
+  {
+    "year": 2023,
+    "reef": "WADE REEF",
+    "lat": -21.9833,
+    "lon": 152.65,
+    "cover": 11.56,
+    "condition": "Poor"
+  },
+  {
+    "year": 2023,
+    "reef": "WHEELER REEF",
+    "lat": -18.8083,
+    "lon": 147.525,
+    "cover": 65.95,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "WRECK ISLAND REEF",
+    "lat": -23.3333,
+    "lon": 151.9667,
+    "cover": 55.61,
+    "condition": "Very Good"
+  },
+  {
+    "year": 2023,
+    "reef": "YONGE REEF",
+    "lat": -14.6,
+    "lon": 145.625,
+    "cover": 35.44,
+    "condition": "Good"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "region": "Cape York",
+    "pollutant": "Sediment",
+    "natural": 444,
+    "anthropogenic": 1944,
+    "total": 2388
+  },
+  {
+    "region": "Wet Tropics",
+    "pollutant": "Sediment",
+    "natural": 302,
+    "anthropogenic": 1058,
+    "total": 1360
+  },
+  {
+    "region": "Burdekin",
+    "pollutant": "Sediment",
+    "natural": 596,
+    "anthropogenic": 4142,
+    "total": 4738
+  },
+  {
+    "region": "Mackay Whitsunday",
+    "pollutant": "Sediment",
+    "natural": 248,
+    "anthropogenic": 1294,
+    "total": 1542
+  },
+  {
+    "region": "Fitzroy",
+    "pollutant": "Sediment",
+    "natural": 1259,
+    "anthropogenic": 2850,
+    "total": 4109
+  },
+  {
+    "region": "Burnett Mary",
+    "pollutant": "Sediment",
+    "natural": 263,
+    "anthropogenic": 2813,
+    "total": 3076
+  },
+  {
+    "region": "Cape York",
+    "pollutant": "Nitrogen",
+    "natural": 300,
+    "anthropogenic": 1134,
+    "total": 1434
+  },
+  {
+    "region": "Wet Tropics",
+    "pollutant": "Nitrogen",
+    "natural": 440,
+    "anthropogenic": 1118,
+    "total": 1558
+  },
+  {
+    "region": "Burdekin",
+    "pollutant": "Nitrogen",
+    "natural": 245,
+    "anthropogenic": 1114,
+    "total": 1359
+  },
+  {
+    "region": "Mackay Whitsunday",
+    "pollutant": "Nitrogen",
+    "natural": 91,
+    "anthropogenic": 718,
+    "total": 809
+  },
+  {
+    "region": "Fitzroy",
+    "pollutant": "Nitrogen",
+    "natural": 167,
+    "anthropogenic": 1345,
+    "total": 1513
+  },
+  {
+    "region": "Burnett Mary",
+    "pollutant": "Nitrogen",
+    "natural": 146,
+    "anthropogenic": 1170,
+    "total": 1316
+  },
+  {
+    "region": "Cape York",
+    "pollutant": "Pesticides",
+    "natural": 0,
+    "anthropogenic": 0,
+    "total": 0
+  },
+  {
+    "region": "Wet Tropics",
+    "pollutant": "Pesticides",
+    "natural": 0,
+    "anthropogenic": 10054,
+    "total": 10054
+  },
+  {
+    "region": "Burdekin",
+    "pollutant": "Pesticides",
+    "natural": 0,
+    "anthropogenic": 4911,
+    "total": 4911
+  },
+  {
+    "region": "Mackay Whitsunday",
+    "pollutant": "Pesticides",
+    "natural": 0,
+    "anthropogenic": 10019,
+    "total": 10019
+  },
+  {
+    "region": "Fitzroy",
+    "pollutant": "Pesticides",
+    "natural": 0,
+    "anthropogenic": 2269,
+    "total": 2269
+  },
+  {
+    "region": "Burnett Mary",
+    "pollutant": "Pesticides",
+    "natural": 0,
+    "anthropogenic": 990,
+    "total": 990
+  }
+]

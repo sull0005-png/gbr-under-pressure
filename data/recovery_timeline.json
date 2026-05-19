@@ -1,0 +1,51 @@
+[
+  {
+    "event_year": 1998,
+    "pct": 42,
+    "recovery_years_available": 4,
+    "recovery_years_needed": 10,
+    "label": "1998"
+  },
+  {
+    "event_year": 2002,
+    "pct": 54,
+    "recovery_years_available": 14,
+    "recovery_years_needed": 12,
+    "label": "2002"
+  },
+  {
+    "event_year": 2016,
+    "pct": 91,
+    "recovery_years_available": 1,
+    "recovery_years_needed": 14,
+    "label": "2016"
+  },
+  {
+    "event_year": 2017,
+    "pct": 75,
+    "recovery_years_available": 3,
+    "recovery_years_needed": 12,
+    "label": "2017"
+  },
+  {
+    "event_year": 2020,
+    "pct": 98,
+    "recovery_years_available": 2,
+    "recovery_years_needed": 15,
+    "label": "2020"
+  },
+  {
+    "event_year": 2022,
+    "pct": 91,
+    "recovery_years_available": 2,
+    "recovery_years_needed": 14,
+    "label": "2022"
+  },
+  {
+    "event_year": 2024,
+    "pct": 100,
+    "recovery_years_available": 0,
+    "recovery_years_needed": 15,
+    "label": "2024"
+  }
+]

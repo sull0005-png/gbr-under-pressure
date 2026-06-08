@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paradise in Peril — The Great Barrier Reef Under Pressure</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,600;1,9..144,200;1,9..144,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,600;1,9..144,200;1,9..144,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -26,19 +26,35 @@
     .eyebrow{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--blue);font-weight:500;margin-bottom:16px}
     h2.st{font-family:'Fraunces',serif;font-weight:600;font-size:44px;line-height:1.1;margin-bottom:18px}
     .intro{font-size:18px;color:var(--text2);font-weight:300;max-width:660px;line-height:1.8;margin-bottom:48px}
-    .note{font-size:11px;color:var(--muted);margin-top:14px;font-style:italic;line-height:1.6}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:30px}
-    .clabel{font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--text2);margin-bottom:20px}
+    .note{font-size:11px;color:var(--muted);margin-top:14px;font-style:italic;line-height:1.65;font-family:'JetBrains Mono',monospace;}
+    /* unified clipping + consistent borders for all vega charts */
+    .vega-embed{width:100%;}
+    .vega-embed canvas,.vega-embed svg{max-width:100%;}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:30px;display:flex;flex-direction:column}
+    .card > .vega-embed,.card > [id^="chart-"]{flex:0 0 auto}
+    .clabel{font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--text2);margin-bottom:18px;font-family:'JetBrains Mono',monospace;}
     .insight{border-left:2px solid var(--coral);padding:16px 24px;background:rgba(255,107,53,0.06);border-radius:0 10px 10px 0;font-size:16px;color:var(--text2);line-height:1.7}
     .insight strong{color:var(--text)}
     .two-col{display:grid;grid-template-columns:1fr 1fr;gap:26px}
     .three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
-    .section{padding:88px 0}
+    .section{padding:72px 0 96px}
     .section.alt{background:var(--bg2)}
     .section.dark{background:var(--bg3)}
 
+    /* consistent chapter rhythm + visible boundary between adjacent same-bg sections */
+    .section + .section{border-top:1px solid var(--line)}
+    .section .ch-label{margin-top:0}
+    .section > .container > .ch-label:first-child{padding-top:4px}
+
+    /* SCROLL PROGRESS BAR */
+    .scroll-progress{position:fixed;top:0;left:0;height:3px;
+      background:linear-gradient(90deg,var(--teal),var(--coral));
+      z-index:9999;transition:width 0.1s linear;width:0%;}
+
+    
+
     /* ── ANIMATED MAP CONTROLS ── */
-    .year-display-inline{font-family:'Fraunces',serif;font-size:80px;font-weight:600;
+    .year-display-inline{font-family:'Fraunces',serif;font-size:44px;font-weight:600;
       line-height:1;color:var(--text);transition:color 0.4s;}
     .year-display-inline.bleach{color:var(--red);}
     .bleach-badge-inline{display:none;background:rgba(255,23,68,0.12);
@@ -47,7 +63,7 @@
       animation:mpulse 1.5s infinite;margin-top:8px;}
     .bleach-badge-inline.show{display:inline-block;}
     @keyframes mpulse{0%,100%{opacity:1}50%{opacity:0.55}}
-    .map-controls{display:flex;align-items:center;gap:28px;margin-bottom:24px;flex-wrap:wrap;}
+    .map-controls{display:flex;align-items:center;gap:20px;margin-bottom:16px;flex-wrap:wrap;}
     .map-slider-wrap{flex:1;min-width:280px;}
     .map-slider-label{font-size:10px;color:var(--muted);letter-spacing:2px;
       text-transform:uppercase;margin-bottom:10px;}
@@ -64,17 +80,44 @@
       transition:all 0.2s;flex-shrink:0;}
     .map-play-btn:hover{background:rgba(72,202,228,0.18);box-shadow:0 0 20px rgba(72,202,228,0.3);}
     .map-play-btn.mplaying{border-color:var(--coral);color:var(--coral);background:rgba(255,107,53,0.08);}
-    .map-stats{display:flex;gap:32px;margin-bottom:28px;flex-wrap:wrap;}
+    .map-stats{display:flex;gap:24px;margin-bottom:8px;flex-wrap:wrap;}
+    .map-controls{margin-bottom:12px!important;}
     .mstat{display:flex;flex-direction:column;gap:3px;}
-    .mstat-val{font-family:'Fraunces',serif;font-size:30px;font-weight:600;line-height:1;transition:color 0.4s;}
+    .mstat-val{font-family:'Fraunces',serif;font-size:22px;font-weight:600;line-height:1;transition:color 0.4s;}
     .mstat-lbl{font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;}
-    .tl-wrap{margin-bottom:20px;}
-    .tl-track-main{height:3px;background:rgba(255,255,255,0.06);border-radius:2px;position:relative;}
-    .tl-ev{position:absolute;transform:translateX(-50%);text-align:center;}
-    .tl-ev-dot{width:8px;height:8px;border-radius:50%;background:var(--red);
-      transform:translateY(-2.5px);margin:0 auto;}
-    .tl-ev-dot.minor{background:var(--coral);width:6px;height:6px;}
-    .tl-ev-yr{font-size:8px;color:rgba(255,71,87,0.55);margin-top:6px;white-space:nowrap;}
+    .tl-wrap{margin-bottom:34px;padding:0 10px;height:34px;position:relative;}
+    .tl-track-main{height:3px;background:rgba(255,255,255,0.06);border-radius:2px;position:absolute;top:3px;left:10px;right:10px;}
+    .tl-ev{position:absolute;top:0;transform:translateX(-50%);text-align:center;}
+    .tl-ev-dot{width:9px;height:9px;border-radius:50%;background:var(--red);margin:0 auto;}
+    .tl-ev-dot.minor{background:var(--coral);width:6px;height:6px;margin:1.5px auto 3px;}
+    .tl-ev-yr{font-size:9px;color:rgba(255,71,87,0.6);margin-top:6px;white-space:nowrap;}
+
+    /* HOW TO READ — unified instruction block */
+    .how-to-read{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);
+      margin:0 0 16px;letter-spacing:0.4px;line-height:1.5;opacity:0.85;font-style:normal;}
+    .how-to-read::before{content:'↳ ';opacity:0.6;}
+    .how-to-read strong{color:var(--text);font-weight:500;}
+
+    /* SPECIES GALLERY */
+    .species-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px;margin-top:32px}
+    .sp-card{position:relative;background:var(--bg2);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s;cursor:default}
+    .sp-card:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.45),0 0 0 1px var(--accent,#48cae4)}
+    .sp-card:hover .sp-img{transform:scale(1.08)}
+    .sp-img-wrap{position:relative;height:220px;overflow:hidden;background:linear-gradient(135deg,var(--accent,#48cae4) 0%,var(--bg3) 90%);clip-path:polygon(0 0,100% 0,100% 92%,0 100%)}
+    .sp-img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.16,1,.3,1);display:block}
+    .sp-img-wrap::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 0,transparent 55%,rgba(6,15,26,.75) 100%);pointer-events:none}
+    .sp-iucn-pill{position:absolute;top:14px;right:14px;background:rgba(6,15,26,.78);backdrop-filter:blur(10px);border:1px solid var(--accent,#48cae4);border-radius:20px;padding:5px 12px;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent,#48cae4);font-weight:500;z-index:2}
+    .sp-body{padding:20px 22px 22px}
+    .sp-name{font-family:'Fraunces',serif;font-size:22px;font-weight:600;line-height:1.15;margin-bottom:2px;color:var(--text)}
+    .sp-sci{font-size:11px;font-style:italic;color:var(--muted);margin-bottom:14px;letter-spacing:.3px}
+    .sp-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-bottom:14px;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .sp-stat-lbl{font-size:8.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+    .sp-stat-val{font-family:'Fraunces',serif;font-size:14px;color:var(--text);font-weight:600;line-height:1.15}
+    .sp-threat{font-size:12.5px;color:var(--text2);line-height:1.55}
+    .sp-threat strong{color:var(--text)}
+    .sp-iucn-bar{margin-top:14px;height:4px;background:linear-gradient(90deg,#2ed573 0,#ffa502 50%,#ff1744 100%);border-radius:2px;position:relative;opacity:.7}
+    .sp-iucn-marker{position:absolute;top:-3px;width:10px;height:10px;background:var(--text);border-radius:50%;border:2px solid var(--bg2);transform:translateX(-50%);box-shadow:0 0 8px rgba(0,0,0,.4)}
+    .sp-iucn-labels{display:flex;justify-content:space-between;font-size:8.5px;color:var(--muted);margin-top:5px;letter-spacing:.5px}
 
     .vega-embed summary{display:none!important}
     .ch-label{display:inline-flex;align-items:center;gap:12px;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
@@ -90,27 +133,34 @@
 
     /* HERO */
     .hero{
-      min-height:100vh;display:flex;align-items:center;
+      min-height:100vh;height:100vh;display:flex;align-items:center;
       position:relative;overflow:hidden;
       background:var(--bg);border-bottom:1px solid var(--line);
     }
     .hero-bg{
       position:absolute;inset:0;pointer-events:none;
-      background:
-        radial-gradient(ellipse 60% 50% at 70% 30%,rgba(0,180,216,0.07) 0%,transparent 60%),
-        radial-gradient(ellipse 40% 40% at 20% 80%,rgba(255,107,53,0.05) 0%,transparent 60%);
+      background-image: url('https://images.pexels.com/photos/26726469/pexels-photo-26726469.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1');
+      background-size:cover;background-position:center 40%;
+      opacity:0.06;
     }
-    .hero-content{padding:120px 0 100px;position:relative;z-index:1}
-    .hero h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(64px,8vw,108px);line-height:0.93;letter-spacing:-3px;margin-bottom:6px}
+    .hero::before{
+      content:'';position:absolute;inset:0;pointer-events:none;
+      background:
+        radial-gradient(ellipse 60% 50% at 70% 30%,rgba(0,180,216,0.12) 0%,transparent 60%),
+        radial-gradient(ellipse 40% 40% at 20% 80%,rgba(255,107,53,0.08) 0%,transparent 60%),
+        linear-gradient(180deg, rgba(6,15,26,0.4) 0%, rgba(6,15,26,0.97) 100%);
+    }
+    .hero-content{padding:0;position:relative;z-index:1;width:100%}
+    .hero h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(56px,7vw,96px);line-height:0.93;letter-spacing:-3px;margin-bottom:6px}
     .hero h1 em{color:var(--coral);font-style:italic;display:block}
-    .hero-sub{font-size:20px;color:var(--text2);font-weight:300;max-width:520px;margin:28px 0 60px;line-height:1.65}
-    .scroll-cue{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-top:64px}
+    .hero-sub{font-size:19px;color:var(--text2);font-weight:300;max-width:520px;margin:22px 0 36px;line-height:1.6}
+    .scroll-cue{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-top:32px}
     .scroll-line{width:40px;height:1px;background:var(--muted)}
     .scroll-arrow{animation:bounce 2s infinite}
     @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
 
     /* STAT CARDS */
-    .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:64px}
+    .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:0}
     .sc{background:rgba(255,255,255,0.035);border:1px solid var(--line);border-radius:14px;padding:24px;border-top:2px solid var(--blue);transition:transform 0.2s,box-shadow 0.2s}
     .sc:hover{transform:translateY(-4px);box-shadow:0 20px 60px rgba(0,0,0,0.3)}
     .sc.r{border-top-color:var(--coral)}.sc.a{border-top-color:var(--amber)}.sc.g{border-top-color:var(--green)}
@@ -178,9 +228,176 @@
     /* CS LEGEND */
     .cs-legend{display:flex;gap:20px;font-size:12px;color:var(--text2);margin-bottom:16px;align-items:center;flex-wrap:wrap}
     .cs-dot{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:middle}
+  /* keep all chart content inside cards, consistent side borders */
+    .card{overflow:hidden}
+    .vega-embed,.vega-embed svg,.vega-embed canvas{max-width:100%!important}
+    #radial-svg{overflow:visible}
+
+
+/* CH1 DHW + CH3 shelf layout patch */
+.ch1-dhw-grid{
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  align-items:stretch!important;
+  gap:26px;
+  margin-bottom:24px!important;
+}
+.ch1-dhw-card{
+  min-height:540px;
+  padding:34px 30px 28px!important;
+  justify-content:space-between!important;
+}
+.ch1-dhw-card .note{margin-top:10px}
+.ch1-insight-card{
+  min-height:540px;
+  padding:44px 46px!important;
+  justify-content:center!important;
+  gap:30px!important;
+}
+.ch1-insight-copy{
+  color:var(--text2);
+  font-size:clamp(23px,2.1vw,31px)!important;
+  line-height:1.58!important;
+  font-weight:300;
+}
+.ch3-shelf-section{padding-bottom:96px!important}
+.ch3-shelf-card{padding:32px 44px 38px!important}
+#chart-shelf{display:block!important;width:100%;margin-top:4px}
+#chart-shelf .vega-embed{width:100%}
+
+@media(max-width:900px){
+  .ch1-dhw-grid{grid-template-columns:1fr}
+  .ch1-dhw-card,.ch1-insight-card{min-height:auto}
+  .ch1-insight-card{padding:30px!important}
+  .ch3-shelf-card{padding:26px 22px 30px!important}
+}
+  
+
+/* Chapter 5 compact animated map patch */
+.chapter-map-section{
+  padding-top:28px!important;
+  padding-bottom:34px!important;
+}
+.chapter-map-section .st{
+  font-size:38px;
+  margin-bottom:8px!important;
+}
+.chapter-map-section .intro{
+  max-width:980px!important;
+  margin-bottom:14px!important;
+  font-size:18px;
+  line-height:1.55;
+}
+.map-controls{
+  display:grid!important;
+  grid-template-columns:170px minmax(0,1fr) 58px;
+  align-items:center;
+  gap:18px;
+  margin-bottom:8px!important;
+}
+.year-display-inline{
+  font-size:52px!important;
+  line-height:.9!important;
+}
+.map-year-sub,
+.map-slider-label,
+.mstat-lbl,
+.tl-ev-yr{
+  font-family:'JetBrains Mono',monospace!important;
+  font-size:10px!important;
+  letter-spacing:2px!important;
+  text-transform:uppercase;
+}
+.map-stats{
+  display:grid!important;
+  grid-template-columns:repeat(4,max-content);
+  gap:30px!important;
+  margin:0 0 12px!important;
+}
+.mstat-val{
+  font-family:'Fraunces',serif!important;
+  font-size:24px!important;
+  line-height:1!important;
+}
+.tl-wrap{
+  height:40px!important;
+  margin:4px 0 12px!important;
+  padding:0!important;
+}
+.tl-track-main{
+  top:8px!important;
+}
+.tl-ev{
+  top:4px!important;
+}
+.tl-ev-dot{
+  width:10px!important;
+  height:10px!important;
+}
+.tl-ev-dot.minor{
+  width:7px!important;
+  height:7px!important;
+  margin:1.5px auto!important;
+}
+.tl-ev-yr{
+  margin-top:8px!important;
+  color:rgba(255,71,87,0.8)!important;
+}
+.map-card{
+  padding:0!important;
+  overflow:hidden!important;
+  margin-bottom:12px!important;
+  background:#091520;
+}
+
+#chart-map{
+  width:100%;
+  min-height:480px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#chart-map .vega-embed{
+  width:min(100%,1040px)!important;
+  margin:0 auto;
+}
+
+#chart-map canvas,
+#chart-map svg{
+  width:100%!important;
+  height:auto!important;
+  display:block;
+}
+
+@media(max-width:900px){
+  #chart-map{min-height:420px}
+}
+.map-bottom-copy{
+  grid-template-columns:1.1fr .9fr!important;
+  gap:18px!important;
+}
+.map-bottom-copy .note,
+.map-bottom-copy .insight{
+  font-size:11px!important;
+  line-height:1.55!important;
+}
+.vega-embed,
+.vega-embed *{
+  font-family:'DM Sans',sans-serif!important;
+}
+.clabel{
+  line-height:1.5!important;
+}
+@media(max-width:900px){
+  .map-controls{grid-template-columns:1fr!important;gap:14px!important}
+  .map-stats{grid-template-columns:repeat(2,max-content)!important}
+  .map-bottom-copy{grid-template-columns:1fr!important}
+}
+
   </style>
 </head>
 <body>
+<div class="scroll-progress" id="scroll-progress"></div>
 
 <!-- ══ HERO ══ -->
 <div class="hero">
@@ -226,46 +443,44 @@
       <button class="sbtn" onclick="setSector(this,'far_northern')">Far Northern</button>
     </div>
 
-    <div class="card reveal" style="margin-bottom:26px;">
+    <div class="card reveal" style="margin-bottom:26px;margin-top:-8px;">
       <div class="clabel">Peak sea surface temperature anomaly (1985–2025) — <span id="sector-label">Northern sector</span></div>
+      <div class="how-to-read">SST anomaly = how much warmer/cooler the ocean is vs its long-term average. Above <strong style="color:var(--coral)">+1 °C</strong> triggers mass bleaching. Dashed lines = confirmed bleaching years.</div>
       <div id="chart-sst"></div>
       <p class="note">Annual maximum SST anomaly (°C above historical average). Dashed vertical lines mark confirmed mass bleaching events. Source: NOAA Coral Reef Watch Regional Virtual Stations.</p>
     </div>
 
-    <div class="two-col reveal" style="margin-bottom:24px;">
-      <div class="card">
+    <div class="two-col reveal ch1-dhw-grid">
+      <div class="card ch1-dhw-card">
         <div class="clabel">Degree heating weeks — accumulated heat stress (1985–2025)</div>
         <div id="chart-dhw"></div>
         <p class="note">DHW values above 8°C-weeks trigger severe bleaching and coral mortality. Source: NOAA Coral Reef Watch.</p>
       </div>
-      <div class="insight" style="align-self:center;">The bleaching threshold is crossed when temperatures exceed the average summer maximum for <strong>8 consecutive weeks</strong>. That threshold is now breached in almost every year across at least one GBR sector.</div>
+
+      <div class="card ch1-insight-card" style="border-left:2px solid var(--coral);background:rgba(255,107,53,0.06);">
+        <div class="ch1-insight-copy">The bleaching threshold is crossed when temperatures exceed the average summer maximum for <strong style="color:var(--text);font-weight:600;">8 consecutive weeks</strong>.</div>
+        <div class="ch1-insight-copy">That threshold is now breached in <strong style="color:var(--coral);font-weight:600;">almost every year</strong> across at least one GBR sector.</div>
+      </div>
     </div>
 
     <div class="card reveal">
       <div class="clabel">Monthly SST anomaly heatmap — all 12 months, Northern sector (2000–2025)</div>
+      <div class="how-to-read">Each row = one year, each column = one month. Redder = warmer than the historical average.</div>
       <div id="chart-heatmap"></div>
-      <p class="note">Each row = one year · Each column = one month · Colour = mean SST anomaly (°C). The deepening reds in Jan–Mar (austral summer) show accelerating heat stress since 2016. Source: NOAA Coral Reef Watch.</p>
+      <p class="note">Cell value = mean SST anomaly (°C). &gt;+1.0 °C stresses coral; &gt;+1.5 °C triggers bleaching; 0.0 = at or below baseline. Deepening reds in Jan–Mar show accelerating summer heat stress since 2016. Source: NOAA Coral Reef Watch.</p>
     </div>
   </div>
 </div>
 
-<!-- ══ REEF HEALTH GAUGE (HD CUSTOM) ══ -->
+<!-- ══ REEF HEALTH GAUGE ══ -->
 <div class="gauge-section">
   <div class="container">
     <div class="ch-label reveal" style="justify-content:center;margin-bottom:32px;"><div class="ch-line"></div>Reef Health Snapshot — 2023<div class="ch-line"></div></div>
     <div class="gauge-grid">
       <div class="gauge-wrap reveal">
         <svg width="200" height="120" viewBox="0 0 200 120">
-          <defs>
-            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#ff1744"/>
-              <stop offset="50%" stop-color="#ffa502"/>
-              <stop offset="100%" stop-color="#48cae4"/>
-            </linearGradient>
-          </defs>
-          <!-- Track -->
+          <defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff1744"/><stop offset="50%" stop-color="#ffa502"/><stop offset="100%" stop-color="#48cae4"/></linearGradient></defs>
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="14" stroke-linecap="round"/>
-          <!-- Northern: 36.2% cover → ~73% of max 50% → angle -->
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#g1)" stroke-width="14" stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="68" class="gauge-arc" data-offset="68"/>
           <text x="100" y="88" text-anchor="middle" font-family="Fraunces, serif" font-size="26" font-weight="600" fill="#48cae4">36.2%</text>
           <text x="100" y="108" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="10" fill="#3d6878" letter-spacing="1">CORAL COVER</text>
@@ -279,7 +494,6 @@
         <svg width="200" height="120" viewBox="0 0 200 120">
           <defs><linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff1744"/><stop offset="50%" stop-color="#ffa502"/><stop offset="100%" stop-color="#48cae4"/></linearGradient></defs>
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="14" stroke-linecap="round"/>
-          <!-- Central: 30.7% → 61.4% of max → offset ~97 -->
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#g2)" stroke-width="14" stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="97" class="gauge-arc" data-offset="97"/>
           <text x="100" y="88" text-anchor="middle" font-family="Fraunces, serif" font-size="26" font-weight="600" fill="#00b4d8">30.7%</text>
           <text x="100" y="108" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="10" fill="#3d6878" letter-spacing="1">CORAL COVER</text>
@@ -293,7 +507,6 @@
         <svg width="200" height="120" viewBox="0 0 200 120">
           <defs><linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff1744"/><stop offset="50%" stop-color="#ffa502"/><stop offset="100%" stop-color="#48cae4"/></linearGradient></defs>
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="14" stroke-linecap="round"/>
-          <!-- Southern: 34% → 68% of max → offset ~80 -->
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#g3)" stroke-width="14" stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="80" class="gauge-arc" data-offset="80"/>
           <text x="100" y="88" text-anchor="middle" font-family="Fraunces, serif" font-size="26" font-weight="600" fill="#2ed573">34.0%</text>
           <text x="100" y="108" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="10" fill="#3d6878" letter-spacing="1">CORAL COVER</text>
@@ -374,17 +587,17 @@
   </div>
 </div>
 
-
 <!-- ══ UNIT CHART + RADIAL ══ -->
 <div class="section dark">
   <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 2b — The Scale of Bleaching</div>
+    <div class="ch-label reveal"><div class="ch-line"></div>The Scale of Bleaching</div>
     <h2 class="st reveal">Out of Every 100 Reefs…</h2>
     <div class="intro reveal">In 2024, for the first time in recorded history, every single GBR sector experienced mass bleaching simultaneously. The scale of impact — visualised below — is unprecedented.</div>
 
     <div class="two-col reveal">
       <div class="card">
         <div class="clabel">100 representative GBR reefs — bleaching status, 2024</div>
+        <div class="how-to-read">Each square = 1% of surveyed reefs. Red = bleached, amber = recovering, green = healthy.</div>
         <div id="chart-unit"></div>
         <div style="display:flex;gap:20px;margin-top:16px;flex-wrap:wrap;">
           <span style="font-size:12px;color:var(--text2);display:flex;align-items:center;gap:6px;"><span style="width:12px;height:12px;background:#ff4757;border-radius:3px;display:inline-block;"></span>Bleached (65%)</span>
@@ -394,33 +607,28 @@
         <p class="note">Unit chart: each square = 1% of surveyed GBR reefs. Source: AIMS LTMP / GBRMPA 2024 aerial surveys.</p>
       </div>
 
-      <div class="card" style="display:flex;flex-direction:column;align-items:center;">
+      <div class="card" style="align-items:center;">
         <div class="clabel" style="align-self:flex-start;">Mass bleaching events 1985–2024 — frequency radial</div>
-        <svg id="radial-svg" viewBox="0 0 600 600" style="width:100%;max-width:380px;" aria-label="Radial chart showing bleaching events from 1985 to 2024 as spikes extending outward from a base circle. Bleaching events cluster densely after 2016, showing acceleration."></svg>
-        <p class="note" style="align-self:flex-start;margin-top:12px;">Each spoke = one year (1985–2024). Spike length = % of GBR reefs affected. The clustering of long red spikes after 2016 shows the acceleration in bleaching frequency. Source: AIMS LTMP / GBRMPA.</p>
+        <div class="how-to-read" style="align-self:flex-start;">Each spoke = one year. Longer red spike = more reefs hit. Note the cluster after 2016.</div>
+        <svg id="radial-svg" viewBox="0 0 600 600" style="width:100%;max-width:330px;" aria-label="Radial chart of bleaching events 1985-2024; long red spikes cluster after 2016 showing acceleration."></svg>
+        <p class="note" style="align-self:flex-start;">Each spoke = one year (1985–2024). Spike length = % of GBR reefs affected. The clustering of long red spikes after 2016 shows the acceleration in bleaching frequency. Source: AIMS LTMP / GBRMPA.</p>
       </div>
     </div>
   </div>
 </div>
 
 <!-- ══ INSHORE VS OFFSHORE + DIVERGING BAR ══ -->
-<div class="section">
+<div class="section ch3-shelf-section">
   <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 3b — Where Damage Is Worst</div>
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 3 — The Coastal Squeeze</div>
     <h2 class="st reveal">Inshore Reefs Are Losing the Fight</h2>
     <div class="intro reveal">Reefs close to the coast face a double assault — bleaching from above and land-based pollution from below. Inshore reefs consistently show half the coral cover of their offshore counterparts.</div>
 
-    <div class="two-col reveal">
-      <div class="card">
+    <div class="reveal">
+      <div class="card ch3-shelf-card">
         <div class="clabel">Coral cover by reef position — inshore vs mid-shelf vs outer-shelf (1993–2023)</div>
         <div id="chart-shelf"></div>
         <p class="note">Inshore reefs (closest to coast) are most affected by agricultural runoff, sediment, and combined heat stress. Outer-shelf reefs have consistently higher cover but are not immune to bleaching. Source: AIMS LTMP.</p>
-      </div>
-
-      <div class="card">
-        <div class="clabel">Live coral vs dead coral — Northern GBR (1993–2023)</div>
-        <div id="chart-diverging"></div>
-        <p class="note">Diverging bar chart: live coral cover (above zero, teal) vs dead coral cover (below zero, red) by year. The slow accumulation of dead coral after each bleaching event is clearly visible. Source: AIMS LTMP manta tow data.</p>
       </div>
     </div>
   </div>
@@ -429,24 +637,24 @@
 <!-- ══ CH3: CORAL COVER ══ -->
 <div class="section dark">
   <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 3 — Coral Cover</div>
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 4 — What's Left of the Reef</div>
     <h2 class="st reveal">What's Left of the Reef?</h2>
     <div class="intro reveal">AIMS has tracked hard coral cover across the reef since 1992. After a period of recovery, all three regions suffered dramatic declines following the bleaching events of 2016–2024.</div>
 
     <div class="three-col reveal" style="margin-bottom:12px;">
-      <div>
-        <div class="rlabel">Northern GBR · Cape York → Cooktown</div>
-        <div class="card" style="padding:22px;"><div id="chart-north"></div></div>
-      </div>
-      <div>
-        <div class="rlabel">Central GBR · Cooktown → Bowen</div>
-        <div class="card" style="padding:22px;"><div id="chart-central"></div></div>
-      </div>
-      <div>
-        <div class="rlabel">Southern GBR · Bowen → Bundaberg</div>
-        <div class="card" style="padding:22px;"><div id="chart-south"></div></div>
-      </div>
-    </div>
+  <div>
+    <div class="rlabel" style="text-align:center;">Northern GBR · Cape York → Cooktown</div>
+    <div class="card" style="padding:22px;"><div id="chart-north"></div></div>
+  </div>
+  <div>
+    <div class="rlabel" style="text-align:center;">Central GBR · Cooktown → Bowen</div>
+    <div class="card" style="padding:22px;"><div id="chart-central"></div></div>
+  </div>
+  <div>
+    <div class="rlabel" style="text-align:center;">Southern GBR · Bowen → Bundaberg</div>
+    <div class="card" style="padding:22px;"><div id="chart-south"></div></div>
+  </div>
+</div>
     <p class="note" style="text-align:center;margin-bottom:40px;">Regional mean hard coral cover (%) with 95% confidence intervals from annual manta tow surveys. Dashed lines mark bleaching events. Source: AIMS LTMP 1992–2023.</p>
 
     <div class="card reveal">
@@ -457,34 +665,36 @@
         <span><span class="cs-dot" style="background:#2ed573"></span>Southern</span>
         <span style="margin-left:auto;font-size:11px;color:var(--muted)">Lines connect years chronologically — follow the arrow of time</span>
       </div>
+      <div class="how-to-read">Follow the line through time. Top-left = cool + healthy. Bottom-right = hotter + degraded.</div>
       <div id="chart-scatter"></div>
       <p class="note">Each point = one year. X = peak SST anomaly (Northern sector). Y = mean coral cover per region. As temperature rises (right), coral cover falls (down). The relationship is direct and accelerating. Source: AIMS LTMP + NOAA CRW.</p>
     </div>
   </div>
 </div>
 
-<!-- ══ CH4: ANIMATED MAP ══ -->
-<div class="section alt">
-  <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 4 — The 30-Year Collapse</div>
-    <h2 class="st reveal">Watch the Reef <em style="color:var(--coral);font-style:italic;">Die</em> in Real Time</h2>
-    <div class="intro reveal">Every dot is a real reef AIMS has surveyed since 1993. Press play — or drag the slider — to watch 30 years of coral cover collapse unfold across all 296 monitored reefs. The 2016 bleaching event is unmistakable.</div>
 
-    <!-- CONTROLS -->
+<!-- ══ CH4: ANIMATED MAP ══ -->
+<div class="section alt chapter-map-section">
+  <div class="container">
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 5 — The 30-Year Collapse</div>
+    <h2 class="st reveal">Watch the Reef <em style="color:var(--coral);font-style:italic;">Die</em> in Real Time</h2>
+    <div class="intro reveal">Every dot is a real reef AIMS has surveyed since 1993. Drag the slider or press play — the 2016 bleaching event is unmistakable.</div>
+
     <div class="map-controls reveal">
       <div>
         <div class="year-display-inline" id="map-year-num">1993</div>
-        <div style="font-size:10px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-top:4px;">Survey year</div>
-        <div class="bleach-badge-inline" id="map-bleach-badge">⚠ MASS BLEACHING</div>
+        <div class="map-year-sub" style="color:var(--muted);margin-top:6px;">Survey year</div>
+        <div class="bleach-badge-inline" id="map-bleach-badge">MASS BLEACHING</div>
       </div>
+
       <div class="map-slider-wrap">
         <div class="map-slider-label">Drag to explore · 1993 → 2023</div>
         <input type="range" id="map-year-slider" min="1993" max="2023" value="1993" step="1">
       </div>
+
       <button class="map-play-btn" id="map-play-btn" title="Play animation">▶</button>
     </div>
 
-    <!-- LIVE STATS -->
     <div class="map-stats reveal">
       <div class="mstat"><div class="mstat-val" id="ms-reefs" style="color:var(--teal)">—</div><div class="mstat-lbl">Reefs surveyed</div></div>
       <div class="mstat"><div class="mstat-val" id="ms-mean" style="color:var(--teal)">—%</div><div class="mstat-lbl">Mean coral cover</div></div>
@@ -492,43 +702,13 @@
       <div class="mstat"><div class="mstat-val" id="ms-good" style="color:#4caf50">—</div><div class="mstat-lbl">Good/Very Good (&gt;30%)</div></div>
     </div>
 
-    <!-- BLEACH EVENT TIMELINE -->
-    <div class="tl-wrap reveal">
-      <div class="tl-track-main" id="map-tl-track"></div>
-    </div>
-
-    <!-- MAP -->
-    <div class="card reveal" style="padding:0;overflow:hidden;margin-bottom:20px;">
+    <div class="card reveal map-card">
       <div id="chart-map"></div>
     </div>
 
-    <div class="two-col reveal">
-      <p class="note">Each point = one AIMS-monitored reef. Colour and size both encode hard coral cover. GBR Marine Park boundary is approximate (GBRMPA). Missing dots in some years reflect survey rotation — not all reefs are visited annually. Source: AIMS LTMP manta tow data 1993–2023.</p>
-      <div class="insight">For the <strong>first time in recorded history</strong>, the 2024 bleaching event struck all four GBR sectors simultaneously. The Southern reef — previously spared — was hit for the first time, with individual reefs recording losses of up to <strong>70.8%</strong> coral cover in a single season.</div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ══ SECTOR HEALTH MATRIX ══ -->
-<div class="section" style="background:var(--bg);">
-  <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>AIMS Report Card — All 11 Sectors × 30 Years</div>
-    <h2 class="st reveal">The Reef's Full Health History</h2>
-    <div class="intro reveal">Every sector of the Great Barrier Reef, every year since 1993. Each cell shows the mean hard coral cover recorded by AIMS field surveys — revealing how damage has spread from the north southward over three decades.</div>
-
-    <div class="card reveal" style="padding:24px 28px;">
-      <div class="clabel">Hard coral cover (%) by GBR sector and year — AIMS LTMP 1993–2023</div>
-      <div style="display:flex;gap:16px;margin-bottom:16px;flex-wrap:wrap;align-items:center;">
-        <span style="font-size:11px;color:var(--muted);">Condition rating:</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:14px;height:10px;background:#ff1744;border-radius:2px;display:inline-block;"></span>Critical (&lt;10%)</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:14px;height:10px;background:#ff6b35;border-radius:2px;display:inline-block;"></span>Poor (10–20%)</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:14px;height:10px;background:#ffa502;border-radius:2px;display:inline-block;"></span>Fair (20–30%)</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:14px;height:10px;background:#2ed573;border-radius:2px;display:inline-block;"></span>Good (30–40%)</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:14px;height:10px;background:#00b4d8;border-radius:2px;display:inline-block;"></span>Very Good (&gt;40%)</span>
-      </div>
-      <div id="chart-matrix"></div>
-      <p class="note">Each row = one GBR sector (north to south). Each column = one year. Hover for exact cover values. The southward spread of poor conditions after 2016 is visible as darker cells moving down the grid. Source: AIMS LTMP manta tow surveys.</p>
+    <div class="two-col reveal map-bottom-copy">
+      <p class="note">Each point = one AIMS-monitored reef. Colour and size both encode hard coral cover. Missing dots in some years reflect survey rotation. Source: AIMS LTMP manta tow data 1993–2023.</p>
+      <div class="insight">For the <strong>first time in recorded history</strong>, the 2024 bleaching event struck all four GBR sectors simultaneously.</div>
     </div>
   </div>
 </div>
@@ -536,13 +716,14 @@
 <!-- ══ RECOVERY DEFICIT + THREAT RADAR ══ -->
 <div class="section alt">
   <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>The Widening Gap</div>
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 6 — The Widening Gap</div>
     <h2 class="st reveal">Recovery Can't Keep Up</h2>
     <div class="intro reveal">Coral science is clear: full recovery from mass bleaching requires 10–15 undisturbed years. The reef is now being hit every 2–3 years. The deficit between recovery needed and recovery received is growing with every event.</div>
 
     <div class="two-col reveal">
       <div class="card">
         <div class="clabel">Recovery window — available vs required (years between events)</div>
+        <div class="how-to-read">Teal = recovery time the reef got. Red = recovery time it needed. The gap is the deficit.</div>
         <div id="chart-recovery-deficit"></div>
         <p class="note">Each bar pair shows available recovery time (teal, actual gap between events) vs required recovery time (red, minimum 10–15 years needed). The deficit — the difference — grows with every successive event. Source: AIMS bleaching records + published coral recovery literature.</p>
       </div>
@@ -556,34 +737,10 @@
   </div>
 </div>
 
-
-<!-- ══ BLEACHING FINGERPRINTS ══ -->
-<div class="section dark">
-  <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 4b — Spatial Patterns of Destruction</div>
-    <h2 class="st reveal">8 Bleaching Events.<br>8 Fingerprints of Damage.</h2>
-    <div class="intro reveal">Each panel below shows the exact spatial pattern of coral cover recorded by AIMS field surveys during a mass bleaching event. Reading them left to right is like watching a reef die — the panels get darker with each successive event as the damage spreads further south.</div>
-
-    <div class="card reveal" style="padding:24px 28px;">
-      <div class="clabel">Hard coral cover (%) at surveyed reefs — during each mass bleaching event</div>
-      <div style="display:flex;gap:14px;margin-bottom:20px;flex-wrap:wrap;align-items:center;">
-        <span style="font-size:11px;color:var(--muted);">Coral cover:</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#ff1744;display:inline-block;"></span>&lt;10% Critical</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#ff9800;display:inline-block;"></span>10–20% Poor</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#ffeb3b;display:inline-block;"></span>20–30% Fair</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#4caf50;display:inline-block;"></span>30–40% Good</span>
-        <span style="font-size:11px;color:var(--text2);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#00bcd4;display:inline-block;"></span>&gt;40% Very Good</span>
-      </div>
-      <div id="chart-fingerprints"></div>
-      <p class="note">Each panel = one mass bleaching year. Not all reefs are surveyed every year — gaps reflect AIMS survey rotation. North at top, south at bottom. The southward spread of damage from 1998→2023 is visible as darker colours appearing in lower panels over time. Source: AIMS LTMP manta tow surveys.</p>
-    </div>
-  </div>
-</div>
-
 <!-- ══ POLLUTION CONNECTION ══ -->
 <div class="section">
   <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 5b — The Land-Sea Connection</div>
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 7 — The Land-Sea Connection</div>
     <h2 class="st reveal">The Reef Doesn't Just Face<br>Heat — It Faces <em style="color:var(--amber);font-style:italic;">Poison Too</em></h2>
     <div class="intro reveal">Every wet season, 35 Queensland river catchments flush sediment, nitrogen and pesticides onto the reef. Inshore reefs — already stressed by bleaching — are simultaneously suffocated by agricultural runoff. The two threats compound each other in ways that make recovery impossible.</div>
 
@@ -615,7 +772,7 @@
 <!-- ══ REEF DEATH CERTIFICATE ══ -->
 <div class="section dark">
   <div class="container" style="max-width:800px;">
-    <div class="ch-label reveal" style="justify-content:center;"><div class="ch-line"></div>Reef Status Report — 2025<div class="ch-line"></div></div>
+    <div class="ch-label reveal" style="justify-content:center;"><div class="ch-line"></div>Chapter 8 — Reef Status Report 2025<div class="ch-line"></div></div>
     <div class="card reveal" id="death-cert" style="border-color:rgba(255,71,87,0.3);background:rgba(255,71,87,0.04);margin-top:32px;">
       <div style="text-align:center;padding:16px 0 32px;">
         <div style="font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--muted);margin-bottom:16px;">GREAT BARRIER REEF MARINE PARK AUTHORITY</div>
@@ -669,7 +826,7 @@
 <!-- ══ CH5: THREATS ══ -->
 <div class="section dark">
   <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 5 — A Compound Crisis</div>
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 9 — A Compound Crisis</div>
     <h2 class="st reveal">More Than Just Bleaching</h2>
     <div class="intro reveal">Thermal bleaching is the dominant threat, but the reef faces a simultaneous assault from multiple stressors. Each disturbance leaves the reef more vulnerable to the next — and the events are increasingly overlapping.</div>
 
@@ -681,16 +838,18 @@
         <span class="tag t-cots">⭐ Crown-of-thorns outbreak</span>
         <span class="tag t-run">💧 Flood / water quality</span>
       </div>
+      <div class="how-to-read">Each row = one stressor type. Wider bar = longer event. Overlapping bars = compound damage year.</div>
       <div id="stressor-timeline"></div>
       <p class="note">Bar width = relative event duration. Overlapping events compound damage. Source: GBRMPA Outlook Report 2024 / AIMS LTMP.</p>
     </div>
   </div>
 </div>
 
+
 <!-- ══ CH6: ECONOMY ══ -->
 <div class="section alt">
   <div class="container">
-    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 6 — The Economic Stakes</div>
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 10 — The Economic Stakes</div>
     <h2 class="st reveal">What Australia Stands to Lose</h2>
     <div class="intro reveal">The reef's value extends far beyond ecology. It underpins one of Australia's most significant tourism industries — and bleaching media coverage directly reduces tourist intent to visit, even on unaffected reefs.</div>
 
@@ -708,6 +867,59 @@
     </div>
   </div>
 </div>
+
+
+<!-- BIODIVERSITY -->
+<div class="section dark">
+  <div class="container">
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 11 — The Ecosystem Within</div>
+    <h2 class="st reveal">What We Stand to Lose</h2>
+    <div class="intro reveal">The Great Barrier Reef is not just coral — it is the most complex marine ecosystem on Earth. More than 64,000 species call it home. Every bleaching event does not just kill coral; it unravels an entire food web built over millions of years.</div>
+
+    <div class="card reveal" style="margin-bottom:26px;">
+      <div class="clabel">GBR species richness by taxonomic group — log scale, coloured by conservation outlook</div>
+      <div id="chart-species"></div>
+      <p class="note">Log scale used due to extreme range (6 sea turtle species to 4,000+ mollusc species). Red = critically threatened, amber = vulnerable, green = stable. Source: GBRMPA / IUCN / AIMS species database.</p>
+    </div>
+
+    <div class="card reveal">
+      <div class="clabel">Reef heartbeat — GBR-wide mean coral cover 1993–2023 as a vital signs monitor</div>
+      <div style="font-size:12px;color:var(--muted);margin-bottom:16px;">Each "beat" = one annual mean coral cover reading. Bleaching events appear as sudden cardiac drops. Red dots mark mass bleaching years.</div>
+      <div class="how-to-read">Read left to right through time. Each dip = a bleaching event. The cardiac monitor flatlines after 2016.</div>
+      <canvas id="heartbeat-canvas" style="width:100%;height:130px;display:block;"></canvas>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:6px;padding:0 40px;">
+        <span>1993</span><span>1998</span><span>2002</span><span>2008</span><span>2016</span><span>2020</span><span>2023</span>
+      </div>
+      <p class="note">Annotated cardiac events: 1998 (first mass bleaching), 2002, 2016 (worst on record at time), 2020 (most widespread), 2022 (first La Niña bleaching). Source: AIMS LTMP.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SPECIES RANGE MAP -->
+<div class="section">
+  <div class="container">
+    <div class="ch-label reveal"><div class="ch-line"></div>Chapter 12 — Where Species Live</div>
+    <h2 class="st reveal">The Reef's Residents</h2>
+    <div class="intro reveal">The GBR supports iconic megafauna whose ranges span the entire reef system. As coral cover declines, their habitat shrinks. Select a species to see its primary concentration zone.</div>
+
+    <div class="card reveal" style="padding:0;overflow:hidden;">
+      <div style="padding:20px 24px 12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+        <span style="font-size:11px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;">Species:</span>
+        <button class="sbtn active" onclick="setSpecies(this,'turtle')">&#x1F422; Sea Turtle</button>
+        <button class="sbtn" onclick="setSpecies(this,'shark')">&#x1F988; Reef Shark</button>
+        <button class="sbtn" onclick="setSpecies(this,'ray')">&#x1F41F; Manta Ray</button>
+        <button class="sbtn" onclick="setSpecies(this,'dugong')">&#x1F9AD; Dugong</button>
+        <button class="sbtn" onclick="setSpecies(this,'clownfish')">&#x1F420; Clownfish</button>
+      </div>
+      <div id="chart-species-map"></div>
+      <div style="padding:0 24px 20px;">
+        <p class="note" id="species-note">Green sea turtle: ranges the entire GBR from Torres Strait to Bundaberg. Raine Island hosts the world's largest green turtle rookery (~60,000 nesting females). Population: ~200,000. IUCN status: Endangered.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- ══ CLOSING ══ -->
 <div class="closing">
@@ -736,11 +948,30 @@
 <script>
 // ══════════════ CONFIG ══════════════
 const CFG={
-  background:"transparent",font:"DM Sans",
-  axis:{gridColor:"rgba(255,255,255,0.04)",domainColor:"rgba(255,255,255,0.08)",
-        tickColor:"rgba(255,255,255,0.08)",labelColor:"#7aadbe",
-        titleColor:"#7aadbe",labelFontSize:11,titleFontSize:11},
-  legend:{labelColor:"#7aadbe",titleColor:"#7aadbe",labelFontSize:11},
+  background:"transparent",
+  font:"DM Sans",
+  axis:{
+    gridColor:"rgba(255,255,255,0.04)",
+    domainColor:"rgba(255,255,255,0.08)",
+    tickColor:"rgba(255,255,255,0.08)",
+    labelColor:"#7aadbe",
+    titleColor:"#7aadbe",
+    labelFont:"DM Sans",
+    titleFont:"DM Sans",
+    labelFontSize:11,
+    titleFontSize:11,
+    titleFontWeight:500
+  },
+  legend:{
+    labelColor:"#7aadbe",
+    titleColor:"#7aadbe",
+    labelFont:"DM Sans",
+    titleFont:"JetBrains Mono",
+    labelFontSize:11,
+    titleFontSize:10,
+    titleFontWeight:500
+  },
+  text:{font:"DM Sans"},
   view:{stroke:"transparent"}
 };
 const OPT={actions:false,config:CFG};
@@ -839,36 +1070,51 @@ document.querySelectorAll('.gauge-section').forEach(el=>gaugeObserver.observe(el
 
 // ══════════════ SST CHART ══════════════
 function sstSpec(sector){
-  return{$schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:260,
+  return{$schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:280,
     data:{url:"data/sst_annual.json"},
-    transform:[{filter:`datum.sector==='${sector}'`}],
+    transform:[{filter:`datum.sector==='${sector}'&&datum.year<=2025`}],
     layer:[
-      {mark:{type:"area",color:"#ff6b35",opacity:0.1},
-       encoding:{x:{field:"year",type:"quantitative",axis:{format:"d",title:null,tickCount:10}},
-                 y:{field:"ssta_max",type:"quantitative",title:"Peak SST anomaly (°C)"}}},
-      {mark:{type:"line",color:"#ff6b35",strokeWidth:2.5},
-       encoding:{x:{field:"year",type:"quantitative"},y:{field:"ssta_max",type:"quantitative"}}},
-      {data:{values:BLEACH},mark:{type:"rule",color:"rgba(255,71,87,0.35)",strokeWidth:1,strokeDash:[4,3]},
+      {mark:{type:"area",color:"#ff6b35",opacity:0.18,clip:true},
+       encoding:{
+         x:{field:"year",type:"quantitative",
+            scale:{domain:[1985,2025]},
+            axis:{format:"d",title:null,values:[1985,1990,1995,2000,2005,2010,2015,2020,2025]}},
+         y:{field:"ssta_max",type:"quantitative",
+            scale:{nice:true},
+            title:"Peak SST anomaly (°C)"}}},
+      {mark:{type:"line",color:"#ff6b35",strokeWidth:3.5,strokeJoin:"round",strokeCap:"round",clip:true},
+       encoding:{
+         x:{field:"year",type:"quantitative",scale:{domain:[1985,2025]}},
+         y:{field:"ssta_max",type:"quantitative"}}},
+      {mark:{type:"point",color:"#ff6b35",size:55,filled:true,opacity:0.75,clip:true},
+       encoding:{
+         x:{field:"year",type:"quantitative",scale:{domain:[1985,2025]}},
+         y:{field:"ssta_max",type:"quantitative"}}},
+      {data:{values:BLEACH},
+       mark:{type:"rule",color:"rgba(255,71,87,0.4)",strokeWidth:1,strokeDash:[4,3]},
        encoding:{x:{field:"year",type:"quantitative"}}},
-      {data:{values:BLEACH},mark:{type:"text",color:"rgba(255,71,87,0.6)",fontSize:9,dy:-6},
-       encoding:{x:{field:"year",type:"quantitative"},y:{value:8},text:{field:"label"}}},
-      {mark:{type:"point",color:"#ff6b35",size:50,filled:true,opacity:0},
+      {data:{values:BLEACH},
+       mark:{type:"text",color:"rgba(255,71,87,0.65)",fontSize:9,dy:-9,fontWeight:"500"},
+       encoding:{x:{field:"year",type:"quantitative"},y:{value:10},text:{field:"label"}}},
+      {mark:{type:"point",color:"#ff6b35",size:70,filled:true,opacity:0,clip:true},
        params:[{name:"hp",select:{type:"point",on:"mouseover",nearest:true}}],
-       encoding:{x:{field:"year",type:"quantitative"},y:{field:"ssta_max",type:"quantitative"},
-                 opacity:{condition:{param:"hp",value:1},value:0},
-                 tooltip:[{field:"year",type:"quantitative",title:"Year",format:"d"},
-                          {field:"ssta_max",type:"quantitative",title:"Peak anomaly (°C)",format:".2f"},
-                          {field:"dhw_max",type:"quantitative",title:"Max DHW (°C-wks)",format:".1f"}]}},
-      // Annotation: 2024 record - fixed position using value coordinates
-      {data:{values:[{year:2021,y:3.3,label:"▲ 2024: highest recorded heat stress across the entire reef"}]},
-       mark:{type:"text",color:"rgba(255,71,87,0.75)",fontSize:9,align:"left",fontStyle:"italic"},
+       encoding:{
+         x:{field:"year",type:"quantitative",scale:{domain:[1985,2025]}},
+         y:{field:"ssta_max",type:"quantitative"},
+         opacity:{condition:{param:"hp",value:1},value:0},
+         tooltip:[
+           {field:"year",type:"quantitative",title:"Year",format:"d"},
+           {field:"ssta_max",type:"quantitative",title:"Peak anomaly (°C)",format:".2f"},
+           {field:"dhw_max",type:"quantitative",title:"Max DHW (°C-wks)",format:".1f"}
+         ]}},
+      {data:{values:[{year:2019,y:3.6,label:"▲ 2024: highest reef-wide heat stress"}]},
+       mark:{type:"text",color:"rgba(255,71,87,0.8)",fontSize:9,align:"left",fontStyle:"italic",clip:true},
        encoding:{x:{field:"year",type:"quantitative"},y:{field:"y",type:"quantitative"},text:{field:"label"}}},
-      // Annotation: 2016 turning point  
-      {data:{values:[{year:1988,y:0.18,label:"◀ Before 2016: bleaching rare"}]},
-       mark:{type:"text",color:"rgba(72,202,228,0.5)",fontSize:9,align:"left"},
+      {data:{values:[{year:1986,y:0.28,label:"Before 2016: bleaching rare ▶"}]},
+       mark:{type:"text",color:"rgba(72,202,228,0.6)",fontSize:9,align:"left"},
        encoding:{x:{field:"year",type:"quantitative"},y:{field:"y",type:"quantitative"},text:{field:"label"}}},
-      {data:{values:[{year:2018,y:0.18,label:"After 2016: near-annual ▶"}]},
-       mark:{type:"text",color:"rgba(255,107,53,0.6)",fontSize:9,align:"left"},
+      {data:{values:[{year:2018,y:0.28,label:"After 2016: near-annual ▶"}]},
+       mark:{type:"text",color:"rgba(255,107,53,0.65)",fontSize:9,align:"left"},
        encoding:{x:{field:"year",type:"quantitative"},y:{field:"y",type:"quantitative"},text:{field:"label"}}}
     ]};
 }
@@ -877,29 +1123,35 @@ renderSST();
 
 // ══════════════ DHW CHART ══════════════
 function dhwSpec(sector){
-  return{$schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:220,
+  return{$schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:270,
     data:{url:"data/sst_annual.json"},
-    transform:[{filter:`datum.sector==='${sector}'&&datum.year>=1992`}],
+    transform:[{filter:`datum.sector==='${sector}'&&datum.year>=1992&&datum.year<=2025`}],
     layer:[
       {mark:{type:"bar",cornerRadiusEnd:3},
-       encoding:{x:{field:"year",type:"quantitative",axis:{format:"d",title:null}},
-                 y:{field:"dhw_max",type:"quantitative",title:"Max DHW (°C-wks)"},
-                 color:{field:"dhw_max",type:"quantitative",
-                        scale:{domain:[0,4,8,16],range:["#48cae4","#ffa502","#ff6b35","#ff1744"]},legend:null},
-                 tooltip:[{field:"year",type:"quantitative",title:"Year",format:"d"},
-                          {field:"dhw_max",type:"quantitative",title:"Max DHW",format:".1f"}]}},
-      {data:{values:[{t:8}]},mark:{type:"rule",color:"rgba(255,255,255,0.2)",strokeDash:[5,3]},
+       encoding:{
+         x:{field:"year",type:"ordinal",
+            axis:{title:null,labelAngle:0,labelExpr:"datum.value % 5 == 0 ? datum.value : ''"}},
+         y:{field:"dhw_max",type:"quantitative",
+            title:"Max DHW (°C-wks)",
+            scale:{nice:true,domainMin:0}},
+         color:{field:"dhw_max",type:"quantitative",
+                scale:{domain:[0,4,8,16],range:["#48cae4","#ffa502","#ff6b35","#ff1744"]},legend:null},
+         tooltip:[
+           {field:"year",type:"ordinal",title:"Year"},
+           {field:"dhw_max",type:"quantitative",title:"Max DHW",format:".1f"}
+         ]}},
+      {data:{values:[{t:8}]},
+       mark:{type:"rule",color:"rgba(255,255,255,0.3)",strokeDash:[5,3],strokeWidth:1.5},
        encoding:{y:{field:"t",type:"quantitative"}}},
-      {data:{values:[{t:8,label:"Severe bleaching threshold (8°C-wks)"}]},
-       mark:{type:"text",color:"rgba(255,255,255,0.25)",fontSize:9,align:"right",dx:-6,dy:-6},
-       encoding:{y:{field:"t",type:"quantitative"},x:{value:650},text:{field:"label"}}},
-      // Clean band annotations positioned clearly
-      {data:{values:[{year:2001,t:13.5,label:"◀ pre-2016: rarely severe"}]},
-       mark:{type:"text",color:"rgba(72,202,228,0.5)",fontSize:9,align:"left"},
-       encoding:{x:{field:"year",type:"quantitative"},y:{field:"t",type:"quantitative"},text:{field:"label"}}},
-      {data:{values:[{year:2017,t:13.5,label:"post-2016: annually exceeds threshold ▶"}]},
-       mark:{type:"text",color:"rgba(255,107,53,0.6)",fontSize:9,align:"left"},
-       encoding:{x:{field:"year",type:"quantitative"},y:{field:"t",type:"quantitative"},text:{field:"label"}}}
+      {data:{values:[{t:8.6,label:"Severe bleaching threshold (8 °C-wks)"}]},
+       mark:{type:"text",color:"rgba(255,255,255,0.4)",fontSize:9,align:"left",dx:4},
+       encoding:{y:{field:"t",type:"quantitative"},x:{value:10},text:{field:"label"}}},
+      {data:{values:[{year:1996,t:15.5,label:"Pre-2016: rarely severe"}]},
+       mark:{type:"text",color:"rgba(72,202,228,0.6)",fontSize:9,align:"left"},
+       encoding:{x:{field:"year",type:"ordinal"},y:{field:"t",type:"quantitative"},text:{field:"label"}}},
+      {data:{values:[{year:2017,t:15.5,label:"Post-2016: annually exceeds threshold"}]},
+       mark:{type:"text",color:"rgba(255,107,53,0.65)",fontSize:9,align:"left"},
+       encoding:{x:{field:"year",type:"ordinal"},y:{field:"t",type:"quantitative"},text:{field:"label"}}}
     ]};
 }
 function renderDHW(){embedChart("chart-dhw",dhwSpec(currentSector),OPT);}
@@ -907,25 +1159,52 @@ renderDHW();
 
 // ══════════════ HEATMAP ══════════════
 embedChart("chart-heatmap",{
-  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:340,
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:410,
   data:{url:"data/sst_monthly.json"},
-  transform:[{filter:"datum.sector==='northern'&&datum.year>=2000"}],
-  mark:{type:"rect",stroke:"rgba(6,15,26,0.6)",strokeWidth:0.5},
-  encoding:{
-    x:{field:"month",type:"ordinal",title:null,
-       axis:{labelExpr:"['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]",labelFontSize:11}},
-    y:{field:"year",type:"ordinal",title:null,sort:"descending",axis:{labelAngle:0,labelFontSize:10}},
-    color:{field:"ssta_mean",type:"quantitative",title:"SST anomaly (°C)",
-           scale:{scheme:"orangered",domainMin:-0.5,domainMax:2.5},
-           legend:{orient:"right",gradientLength:200,labelFontSize:10}},
-    tooltip:[{field:"year",title:"Year",type:"ordinal"},{field:"month_name",title:"Month"},
-             {field:"ssta_mean",title:"Anomaly (°C)",format:".2f"},{field:"dhw_max",title:"Max DHW",format:".1f"}]
-  }
+  transform:[
+    {filter:"datum.sector==='northern'&&datum.year>=2000&&datum.year<=2025"},
+    {impute:"ssta_mean",key:"month",groupby:["year"],keyvals:[1,2,3,4,5,6,7,8,9,10,11,12],value:0},
+    {calculate:"['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.month-1]", as:"month_name"},
+    {calculate:"datum.ssta_mean != null ? datum.ssta_mean : 0", as:"ssta_raw"},
+    {calculate:"datum.ssta_raw < 0 ? 0 : datum.ssta_raw", as:"ssta_val"}
+  ],
+  layer:[
+    {mark:{type:"rect",stroke:"rgba(6,15,26,0.5)",strokeWidth:0.5},
+     encoding:{
+       x:{field:"month",type:"ordinal",title:null,
+          axis:{labelExpr:"['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value-1]",
+                labelFontSize:11,labelColor:"#7aadbe"}},
+       y:{field:"year",type:"ordinal",title:null,sort:"descending",
+          axis:{labelAngle:0,labelFontSize:10,labelColor:"#7aadbe"}},
+       color:{field:"ssta_val",type:"quantitative",title:"SST anomaly (°C)",
+              scale:{scheme:"orangered",domainMin:-0.5,domainMax:2.5},
+              legend:{orient:"right",gradientLength:300,gradientThickness:14,
+                      labelFontSize:10,labelOffset:4,
+                      values:[-0.5,0,0.5,1.0,1.5,2.0,2.5],
+                      format:".1f",titleFontSize:10,
+                      labelColor:"#7aadbe",titleColor:"#7aadbe"}},
+       tooltip:[{field:"year",title:"Year",type:"ordinal"},{field:"month_name",title:"Month"},
+                {field:"ssta_val",title:"Anomaly (°C)",format:".2f"},{field:"dhw_max",title:"Max DHW",format:".1f"}]
+     }},
+    {mark:{type:"text",fontSize:8,fontWeight:"500",align:"center",baseline:"middle"},
+     encoding:{
+       x:{field:"month",type:"ordinal"},
+       y:{field:"year",type:"ordinal",sort:"descending"},
+       text:{field:"ssta_val",type:"quantitative",format:".1f"},
+       color:{
+         condition:{test:"datum.ssta_val > 1.4",value:"rgba(255,255,255,0.92)"},
+         value:"rgba(60,15,0,0.72)"
+       }
+     }}
+  ]
 },OPT);
 
 // ══════════════ RECOVERY ══════════════
 embedChart("chart-recovery",{
-  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:170,
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+  config:CFG,
+  height:210,
+  padding:{top:8,right:8,bottom:0,left:4},
   data:{values:[
     {gap:"'98→'02",years:4,t:"long"},{gap:"'02→'16",years:14,t:"long"},
     {gap:"'16→'17",years:1,t:"short"},{gap:"'17→'20",years:3,t:"short"},
@@ -933,44 +1212,62 @@ embedChart("chart-recovery",{
   ]},
   layer:[
     {mark:{type:"bar",cornerRadiusEnd:4},
-     encoding:{x:{field:"gap",type:"ordinal",sort:null,axis:{title:null,labelAngle:0}},
-               y:{field:"years",type:"quantitative",title:"Years between events",scale:{domainMax:16}},
-               color:{field:"t",scale:{domain:["long","short"],range:["#48cae4","#ff4757"]},legend:null},
-               tooltip:[{field:"gap",title:"Gap"},{field:"years",title:"Years"}]}},
-    {data:{values:[{t:10}]},mark:{type:"rule",color:"rgba(255,255,255,0.15)",strokeDash:[4,3]},
+     encoding:{
+       x:{field:"gap",type:"ordinal",sort:null,axis:{title:null,labelAngle:0,labelFont:"DM Sans",labelFontSize:12,labelPadding:8}},
+       y:{field:"years",type:"quantitative",title:"Years between events",scale:{domain:[0,16]},axis:{titleFont:"DM Sans",titleFontSize:11,titlePadding:10,labelFont:"DM Sans",labelFontSize:11}},
+       color:{field:"t",scale:{domain:["long","short"],range:["#48cae4","#ff4757"]},legend:null},
+       tooltip:[{field:"gap",title:"Gap"},{field:"years",title:"Years"}]
+     }},
+    {data:{values:[{t:10}]},mark:{type:"rule",color:"rgba(255,255,255,0.22)",strokeDash:[4,3]},
      encoding:{y:{field:"t",type:"quantitative"}}}
   ]
 },OPT);
 
 // ══════════════ CORAL COVER SMALL MULTIPLES ══════════════
-function coverSpec(region,col){
+function coverSpec(region, col, showYTitle){
   return{$schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:185,
     data:{url:"data/coral_cover.json"},
     transform:[{filter:`datum.region==='${region}'`}],
     layer:[
-      {mark:{type:"area",opacity:0.12,color:col},
-       encoding:{x:{field:"year",type:"quantitative",axis:{format:"d",title:null,values:[1993,1998,2003,2008,2013,2018,2023]}},
-                 y:{field:"ci_lower",type:"quantitative",title:"% coral cover",scale:{domainMin:0,domainMax:52}},
-                 y2:{field:"ci_upper"}}},
-      {mark:{type:"line",color:col,strokeWidth:2},
-       encoding:{x:{field:"year",type:"quantitative"},y:{field:"mean_cover",type:"quantitative"}}},
-      {mark:{type:"point",color:col,size:35,filled:true},
-       encoding:{x:{field:"year",type:"quantitative"},y:{field:"mean_cover",type:"quantitative"},
-                 tooltip:[{field:"year",type:"quantitative",title:"Year",format:"d"},
-                          {field:"mean_cover",type:"quantitative",title:"Cover (%)",format:".1f"},
-                          {field:"ci_lower",type:"quantitative",title:"CI lower",format:".1f"},
-                          {field:"ci_upper",type:"quantitative",title:"CI upper",format:".1f"}]}},
-      {data:{values:BLEACH},mark:{type:"rule",color:"rgba(255,71,87,0.2)",strokeWidth:1,strokeDash:[3,3]},
+      {mark:{type:"area",opacity:0.14,color:col},
+       encoding:{
+         x:{field:"year",type:"quantitative",
+            scale:{domain:[1993,2023]},
+            axis:{format:"d",title:null,values:[1993,1998,2003,2008,2013,2018,2023],labelFontSize:10}},
+         y:{field:"ci_lower",type:"quantitative",
+            title: showYTitle ? "% coral cover" : null,
+            scale:{domainMin:0,domainMax:52},
+            axis:{tickCount:6,labelFontSize:10}},
+         y2:{field:"ci_upper"}}},
+      {mark:{type:"line",color:col,strokeWidth:3,strokeJoin:"round",strokeCap:"round"},
+       encoding:{
+         x:{field:"year",type:"quantitative",scale:{domain:[1993,2023]}},
+         y:{field:"mean_cover",type:"quantitative"}}},
+      {mark:{type:"point",color:col,size:40,filled:true,opacity:0.8},
+       encoding:{
+         x:{field:"year",type:"quantitative",scale:{domain:[1993,2023]}},
+         y:{field:"mean_cover",type:"quantitative"},
+         tooltip:[
+           {field:"year",type:"quantitative",title:"Year",format:"d"},
+           {field:"mean_cover",type:"quantitative",title:"Cover (%)",format:".1f"},
+           {field:"ci_lower",type:"quantitative",title:"CI lower",format:".1f"},
+           {field:"ci_upper",type:"quantitative",title:"CI upper",format:".1f"}
+         ]}},
+      {data:{values:BLEACH},
+       mark:{type:"rule",color:"rgba(255,71,87,0.25)",strokeWidth:1,strokeDash:[3,3]},
        encoding:{x:{field:"year",type:"quantitative"}}},
-      // 2016 and 2024 label annotations at chart bottom
       {data:{values:[{year:2016,mean_cover:3,label:"2016"},{year:2024,mean_cover:3,label:"2024"}]},
-       mark:{type:"text",color:"rgba(255,71,87,0.6)",fontSize:8,fontWeight:"500"},
-       encoding:{x:{field:"year",type:"quantitative"},y:{field:"mean_cover",type:"quantitative"},text:{field:"label"}}}
+       mark:{type:"text",color:"rgba(255,71,87,0.65)",fontSize:8,fontWeight:"500"},
+       encoding:{
+         x:{field:"year",type:"quantitative"},
+         y:{field:"mean_cover",type:"quantitative"},
+         text:{field:"label"}
+       }}
     ]};
 }
-embedChart("chart-north",coverSpec("Northern","#48cae4"),OPT);
-embedChart("chart-central",coverSpec("Central","#00b4d8"),OPT);
-embedChart("chart-south",coverSpec("Southern","#2ed573"),OPT);
+embedChart("chart-north",  coverSpec("Northern","#48cae4", true),  OPT);
+embedChart("chart-central",coverSpec("Central", "#00b4d8", false), OPT);
+embedChart("chart-south",  coverSpec("Southern","#2ed573", false), OPT);
 
 // ══════════════ CONNECTED SCATTER ══════════════
 embedChart("chart-scatter",{
@@ -1001,24 +1298,11 @@ const GBR_BOUNDARY_DATA = {type:"FeatureCollection",features:[{type:"Feature",pr
 const MAP_BLEACH = {1998:42,2002:54,2006:17,2016:91,2017:75,2020:98,2022:91,2024:100};
 const MAP_CITIES = [{name:"Cairns",lon:145.3,lat:-16.92},{name:"Townsville",lon:146.38,lat:-19.26},{name:"Mackay",lon:148.78,lat:-21.14},{name:"Cooktown",lon:144.82,lat:-15.47},{name:"Whitsundays",lon:148.52,lat:-20.28}];
 
-let mapAllData=[], mapPlaying=false, mapTimer=null;
+let mapAllData=[], mapPlaying=false, mapTimer=null, mapCurrentYear=1993;
 
 // Build bleaching event ticks
-(function(){
-  const track=document.getElementById('map-tl-track');
-  if(!track)return;
-  Object.keys(MAP_BLEACH).forEach(y=>{
-    y=parseInt(y);
-    const div=document.createElement('div');
-    div.className='tl-ev';
-    div.style.left=((y-1993)/30*100).toFixed(1)+'%';
-    const major=MAP_BLEACH[y]>=75;
-    div.innerHTML=`<div class="tl-ev-dot${major?'':' minor'}"></div><div class="tl-ev-yr">${y}</div>`;
-    track.appendChild(div);
-  });
-})();
-
 function renderAnimatedMap(year){
+  mapCurrentYear = year;
   const yearData=mapAllData.filter(d=>d.year===year);
   const isBleach=MAP_BLEACH[year];
   const el=document.getElementById('map-year-num');
@@ -1045,40 +1329,64 @@ function renderAnimatedMap(year){
     s('ms-good',good+' reefs',null);
   }
   const card=document.getElementById('chart-map');
-  const w=card?card.closest('.card').getBoundingClientRect().width:900;
+  const cardW=card?card.closest('.card').getBoundingClientRect().width:900;
+  const mapW=Math.max(360,Math.min(Math.floor(cardW)-2,1040));
+  const viewH=window.innerHeight;
+  const mapH=Math.max(380,Math.min(Math.round(viewH*0.52),Math.round(mapW*0.50),500));
+  const mapScale=Math.max(1600,Math.min(2100,Math.round(mapH*3.2)));
+
   const spec={
     $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-    background:"#091520",width:Math.max(w-2,300),height:600,
-    projection:{type:"mercator",center:[149,-18.5],scale:2100},
-    config:{view:{stroke:"transparent"},legend:{labelColor:"#7aadbe",titleColor:"#7aadbe",labelFontSize:11}},
+    background:"#091520",
+    width:mapW,
+    height:mapH,
+    projection:{
+      type:"mercator",
+      center:[147.9,-17.9],
+      scale:mapScale,
+      translate:[mapW*0.5,mapH*0.51]
+    },
+    config:{
+      font:"DM Sans",
+      view:{stroke:"transparent"},
+      legend:{
+        labelColor:"#7aadbe",
+        titleColor:"#7aadbe",
+        labelFont:"DM Sans",
+        titleFont:"JetBrains Mono",
+        labelFontSize:10,
+        titleFontSize:10
+      }
+    },
     layer:[
       {data:{url:"https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",format:{type:"topojson",feature:"land"}},
        mark:{type:"geoshape",fill:"#0a1f30",stroke:"rgba(72,202,228,0.12)",strokeWidth:0.8}},
       {data:{values:GBR_BOUNDARY_DATA.features},
        mark:{type:"geoshape",fill:isBleach?"rgba(255,71,87,0.04)":"rgba(0,180,216,0.03)",
-             stroke:isBleach?"rgba(255,71,87,0.5)":"rgba(72,202,228,0.4)",
-             strokeWidth:1.8,strokeDash:[6,3]}},
+              stroke:isBleach?"rgba(255,71,87,0.58)":"rgba(72,202,228,0.48)",
+              strokeWidth:2.2,strokeDash:[7,4]}},
       {data:{values:yearData},
-       mark:{type:"circle",opacity:0.92,stroke:"rgba(255,255,255,0.08)",strokeWidth:0.4},
+       mark:{type:"circle",opacity:0.96,stroke:"#06111c",strokeWidth:1.2},
        encoding:{
          longitude:{field:"LONGITUDE",type:"quantitative"},
          latitude:{field:"LATITUDE",type:"quantitative"},
          color:{field:"cover",type:"quantitative",title:"Coral cover (%)",
                 scale:{domain:[0,10,20,30,40,50],range:["#ff1744","#ff5252","#ff9800","#ffeb3b","#4caf50","#00bcd4"]},
-                legend:{orient:"bottom-right",gradientLength:220,gradientThickness:12,offset:12}},
-         size:{field:"cover",type:"quantitative",scale:{domain:[0,10,25,40,55],range:[15,28,55,90,130]},legend:null},
+                legend:{orient:"bottom-right",gradientLength:Math.round(Math.min(320,Math.max(190,mapW*0.36))),gradientThickness:14,offset:12}},
+         size:{field:"cover",type:"quantitative",scale:{domain:[0,10,25,40,55],range:[34,62,112,178,250]},legend:null},
          tooltip:[{field:"REEF_NAME",title:"Reef"},{field:"SECTOR",title:"Sector"},
                   {field:"cover",type:"quantitative",title:"Coral cover (%)",format:".1f"},
                   {field:"condition",title:"Condition"}]
        }},
       {data:{values:MAP_CITIES},
-       mark:{type:"point",shape:"triangle-up",filled:true,size:50,color:"rgba(255,255,255,0.55)"},
+       mark:{type:"point",shape:"triangle-up",filled:true,size:58,color:"rgba(255,255,255,0.58)"},
        encoding:{longitude:{field:"lon",type:"quantitative"},latitude:{field:"lat",type:"quantitative"},tooltip:[{field:"name",title:"City"}]}},
       {data:{values:MAP_CITIES},
-       mark:{type:"text",fontSize:10,color:"rgba(200,230,240,0.55)",align:"right",dx:-5},
+       mark:{type:"text",fontSize:11,fontWeight:"600",color:"rgba(200,230,240,0.58)",align:"right",dx:-6},
        encoding:{longitude:{field:"lon",type:"quantitative"},latitude:{field:"lat",type:"quantitative"},text:{field:"name"}}}
     ]
   };
+
   vegaEmbed('#chart-map',spec,{actions:false}).catch(console.error);
 }
 
@@ -1130,104 +1438,53 @@ embedChart("chart-tourism",{
 },OPT);
 
 
+
 // ══════════════ UNIT CHART ══════════════
 embedChart("chart-unit",{
-  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:280,
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:240,
   data:{url:"data/unit_chart.json"},
   mark:{type:"square",filled:true,size:95,opacity:0.9},
   encoding:{
     x:{field:"col",type:"ordinal",axis:null},
     y:{field:"row",type:"ordinal",axis:null,sort:"descending"},
     color:{field:"status",type:"nominal",
-           scale:{domain:["Bleached","Recovering","Healthy"],range:["#ff4757","#ffa502","#2ed573"]},
-           legend:null},
+           scale:{domain:["Bleached","Recovering","Healthy"],range:["#ff4757","#ffa502","#2ed573"]},legend:null},
     tooltip:[{field:"status",title:"Status"},{field:"id",title:"Reef #"}]
   }
 },OPT);
 
-// ══════════════ RADIAL BLEACHING CHART (Custom SVG) ══════════════
+// ══════════════ RADIAL BLEACHING CHART ══════════════
 (function(){
   const svg=document.getElementById('radial-svg');
+  if(!svg)return;
   const cx=300,cy=300,baseR=110,maxSpike=155;
   const startYear=1985,endYear=2024,total=endYear-startYear+1;
   const bleachData={1998:42,2002:54,2006:17,2016:91,2017:75,2020:98,2022:91,2024:100};
-
-  function mkEl(tag,attrs){
-    const el=document.createElementNS('http://www.w3.org/2000/svg',tag);
-    Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));
-    return el;
-  }
-
-  // Concentric reference rings
-  [0.25,0.5,0.75,1.0].forEach(pct=>{
-    svg.appendChild(mkEl('circle',{cx,cy,r:baseR+pct*maxSpike,fill:'none',
-      stroke:'rgba(255,255,255,0.04)','stroke-width':1}));
-  });
-  svg.appendChild(mkEl('circle',{cx,cy,r:baseR,fill:'rgba(0,180,216,0.05)',
-    stroke:'rgba(72,202,228,0.2)','stroke-width':1.5}));
-
-  // Reference labels
-  ['25%','50%','75%','100%'].forEach((label,i)=>{
-    const r=baseR+(i+1)/4*maxSpike;
-    const t=mkEl('text',{x:cx+r+4,y:cy-4,'font-size':'8','fill':'rgba(122,173,190,0.3)',
-      'font-family':'DM Sans, sans-serif'});
-    t.textContent=label;svg.appendChild(t);
-  });
-
-  // Year spokes
+  function mkEl(tag,attrs){const el=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));return el;}
+  [0.25,0.5,0.75,1.0].forEach(pct=>{svg.appendChild(mkEl('circle',{cx,cy,r:baseR+pct*maxSpike,fill:'none',stroke:'rgba(255,255,255,0.04)','stroke-width':1}));});
+  svg.appendChild(mkEl('circle',{cx,cy,r:baseR,fill:'rgba(0,180,216,0.05)',stroke:'rgba(72,202,228,0.2)','stroke-width':1.5}));
   for(let year=startYear;year<=endYear;year++){
-    const i=year-startYear;
-    const angle=(i/total)*2*Math.PI-Math.PI/2;
-    const pct=bleachData[year]||0;
-    const r=baseR+(pct/100)*maxSpike;
-    const x1=cx+Math.cos(angle)*baseR;
-    const y1=cy+Math.sin(angle)*baseR;
-    const x2=cx+Math.cos(angle)*r;
-    const y2=cy+Math.sin(angle)*r;
-
+    const i=year-startYear;const angle=(i/total)*2*Math.PI-Math.PI/2;
+    const pct=bleachData[year]||0;const r=baseR+(pct/100)*maxSpike;
+    const x1=cx+Math.cos(angle)*baseR,y1=cy+Math.sin(angle)*baseR;
+    const x2=cx+Math.cos(angle)*r,y2=cy+Math.sin(angle)*r;
     const col=pct>=90?'#ff1744':pct>=70?'#ff4757':pct>=40?'#ff6b35':pct>0?'#ffa502':'rgba(72,202,228,0.25)';
     const sw=pct>0?Math.max(2,pct/20):1;
-
-    const line=mkEl('line',{x1,y1,x2,y2,stroke:col,'stroke-width':sw,'stroke-linecap':'round'});
-    svg.appendChild(line);
-
-    if(pct>0){
-      const dot=mkEl('circle',{cx:x2,cy:y2,r:3.5,fill:col});
-      svg.appendChild(dot);
-    }
-
-    // Labels for bleaching years and every 5 years
+    svg.appendChild(mkEl('line',{x1,y1,x2,y2,stroke:col,'stroke-width':sw,'stroke-linecap':'round'}));
+    if(pct>0)svg.appendChild(mkEl('circle',{cx:x2,cy:y2,r:3.5,fill:col}));
     if(bleachData[year]||year%5===0){
-      const labelR=r+(pct>0?18:14);
-      const lx=cx+Math.cos(angle)*labelR;
-      const ly=cy+Math.sin(angle)*labelR;
-      const t=mkEl('text',{x:lx,y:ly,'text-anchor':'middle','dominant-baseline':'middle',
-        'font-size':pct>0?'10':'9','fill':pct>0?col:'rgba(122,173,190,0.4)',
-        'font-family':'DM Sans, sans-serif','font-weight':pct>0?'500':'300'});
+      const labelR=r+(pct>0?18:14);const lx=cx+Math.cos(angle)*labelR,ly=cy+Math.sin(angle)*labelR;
+      const t=mkEl('text',{x:lx,y:ly,'text-anchor':'middle','dominant-baseline':'middle','font-size':pct>0?'10':'9','fill':pct>0?col:'rgba(122,173,190,0.4)','font-family':'DM Sans, sans-serif','font-weight':pct>0?'500':'300'});
       t.textContent=year;svg.appendChild(t);
     }
   }
-
-  // Centre label
-  const cl=mkEl('text',{x:cx,y:cy-10,'text-anchor':'middle','font-family':'Fraunces, serif',
-    'font-size':'28','fill':'#e4f2f8','font-weight':'600'});
-  cl.textContent='40';svg.appendChild(cl);
-  const cl2=mkEl('text',{x:cx,y:cy+14,'text-anchor':'middle','font-family':'DM Sans, sans-serif',
-    'font-size':'10','fill':'#3d6878','letter-spacing':'1'});
-  cl2.textContent='YEARS';svg.appendChild(cl2);
-
-  // Legend
-  [['#ff1744','≥90% reefs affected'],['#ff6b35','40–89%'],['#ffa502','<40%']].forEach(([col,label],i)=>{
-    const g=mkEl('g',{transform:`translate(20,${520+i*20})`});
-    g.appendChild(mkEl('rect',{width:10,height:10,fill:col,rx:2}));
-    const t=mkEl('text',{x:16,y:9,'font-size':'10','fill':'#3d6878','font-family':'DM Sans, sans-serif'});
-    t.textContent=label;g.appendChild(t);svg.appendChild(g);
-  });
+  const cl=mkEl('text',{x:cx,y:cy-10,'text-anchor':'middle','font-family':'Fraunces, serif','font-size':'28','fill':'#e4f2f8','font-weight':'600'});cl.textContent='40';svg.appendChild(cl);
+  const cl2=mkEl('text',{x:cx,y:cy+14,'text-anchor':'middle','font-family':'DM Sans, sans-serif','font-size':'10','fill':'#3d6878','letter-spacing':'1'});cl2.textContent='YEARS';svg.appendChild(cl2);
 })();
 
 // ══════════════ SHELF COMPARISON ══════════════
 embedChart("chart-shelf",{
-  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:260,
+  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:340,
   data:{url:"data/shelf_comparison.json"},
   layer:[
     {mark:{type:"line",strokeWidth:2.5,point:{filled:true,size:30}},
@@ -1251,118 +1508,52 @@ embedChart("chart-shelf",{
   ]
 },OPT);
 
-// ══════════════ DIVERGING BAR ══════════════
-embedChart("chart-diverging",{
-  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:260,
-  data:{url:"data/dead_live.json"},
-  transform:[{filter:"datum.region==='Northern'"}],
-  layer:[
-    {mark:{type:"bar",cornerRadiusEnd:2},
-     encoding:{
-       x:{field:"year",type:"quantitative",axis:{format:"d",title:null}},
-       y:{field:"live",type:"quantitative",title:"Coral cover (%) — live above, dead below"},
-       color:{value:"#48cae4"},opacity:{value:0.7},
-       tooltip:[{field:"year",title:"Year",format:"d"},
-                {field:"live",title:"Live coral (%)",format:".1f"}]
-     }
-    },
-    {mark:{type:"bar",cornerRadiusEnd:2},
-     encoding:{
-       x:{field:"year",type:"quantitative"},
-       y:{field:"dead_neg",type:"quantitative"},
-       color:{value:"#ff4757"},opacity:{value:0.7},
-       tooltip:[{field:"year",title:"Year",format:"d"},
-                {field:"dead",title:"Dead coral (%)",format:".1f"}]
-     }
-    },
-    {data:{values:[{z:0}]},
-     mark:{type:"rule",color:"rgba(255,255,255,0.2)",strokeWidth:1},
-     encoding:{y:{field:"z",type:"quantitative"}}},
-    {data:{values:[{year:2017,live:38,label:"↓ post-bleaching crash"}]},
-     mark:{type:"text",color:"rgba(255,165,2,0.65)",fontSize:9,align:"center"},
-     encoding:{x:{field:"year",type:"quantitative"},y:{field:"live",type:"quantitative"},text:{field:"label"}}},
-    {data:{values:[{year:2016,dead_neg:-8,label:"dead coral ↓"}]},
-     mark:{type:"text",color:"rgba(255,71,87,0.6)",fontSize:9,align:"left",dx:6},
-     encoding:{x:{field:"year",type:"quantitative"},y:{field:"dead_neg",type:"quantitative"},text:{field:"label"}}}
-  ]
-},OPT);
-
-
-// ══════════════ SECTOR HEALTH MATRIX ══════════════
-// Matrix uses direct vegaEmbed with explicit responsive width
-(function(){
-  const card = document.getElementById('chart-matrix').closest('.card');
-  const w = Math.max(card ? card.getBoundingClientRect().width - 220 : 700, 500);
-  vegaEmbed('#chart-matrix', {
-  $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:360,width:w,
-  padding:{top:8,right:8,bottom:20,left:8},
-  data:{url:"data/sector_matrix.json"},
-  mark:{type:"rect",stroke:"rgba(6,15,26,0.9)",strokeWidth:0.8},
-  encoding:{
-    x:{field:"year",type:"ordinal",title:null,
-       axis:{labelAngle:0,labelFontSize:10,labelPadding:6,
-             values:[1993,1997,2001,2005,2009,2013,2016,2017,2020,2022,2023]}},
-    y:{field:"sector_name",type:"nominal",title:null,sort:{field:"sector_order"},
-       axis:{labelFontSize:11,labelLimit:160}},
-    color:{field:"cover",type:"quantitative",title:"Coral cover (%)",
-           scale:{domain:[0,10,20,30,40,50],
-                  range:["#ff1744","#ff6b35","#ffa502","#2ed573","#00b4d8","#48cae4"]},
-           legend:{orient:"top",gradientLength:300,labelFontSize:10,titleFontSize:10}},
-    tooltip:[
-      {field:"sector_name",title:"Sector"},
-      {field:"year",title:"Year"},
-      {field:"cover",type:"quantitative",title:"Coral cover (%)",format:".1f"},
-      {field:"condition",title:"Condition"}
-    ]
-  }
-}, OPT).catch(console.error);
-})();
-
 // ══════════════ RECOVERY DEFICIT CHART ══════════════
 embedChart("chart-recovery-deficit",{
   $schema:"https://vega.github.io/schema/vega-lite/v5.json",config:CFG,height:280,
   data:{url:"data/recovery_timeline.json"},
   layer:[
-    // Available recovery (teal bars)
-    {mark:{type:"bar",xOffset:-8,width:14,cornerRadiusEnd:3},
+    {mark:{type:"bar",xOffset:-9,width:15,cornerRadiusEnd:3},
      encoding:{
-       x:{field:"event_year",type:"ordinal",axis:{title:null,labelAngle:0}},
-       y:{field:"recovery_years_available",type:"quantitative",title:"Years"},
-       color:{value:"#48cae4"},opacity:{value:0.8},
+       x:{field:"event_year",type:"ordinal",axis:{title:null,labelAngle:0,labelFontSize:11}},
+       y:{field:"recovery_years_available",type:"quantitative",
+          title:"Years",scale:{domainMin:0,domainMax:19}},
+       color:{value:"#48cae4"},opacity:{value:0.85},
        tooltip:[{field:"event_year",title:"Bleaching year"},
                 {field:"recovery_years_available",title:"Years available"}]
-     }
-    },
-    // Required recovery (red bars)
-    {mark:{type:"bar",xOffset:8,width:14,cornerRadiusEnd:3},
+     }},
+    {mark:{type:"bar",xOffset:9,width:15,cornerRadiusEnd:3},
      encoding:{
        x:{field:"event_year",type:"ordinal"},
-       y:{field:"recovery_years_needed",type:"quantitative"},
-       color:{value:"#ff4757"},opacity:{value:0.7},
+       y:{field:"recovery_years_needed",type:"quantitative",scale:{domainMax:19}},
+       color:{value:"#ff4757"},opacity:{value:0.75},
        tooltip:[{field:"event_year",title:"Bleaching year"},
                 {field:"recovery_years_needed",title:"Years needed"}]
-     }
-    },
-    // Labels
-    {data:{values:[{label:"Available (actual gap)",x:1998,y:15.5,col:"#48cae4"},
-                   {label:"Required (min. 10-15 yrs)",x:2002,y:15.5,col:"#ff4757"}]},
-     mark:{type:"text",fontSize:10,align:"left"},
-     encoding:{x:{field:"x",type:"ordinal"},y:{field:"y",type:"quantitative"},
-               text:{field:"label"},color:{field:"col",type:"nominal",scale:null}}}
+     }},
+    {data:{values:[{t:10}]},
+     mark:{type:"rule",color:"rgba(255,255,255,0.15)",strokeDash:[4,3]},
+     encoding:{y:{field:"t",type:"quantitative"}}},
+    {data:{values:[{y:18.5,label:"■  Available (actual gap)"}]},
+     mark:{type:"text",fontSize:10,align:"left",color:"#48cae4"},
+     encoding:{y:{field:"y",type:"quantitative"},x:{value:8},text:{field:"label"}}},
+    {data:{values:[{y:17.0,label:"■  Required (min. 10–15 yrs)"}]},
+     mark:{type:"text",fontSize:10,align:"left",color:"#ff4757"},
+     encoding:{y:{field:"y",type:"quantitative"},x:{value:8},text:{field:"label"}}}
   ]
 },OPT);
 
 // ══════════════ THREAT RADAR (Custom SVG) ══════════════
 (function(){
   const container=document.getElementById('chart-radar');
-  const SIZE=320;
+  if(!container) return;
+  const SIZE=320, SVGH=340;  // extra 20px at bottom for legend row
   const svgEl=document.createElementNS('http://www.w3.org/2000/svg','svg');
-  svgEl.setAttribute('viewBox',`0 0 ${SIZE} ${SIZE}`);
-  svgEl.style.cssText=`width:100%;max-width:${SIZE}px;`;
+  svgEl.setAttribute('viewBox',`0 0 ${SIZE} ${SVGH}`);
+  svgEl.style.cssText=`width:100%;max-width:${SIZE}px;height:auto;display:block;margin:0 auto;`;
   svgEl.setAttribute('aria-label','Radar chart showing threat intensity across five categories for Northern, Central, and Southern GBR regions');
   container.appendChild(svgEl);
 
-  const cx=SIZE/2,cy=SIZE/2,maxR=110;
+  const cx=SIZE/2, cy=SIZE/2, maxR=106;
   const threats=['Thermal bleaching','COTS outbreaks','Cyclone damage','Water quality','Coastal development'];
   const n=threats.length;
   const regions=[
@@ -1391,15 +1582,16 @@ embedChart("chart-recovery-deficit",{
       stroke:'rgba(255,255,255,0.06)','stroke-width':1}));
   });
 
-  // Axes
+  // Axes + labels
   threats.forEach((_,i)=>{
     const {x,y}=polar((i/n)*2*Math.PI,maxR);
     svgEl.appendChild(mkEl('line',{x1:cx,y1:cy,x2:x,y2:y,
       stroke:'rgba(255,255,255,0.08)','stroke-width':1}));
-    const lp=polar((i/n)*2*Math.PI,maxR+20);
+    const lp=polar((i/n)*2*Math.PI,maxR+22);
     const t=mkEl('text',{x:lp.x,y:lp.y,'text-anchor':'middle','dominant-baseline':'middle',
-      'font-size':'8','fill':'rgba(122,173,190,0.6)','font-family':'DM Sans, sans-serif'});
-    t.textContent=threats[i];svgEl.appendChild(t);
+      'font-size':'8','fill':'rgba(122,173,190,0.65)','font-family':'DM Sans, sans-serif'});
+    t.textContent=threats[i];
+    svgEl.appendChild(t);
   });
 
   // Region polygons
@@ -1410,106 +1602,27 @@ embedChart("chart-recovery-deficit",{
     }).join(' ');
     svgEl.appendChild(mkEl('polygon',{points:pts,
       fill:region.col,'fill-opacity':'0.12',
-      stroke:region.col,'stroke-width':2,'stroke-opacity':'0.8'}));
-
-    // Dots
+      stroke:region.col,'stroke-width':2,'stroke-opacity':'0.85'}));
     region.data.forEach((val,i)=>{
       const {x,y}=polar((i/n)*2*Math.PI,maxR*val/10);
       svgEl.appendChild(mkEl('circle',{cx:x,cy:y,r:3,fill:region.col}));
     });
   });
 
-  // Legend
+  // Legend — horizontal row at the very bottom, well clear of axis labels
+  const legendY = SVGH - 14;
+  const legendStartX = 30;
+  const legendSpacing = 90;
   regions.forEach((r,i)=>{
-    const g=mkEl('g',{transform:`translate(10,${SIZE-60+i*18})`});
-    g.appendChild(mkEl('rect',{width:10,height:10,fill:r.col,rx:2,'fill-opacity':'0.8'}));
-    const t=mkEl('text',{x:16,y:9,'font-size':'10','fill':'rgba(122,173,190,0.7)',
+    const lx = legendStartX + i * legendSpacing;
+    const g=mkEl('g',{transform:`translate(${lx},${legendY})`});
+    g.appendChild(mkEl('rect',{width:10,height:10,fill:r.col,rx:2,'fill-opacity':'0.85',y:-9}));
+    const t=mkEl('text',{x:14,y:0,'font-size':'9','fill':'rgba(122,173,190,0.78)',
       'font-family':'DM Sans, sans-serif'});
-    t.textContent=r.name;g.appendChild(t);svgEl.appendChild(g);
+    t.textContent=r.name;
+    g.appendChild(t);
+    svgEl.appendChild(g);
   });
-
-  // Score labels on axes
-  ['2.5','5','7.5','10'].forEach((label,i)=>{
-    const {x,y}=polar(0,(i+1)/4*maxR);
-    svgEl.appendChild(mkEl('text',{x:x+3,y:y,'font-size':'7',
-      'fill':'rgba(122,173,190,0.3)','font-family':'DM Sans, sans-serif'}));
-  });
-})();
-
-
-// ══════════════ BLEACHING FINGERPRINT GALLERY ══════════════
-// Use lat/lon as direct axes (scientific paper style) instead of projection
-(function(){
-  const card = document.getElementById('chart-fingerprints');
-  if(!card) return;
-  const totalW = card.closest('.card').getBoundingClientRect().width - 60;
-  const panelW = Math.max(Math.floor((totalW - 30) / 4), 140);
-
-  const PANEL_YEARS = [1998, 2002, 2006, 2016, 2017, 2020, 2022, 2023];
-  const BLEACH_PCT  = {1998:42, 2002:54, 2006:17, 2016:91, 2017:75, 2020:98, 2022:91, 2023:null};
-
-  vegaEmbed('#chart-fingerprints', {
-    $schema:"https://vega.github.io/schema/vega-lite/v5.json",
-    background:"transparent",
-    config:{
-      ...CFG,
-      facet:{spacing:14},
-      header:{
-        labelFontSize:13, labelFont:"Fraunces, serif",
-        labelFontWeight:"600", labelColor:"#e4f2f8",
-        labelPadding:10, title:null
-      },
-      view:{stroke:"rgba(255,255,255,0.08)", strokeWidth:1, fill:"#091520"}
-    },
-    data:{url:"data/bleach_fingerprints.json"},
-    transform:[{filter:{field:"year", oneOf:PANEL_YEARS}}],
-    facet:{field:"year", type:"ordinal", columns:4,
-           header:{
-             labelExpr:`datum.value + (${JSON.stringify(BLEACH_PCT)}[datum.value] ? ' · ' + ${JSON.stringify(BLEACH_PCT)}[datum.value] + '% reefs' : ' · Latest')`,
-             labelFontSize:10, labelFont:"DM Sans, sans-serif",
-             labelFontWeight:"500", labelColor:"#7aadbe",
-             labelPadding:8, title:null
-           }},
-    spec:{
-      width: panelW,
-      height: 340,
-      layer:[
-        // Reef dots — lat as Y (inverted=north top), lon as X
-        {
-          mark:{type:"circle", opacity:0.9, stroke:"rgba(255,255,255,0.08)", strokeWidth:0.3},
-          encoding:{
-            x:{field:"lon", type:"quantitative",
-               scale:{domain:[142.5,154], nice:false},
-               axis:{title:null, labels:false, ticks:false, grid:false, domain:false}},
-            y:{field:"lat", type:"quantitative",
-               scale:{domain:[-25, -10], nice:false},
-               axis:{title:null, labels:false, ticks:false, grid:false, domain:false}},
-            color:{field:"cover", type:"quantitative",
-                   scale:{domain:[0,10,20,30,40,50],
-                          range:["#ff1744","#ff5252","#ff9800","#ffeb3b","#4caf50","#00bcd4"]},
-                   legend:null},
-            size:{field:"cover", type:"quantitative",
-                  scale:{domain:[0,20,40,60], range:[18,35,55,80]},
-                  legend:null},
-            tooltip:[
-              {field:"reef", title:"Reef"},
-              {field:"cover", type:"quantitative", title:"Coral cover (%)", format:".1f"},
-              {field:"condition", title:"Condition"},
-              {field:"year", title:"Survey year"}
-            ]
-          }
-        },
-        // North/South labels inside each panel
-        {data:{values:[{lon:143, lat:-11.5, label:"N"},{lon:143, lat:-24, label:"S"}]},
-         mark:{type:"text", fontSize:9, color:"rgba(122,173,190,0.35)", fontWeight:"500"},
-         encoding:{
-           x:{field:"lon", type:"quantitative", scale:{domain:[142.5,154]}},
-           y:{field:"lat", type:"quantitative", scale:{domain:[-25,-10]}},
-           text:{field:"label"}
-         }}
-      ]
-    }
-  }, {actions:false, config:CFG}).catch(console.error);
 })();
 
 // ══════════════ POLLUTION CHART ══════════════
@@ -1531,6 +1644,241 @@ embedChart("chart-pollution",{
              {field:"natural",title:"Natural baseline",format:",d"}]
   }
 },OPT);
+
+// SPECIES LOLLIPOP
+(function(){
+  const el = document.getElementById('chart-species');
+  if(!el) return;
+  const render = () => {
+    const card = el.closest('.card');
+    const w = card ? card.getBoundingClientRect().width - 60 : 900;
+    const data = [
+      {group:"Molluscs",species:4000,threat:"Stable"},
+      {group:"Fish",species:1625,threat:"Stable"},
+      {group:"Crustaceans",species:1400,threat:"Stable"},
+      {group:"Worms",species:800,threat:"Stable"},
+      {group:"Echinoderms",species:630,threat:"Stable"},
+      {group:"Sponges",species:600,threat:"Vulnerable"},
+      {group:"Algae",species:500,threat:"Stable"},
+      {group:"Hard Coral",species:411,threat:"Critical"},
+      {group:"Seabirds",species:215,threat:"Stable"},
+      {group:"Soft Coral",species:150,threat:"Vulnerable"},
+      {group:"Sharks & Rays",species:134,threat:"Critical"},
+      {group:"Whales & Dolphins",species:30,threat:"Vulnerable"},
+      {group:"Seagrasses",species:15,threat:"Vulnerable"},
+      {group:"Sea Turtles",species:6,threat:"Critical"}
+    ];
+    const spec = {
+      $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+      config:CFG, width:w, height:380,
+      data:{values:data},
+      layer:[
+        {mark:{type:"rule",strokeWidth:2,opacity:0.4},
+         encoding:{
+           y:{field:"group",type:"nominal",sort:"-x",axis:{title:null,labelFontSize:11,labelLimit:160}},
+           x:{datum:1,scale:{type:"log",domainMin:1,domainMax:5500}},
+           x2:{field:"species"},
+           color:{field:"threat",type:"nominal",
+                  scale:{domain:["Critical","Vulnerable","Stable"],range:["#ff1744","#ffa502","#2ed573"]},
+                  legend:null}
+         }},
+        {mark:{type:"circle",size:200,opacity:0.95},
+         encoding:{
+           y:{field:"group",type:"nominal",sort:"-x"},
+           x:{field:"species",type:"quantitative",
+              scale:{type:"log",domainMin:1,domainMax:5500},
+              axis:{title:"Known species (log scale)",format:",d",
+                    values:[1,10,100,1000,5000],labelFontSize:10}},
+           color:{field:"threat",type:"nominal",
+                  scale:{domain:["Critical","Vulnerable","Stable"],range:["#ff1744","#ffa502","#2ed573"]},
+                  legend:{title:"Conservation outlook",orient:"top-right",labelFontSize:11}},
+           tooltip:[
+             {field:"group",title:"Species group"},
+             {field:"species",title:"Known species",format:",d"},
+             {field:"threat",title:"Outlook"}
+           ]
+         }},
+        {mark:{type:"text",align:"left",dx:9,fontSize:10,fontWeight:"500"},
+         encoding:{
+           y:{field:"group",type:"nominal",sort:"-x"},
+           x:{field:"species",type:"quantitative",scale:{type:"log",domainMin:1,domainMax:5500}},
+           text:{field:"species",format:",d"},
+           color:{value:"rgba(228,242,248,0.5)"}
+         }}
+      ]
+    };
+    vegaEmbed('#chart-species', spec, OPT).catch(console.error);
+  };
+  const obs = new IntersectionObserver(entries=>{
+    if(entries[0].isIntersecting){render();obs.disconnect();}
+  },{threshold:0.05});
+  obs.observe(el);
+})();
+
+// REEF HEARTBEAT EKG
+(function(){
+  const canvas = document.getElementById('heartbeat-canvas');
+  if(!canvas) return;
+  const coverData = [
+    {y:1993,v:26},{y:1994,v:25},{y:1995,v:24},{y:1996,v:23},{y:1997,v:23},
+    {y:1998,v:19},{y:1999,v:18},{y:2000,v:21},{y:2001,v:22},{y:2002,v:17},
+    {y:2003,v:17},{y:2004,v:19},{y:2005,v:20},{y:2006,v:18},{y:2007,v:19},
+    {y:2008,v:20},{y:2009,v:21},{y:2010,v:22},{y:2011,v:20},{y:2012,v:18},
+    {y:2013,v:19},{y:2014,v:20},{y:2015,v:22},{y:2016,v:16},{y:2017,v:15},
+    {y:2018,v:18},{y:2019,v:20},{y:2020,v:18},{y:2021,v:23},{y:2022,v:20},
+    {y:2023,v:30}
+  ];
+  const BLEACH_YRS = [1998,2002,2016,2017,2020,2022];
+
+  function drawHB(){
+    const W = canvas.offsetWidth, H = 130;
+    const dpr = window.devicePixelRatio||1;
+    canvas.width = W*dpr; canvas.height = H*dpr;
+    canvas.style.width = W+'px'; canvas.style.height = H+'px';
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr,dpr);
+
+    const pad = {t:12,r:16,b:8,l:44};
+    const pw = W-pad.l-pad.r, ph = H-pad.t-pad.b;
+    const n = coverData.length;
+    const minV=10, maxV=38;
+    const cx = i => pad.l + (i/(n-1))*pw;
+    const cy = v => pad.t + ph - ((v-minV)/(maxV-minV))*ph;
+
+    // BG
+    ctx.fillStyle='#091520'; ctx.fillRect(0,0,W,H);
+
+    // Grid
+    [15,20,25,30,35].forEach(v=>{
+      ctx.beginPath(); ctx.moveTo(pad.l,cy(v)); ctx.lineTo(W-pad.r,cy(v));
+      ctx.strokeStyle='rgba(255,255,255,0.05)'; ctx.lineWidth=1; ctx.stroke();
+      ctx.fillStyle='rgba(122,173,190,0.4)'; ctx.font=`9px DM Sans,sans-serif`;
+      ctx.textAlign='right'; ctx.fillText(v+'%', pad.l-4, cy(v)+3);
+    });
+
+    // Danger zone
+    ctx.fillStyle='rgba(255,71,87,0.06)';
+    ctx.fillRect(pad.l, cy(20), pw, cy(10)-cy(20));
+
+    // Bleach event verticals
+    BLEACH_YRS.forEach(yr=>{
+      const i = coverData.findIndex(d=>d.y===yr);
+      if(i<0) return;
+      ctx.setLineDash([3,3]);
+      ctx.beginPath(); ctx.moveTo(cx(i),pad.t); ctx.lineTo(cx(i),H-pad.b);
+      ctx.strokeStyle='rgba(255,71,87,0.25)'; ctx.lineWidth=1; ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle='rgba(255,71,87,0.55)'; ctx.font='8px DM Sans,sans-serif';
+      ctx.textAlign='center'; ctx.fillText(yr, cx(i), pad.t+7);
+    });
+
+    // Glow line (wide)
+    ctx.beginPath();
+    coverData.forEach((d,i)=>{ i===0?ctx.moveTo(cx(i),cy(d.v)):ctx.lineTo(cx(i),cy(d.v)); });
+    ctx.strokeStyle='rgba(72,202,228,0.18)'; ctx.lineWidth=6; ctx.lineJoin='round'; ctx.stroke();
+
+    // Main line
+    ctx.beginPath();
+    coverData.forEach((d,i)=>{ i===0?ctx.moveTo(cx(i),cy(d.v)):ctx.lineTo(cx(i),cy(d.v)); });
+    ctx.strokeStyle='rgba(72,202,228,0.92)'; ctx.lineWidth=1.8; ctx.lineJoin='round'; ctx.stroke();
+
+    // Red dots on bleaching years
+    coverData.forEach((d,i)=>{
+      if(!BLEACH_YRS.includes(d.y)) return;
+      ctx.beginPath(); ctx.arc(cx(i),cy(d.v),4,0,Math.PI*2);
+      ctx.fillStyle='#ff4757'; ctx.fill();
+    });
+
+    // Labels
+    ctx.textAlign='left'; ctx.fillStyle='rgba(46,213,115,0.45)'; ctx.font='bold 8px DM Sans,sans-serif';
+    ctx.fillText('HEALTHY RANGE',pad.l+4,cy(32)-4);
+    ctx.fillStyle='rgba(255,71,87,0.45)'; ctx.fillText('CRITICAL',pad.l+4,cy(14)+10);
+  }
+
+  const obs = new IntersectionObserver(entries=>{
+    if(entries[0].isIntersecting){drawHB();obs.disconnect();}
+  },{threshold:0.2});
+  obs.observe(canvas);
+  window.addEventListener('resize',()=>{ if(canvas.width>0) drawHB(); });
+})();
+
+// SPECIES RANGE MAP
+const SPECIES_DB = {
+  turtle:{
+    label:"Green Sea Turtle", iucn:"Endangered", col:"#2ed573",
+    note:"Green sea turtle: ranges the entire GBR from Torres Strait to Bundaberg. Raine Island hosts the world's largest green turtle rookery (~60,000 nesting females). Population: ~200,000. IUCN: Endangered.",
+    pts:[{lat:-11.5,lon:144},{lat:-12.5,lon:145},{lat:-13.5,lon:145.5},{lat:-14.5,lon:146},{lat:-15.5,lon:145.8},{lat:-16.5,lon:146.2},{lat:-17.5,lon:146.5},{lat:-18.5,lon:147},{lat:-19.5,lon:148},{lat:-20.5,lon:149},{lat:-21.5,lon:150},{lat:-22.5,lon:151},{lat:-23.5,lon:152},{lat:-14,lon:145.5},{lat:-20,lon:148.5}]
+  },
+  shark:{
+    label:"Whitetip Reef Shark", iucn:"Vulnerable", col:"#00b4d8",
+    note:"Reef sharks concentrate in mid and outer-shelf reefs (15–22°S). Heavily impacted by fishing pressure and prey loss from coral decline. IUCN: Vulnerable.",
+    pts:[{lat:-14.5,lon:146},{lat:-15.5,lon:147},{lat:-16,lon:146.5},{lat:-17,lon:147.5},{lat:-18,lon:148},{lat:-19,lon:149},{lat:-20,lon:150},{lat:-21,lon:151},{lat:-22,lon:152}]
+  },
+  ray:{
+    label:"Reef Manta Ray", iucn:"Vulnerable", col:"#ffa502",
+    note:"Manta rays aggregate at cleaning stations throughout the GBR. Key sites: Lady Elliot Island (south), Osprey Reef (north). Population declining due to bycatch. IUCN: Vulnerable.",
+    pts:[{lat:-23.8,lon:152.7},{lat:-24.1,lon:152.5},{lat:-12,lon:146.5},{lat:-11.5,lon:145.5},{lat:-18.5,lon:148.5},{lat:-17.5,lon:147.5},{lat:-20.2,lon:150.5}]
+  },
+  dugong:{
+    label:"Dugong", iucn:"Vulnerable", col:"#ff6b35",
+    note:"Dugongs graze seagrass meadows in inshore shallows — Torres Strait, Moreton Bay, and Hervey Bay. Seagrass loss from agricultural runoff is the primary threat. IUCN: Vulnerable.",
+    pts:[{lat:-10.8,lon:142.6},{lat:-11.2,lon:143},{lat:-16.9,lon:145.8},{lat:-17.5,lon:146.2},{lat:-25.3,lon:152.9},{lat:-24.9,lon:152.5}]
+  },
+  clownfish:{
+    label:"Clownfish", iucn:"Least Concern", col:"#ff9800",
+    note:"Clownfish live symbiotically in sea anemones across the reef (12–22°S). Bleaching kills anemones first — clownfish cannot survive without their host. IUCN: Least Concern, but locally impacted.",
+    pts:[{lat:-13,lon:145.5},{lat:-14,lon:145.8},{lat:-15,lon:146},{lat:-16,lon:146.5},{lat:-17,lon:147},{lat:-18,lon:148},{lat:-19,lon:149},{lat:-20,lon:149.5}]
+  }
+};
+
+let currentSpecies = 'turtle';
+
+function setSpecies(btn, species){
+  currentSpecies = species;
+  document.querySelectorAll('.sbtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const note = document.getElementById('species-note');
+  if(note) note.textContent = SPECIES_DB[species].note;
+  renderSpeciesMap(species);
+}
+
+function renderSpeciesMap(species){
+  const sd = SPECIES_DB[species];
+  const card = document.getElementById('chart-species-map');
+  if(!card) return;
+  const w = card.closest('.card').getBoundingClientRect().width;
+  const GBR_FEAT = [{type:"Feature",properties:{},geometry:{type:"Polygon",coordinates:[[[142.53,-10.68],[143.80,-10.40],[145.20,-10.50],[146.50,-10.90],[147.80,-11.40],[149.00,-12.20],[150.20,-13.20],[151.30,-14.40],[152.20,-15.80],[152.90,-17.00],[153.20,-18.20],[153.40,-19.20],[153.10,-20.20],[152.60,-21.10],[151.80,-21.90],[152.20,-22.80],[152.90,-23.60],[153.30,-24.20],[152.80,-24.50],[151.80,-24.30],[150.80,-23.50],[149.90,-22.50],[149.50,-21.30],[149.80,-20.10],[149.20,-19.20],[148.40,-18.50],[147.60,-17.80],[146.80,-17.00],[146.00,-16.20],[145.40,-15.40],[144.80,-14.60],[144.20,-13.80],[143.50,-13.00],[143.00,-12.20],[142.60,-11.50],[142.50,-11.00],[142.53,-10.68]]]}}];
+  const spec = {
+    $schema:"https://vega.github.io/schema/vega-lite/v5.json",
+    config:CFG, width:w, height:480,
+    projection:{type:"mercator",center:[148,-18.5],scale:1900},
+    layer:[
+      {data:{url:"https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",format:{type:"topojson",feature:"land"}},
+       mark:{type:"geoshape",fill:"#0a1f30",stroke:"rgba(72,202,228,0.1)",strokeWidth:0.8}},
+      {data:{values:GBR_FEAT},
+       mark:{type:"geoshape",fill:"rgba(72,202,228,0.04)",stroke:"rgba(72,202,228,0.25)",strokeWidth:1.5,strokeDash:[5,3]}},
+      {data:{url:"data/reef_locations.json"},
+       mark:{type:"circle",size:10,opacity:0.12,color:"#48cae4"},
+       encoding:{longitude:{field:"LONGITUDE",type:"quantitative"},latitude:{field:"LATITUDE",type:"quantitative"}}},
+      {data:{values:sd.pts},
+       mark:{type:"circle",size:320,opacity:0.65,color:sd.col,stroke:"#fff",strokeWidth:0.5,strokeOpacity:0.2},
+       encoding:{longitude:{field:"lon",type:"quantitative"},latitude:{field:"lat",type:"quantitative"},
+                 tooltip:[{field:"lat",title:"Lat",format:".1f"},{field:"lon",title:"Lon",format:".1f"}]}},
+      {data:{values:[{lon:143.2,lat:-11.2,label:sd.label+" — "+sd.iucn}]},
+       mark:{type:"text",fontSize:11,fontWeight:"500",color:sd.col,align:"left"},
+       encoding:{longitude:{field:"lon",type:"quantitative"},latitude:{field:"lat",type:"quantitative"},text:{field:"label"}}}
+    ]
+  };
+  vegaEmbed('#chart-species-map', spec, {actions:false,config:CFG}).catch(console.error);
+}
+
+const smEl = document.getElementById('chart-species-map');
+if(smEl){
+  const smObs = new IntersectionObserver(entries=>{
+    if(entries[0].isIntersecting){renderSpeciesMap('turtle');smObs.disconnect();}
+  },{threshold:0.1});
+  smObs.observe(smEl);
+}
 
 // ══════════════ STRESSOR TIMELINE ══════════════
 (function(){
@@ -1568,14 +1916,24 @@ embedChart("chart-pollution",{
   });
 })();
 
+
 // ══════════════ WINDOW RESIZE ══════════════
 window.addEventListener('resize',()=>{
   clearTimeout(window._rt);
   window._rt=setTimeout(()=>{
     renderSST();renderDHW();
-    embedChart("chart-heatmap",null,OPT);
+    if(mapAllData.length) renderAnimatedMap(mapCurrentYear);
+    // Heatmap is static; reloading with null spec would throw an error.
   },300);
 });
+
+// Scroll progress bar
+window.addEventListener('scroll',()=>{
+  const pct = (window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100).toFixed(1);
+  const bar = document.getElementById('scroll-progress');
+  if(bar) bar.style.width = pct + '%';
+});
+
 </script>
 </body>
 </html>
